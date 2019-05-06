@@ -23,7 +23,7 @@ e. 37.5
 f. 35.0
 */
 //5.14 找出下列程序中的错误
-#include<stdio.h>//缺少头文件
+/*#include<stdio.h>//缺少头文件
 
 int main (void)
 {
@@ -31,10 +31,39 @@ int main (void)
     float n;
     printf("Watch out! Here come a bunch of fractions!\n");
     while(i++<30)//i加++否则题目中i一直为1求值会无限循环
-    {               //应加入花括号不能形成代码块否则while循环只包含 n=1.0/i
-        n=1.0/i;//如除法运算符两侧均为整数，i的值越大值会趋零截断，将1换成1.0可保证求值不为零
+    {               //
+        n=1.0/i;//如除法运算符两侧均为整数，值会趋零截断，将1换成1.0可保证求值不为零
         printf("%f\n",n);//格式化字符串应加入\n否则会打印在1行
     }
 printf("That's all,folk!\n");
-return 0;//应为return 0
+return ;
 }
+
+*/
+
+#include <stdio.h>
+#define S_PER_M 60 //一分钟60s
+int main(void)
+{
+    int sec=1;
+    int left,min;
+    printf("this program converts seconds to minutes and");
+    printf("seconds.\n");
+    printf("Just enter the number of seconds.\n");
+    printf("enter 0 to end the program.\n");
+    scanf("%d",&sec);
+    while(sec > 0)
+    {
+
+
+        min = sec / S_PER_M;
+        left = sec % S_PER_M;
+        printf("%d sec is %d min,%d sec.\n",sec,min,left);
+        printf("Next input?\n");
+        scanf("%d",&sec);
+    }
+    printf("bye!\n");
+    return 0;
+}
+
+
