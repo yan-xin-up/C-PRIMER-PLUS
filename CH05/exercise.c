@@ -40,7 +40,7 @@ return ;
 }
 
 */
-
+/*
 #include <stdio.h>
 #define S_PER_M 60 //一分钟60s
 int main(void)
@@ -65,5 +65,24 @@ int main(void)
     printf("bye!\n");
     return 0;
 }
+*/
 
+//下面程序打印出什么内容？
+#include<stdio.h>
+#define FORMAT "%s! C is cool!\n"
+int main(void)
+{
+    int num = 10;
+    printf(FORMAT,FORMAT);
+    /*
+    输出：%s! C is cool!
+          ! C is cool!
+         第二个FORMAT只是第一个FORMAT里面的%s。也就是说，输出的第一行是第二个FORMAT，因为第一个FORMAT一开始就是%s,也就是要用第二个字符串参数
+    */
+    printf("%d\n",++num);//11
+    printf("%d\n",num++);//11
+    printf("%d\n",num--);//9
+    printf("%d\n",num);//11
 
+    return 0;
+}
