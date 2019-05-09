@@ -67,18 +67,18 @@ int main(void)
 }
 */
 
-//下面程序打印出什么内容？
-#include<stdio.h>
+//6、下面程序打印出什么内容？
+/*#include<stdio.h>
 #define FORMAT "%s! C is cool!\n"
 int main(void)
 {
     int num = 10;
     printf(FORMAT,FORMAT);
-    /*
-    输出：%s! C is cool!
+
+    //输出：%s! C is cool!
           ! C is cool!
          第二个FORMAT只是第一个FORMAT里面的%s。也就是说，输出的第一行是第二个FORMAT，因为第一个FORMAT一开始就是%s,也就是要用第二个字符串参数
-    */
+
     printf("%d\n",++num);//11
     printf("%d\n",num++);//11
     printf("%d\n",num--);//9
@@ -86,3 +86,40 @@ int main(void)
 
     return 0;
 }
+*/
+
+
+#include<stdio.h>
+int main(void)
+{
+    char c1,c2;
+    int diff;
+    float num;
+    c1 = 'S';
+    c2 = 'O';
+    diff = c1-c2;
+    num = diff;
+    printf("%c%c%c:%d %3.2f\n",c1,c2,c1,diff,num);
+    return 0;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
