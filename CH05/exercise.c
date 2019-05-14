@@ -88,7 +88,7 @@ int main(void)
 }
 */
 
-
+/*
 #include<stdio.h>
 int main(void)
 {
@@ -104,7 +104,34 @@ int main(void)
 
 
 }
+*/
+/*
+#include <stdio.h>
+#define TEN 10
 
+int main(void)
+{
+    int n = 0;
+    while(n++ < TEN)
+        printf("%5d",n);
+    printf("\n");
+    return 0;
+}
+*/
+/* 9、修改上面程序使其打印a~g
+
+#include <stdio.h>
+#define TEN 103
+
+int main(void)
+{
+    int n = 96;
+    while(n++ < TEN)
+        printf("%c",n);
+    printf("\n");
+    return 0;
+}
+*/
 
 
 
