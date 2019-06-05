@@ -1,0 +1,3 @@
+/Users/ivan/github/C-PRIMER-PLUS/CH06/list6.1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/ivan/github/C-PRIMER-PLUS/CH06/list6.1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ivan/github/C-PRIMER-PLUS/CH06/list6.1/cmake-build-debug/CMakeFiles/summing.c.dir
