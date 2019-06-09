@@ -4,3 +4,4 @@ project(list C)
 set(CMAKE_C_STANDARD 99)
 
 add_executable(list summing.c)
+add_executable(list2 when.c)
