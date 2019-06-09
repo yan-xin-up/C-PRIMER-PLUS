@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named list3
+
+# Build rule for target.
+list3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 list3
+.PHONY : list3
+
+# fast build rule for target.
+list3/fast:
+	$(MAKE) -f CMakeFiles/list3.dir/build.make CMakeFiles/list3.dir/build
+.PHONY : list3/fast
+
+#=============================================================================
 # Target rules for targets named list2
 
 # Build rule for target.
@@ -190,6 +203,33 @@ when.c.s:
 	$(MAKE) -f CMakeFiles/list2.dir/build.make CMakeFiles/list2.dir/when.c.s
 .PHONY : when.c.s
 
+while2.o: while2.c.o
+
+.PHONY : while2.o
+
+# target to build an object file
+while2.c.o:
+	$(MAKE) -f CMakeFiles/list3.dir/build.make CMakeFiles/list3.dir/while2.c.o
+.PHONY : while2.c.o
+
+while2.i: while2.c.i
+
+.PHONY : while2.i
+
+# target to preprocess a source file
+while2.c.i:
+	$(MAKE) -f CMakeFiles/list3.dir/build.make CMakeFiles/list3.dir/while2.c.i
+.PHONY : while2.c.i
+
+while2.s: while2.c.s
+
+.PHONY : while2.s
+
+# target to generate assembly for a file
+while2.c.s:
+	$(MAKE) -f CMakeFiles/list3.dir/build.make CMakeFiles/list3.dir/while2.c.s
+.PHONY : while2.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -198,6 +238,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... list3"
 	@echo "... list2"
 	@echo "... list"
 	@echo "... summing.o"
@@ -206,6 +247,9 @@ help:
 	@echo "... when.o"
 	@echo "... when.i"
 	@echo "... when.s"
+	@echo "... while2.o"
+	@echo "... while2.i"
+	@echo "... while2.s"
 .PHONY : help
 
 
