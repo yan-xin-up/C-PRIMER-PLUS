@@ -111,19 +111,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named list2
-
-# Build rule for target.
-list2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 list2
-.PHONY : list2
-
-# fast build rule for target.
-list2/fast:
-	$(MAKE) -f CMakeFiles/list2.dir/build.make CMakeFiles/list2.dir/build
-.PHONY : list2/fast
-
-#=============================================================================
 # Target rules for targets named list6.5
 
 # Build rule for target.
@@ -137,6 +124,19 @@ list6.5/fast:
 .PHONY : list6.5/fast
 
 #=============================================================================
+# Target rules for targets named list6.6
+
+# Build rule for target.
+list6.6: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 list6.6
+.PHONY : list6.6
+
+# fast build rule for target.
+list6.6/fast:
+	$(MAKE) -f CMakeFiles/list6.6.dir/build.make CMakeFiles/list6.6.dir/build
+.PHONY : list6.6/fast
+
+#=============================================================================
 # Target rules for targets named list3
 
 # Build rule for target.
@@ -148,6 +148,19 @@ list3: cmake_check_build_system
 list3/fast:
 	$(MAKE) -f CMakeFiles/list3.dir/build.make CMakeFiles/list3.dir/build
 .PHONY : list3/fast
+
+#=============================================================================
+# Target rules for targets named list2
+
+# Build rule for target.
+list2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 list2
+.PHONY : list2
+
+# fast build rule for target.
+list2/fast:
+	$(MAKE) -f CMakeFiles/list2.dir/build.make CMakeFiles/list2.dir/build
+.PHONY : list2/fast
 
 #=============================================================================
 # Target rules for targets named list
@@ -216,6 +229,33 @@ summing.c.s:
 	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/summing.c.s
 .PHONY : summing.c.s
 
+t_and_f.o: t_and_f.c.o
+
+.PHONY : t_and_f.o
+
+# target to build an object file
+t_and_f.c.o:
+	$(MAKE) -f CMakeFiles/list6.6.dir/build.make CMakeFiles/list6.6.dir/t_and_f.c.o
+.PHONY : t_and_f.c.o
+
+t_and_f.i: t_and_f.c.i
+
+.PHONY : t_and_f.i
+
+# target to preprocess a source file
+t_and_f.c.i:
+	$(MAKE) -f CMakeFiles/list6.6.dir/build.make CMakeFiles/list6.6.dir/t_and_f.c.i
+.PHONY : t_and_f.c.i
+
+t_and_f.s: t_and_f.c.s
+
+.PHONY : t_and_f.s
+
+# target to generate assembly for a file
+t_and_f.c.s:
+	$(MAKE) -f CMakeFiles/list6.6.dir/build.make CMakeFiles/list6.6.dir/t_and_f.c.s
+.PHONY : t_and_f.c.s
+
 when.o: when.c.o
 
 .PHONY : when.o
@@ -277,10 +317,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... list2"
-	@echo "... edit_cache"
 	@echo "... list6.5"
+	@echo "... list6.6"
 	@echo "... list3"
+	@echo "... edit_cache"
+	@echo "... list2"
 	@echo "... list"
 	@echo "... cmpflt.o"
 	@echo "... cmpflt.i"
@@ -288,6 +329,9 @@ help:
 	@echo "... summing.o"
 	@echo "... summing.i"
 	@echo "... summing.s"
+	@echo "... t_and_f.o"
+	@echo "... t_and_f.i"
+	@echo "... t_and_f.s"
 	@echo "... when.o"
 	@echo "... when.i"
 	@echo "... when.s"
