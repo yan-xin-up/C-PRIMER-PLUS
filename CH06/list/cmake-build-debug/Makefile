@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named list6.7
+
+# Build rule for target.
+list6.7: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 list6.7
+.PHONY : list6.7
+
+# fast build rule for target.
+list6.7/fast:
+	$(MAKE) -f CMakeFiles/list6.7.dir/build.make CMakeFiles/list6.7.dir/build
+.PHONY : list6.7/fast
+
+#=============================================================================
 # Target rules for targets named list6.5
 
 # Build rule for target.
@@ -256,6 +269,33 @@ t_and_f.c.s:
 	$(MAKE) -f CMakeFiles/list6.6.dir/build.make CMakeFiles/list6.6.dir/t_and_f.c.s
 .PHONY : t_and_f.c.s
 
+truth.o: truth.c.o
+
+.PHONY : truth.o
+
+# target to build an object file
+truth.c.o:
+	$(MAKE) -f CMakeFiles/list6.7.dir/build.make CMakeFiles/list6.7.dir/truth.c.o
+.PHONY : truth.c.o
+
+truth.i: truth.c.i
+
+.PHONY : truth.i
+
+# target to preprocess a source file
+truth.c.i:
+	$(MAKE) -f CMakeFiles/list6.7.dir/build.make CMakeFiles/list6.7.dir/truth.c.i
+.PHONY : truth.c.i
+
+truth.s: truth.c.s
+
+.PHONY : truth.s
+
+# target to generate assembly for a file
+truth.c.s:
+	$(MAKE) -f CMakeFiles/list6.7.dir/build.make CMakeFiles/list6.7.dir/truth.c.s
+.PHONY : truth.c.s
+
 when.o: when.c.o
 
 .PHONY : when.o
@@ -317,6 +357,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... list6.7"
 	@echo "... list6.5"
 	@echo "... list6.6"
 	@echo "... list3"
@@ -332,6 +373,9 @@ help:
 	@echo "... t_and_f.o"
 	@echo "... t_and_f.i"
 	@echo "... t_and_f.s"
+	@echo "... truth.o"
+	@echo "... truth.i"
+	@echo "... truth.s"
 	@echo "... when.o"
 	@echo "... when.i"
 	@echo "... when.s"
