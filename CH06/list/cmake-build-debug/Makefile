@@ -111,19 +111,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named list3
-
-# Build rule for target.
-list3: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 list3
-.PHONY : list3
-
-# fast build rule for target.
-list3/fast:
-	$(MAKE) -f CMakeFiles/list3.dir/build.make CMakeFiles/list3.dir/build
-.PHONY : list3/fast
-
-#=============================================================================
 # Target rules for targets named list2
 
 # Build rule for target.
@@ -137,6 +124,32 @@ list2/fast:
 .PHONY : list2/fast
 
 #=============================================================================
+# Target rules for targets named list6.5
+
+# Build rule for target.
+list6.5: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 list6.5
+.PHONY : list6.5
+
+# fast build rule for target.
+list6.5/fast:
+	$(MAKE) -f CMakeFiles/list6.5.dir/build.make CMakeFiles/list6.5.dir/build
+.PHONY : list6.5/fast
+
+#=============================================================================
+# Target rules for targets named list3
+
+# Build rule for target.
+list3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 list3
+.PHONY : list3
+
+# fast build rule for target.
+list3/fast:
+	$(MAKE) -f CMakeFiles/list3.dir/build.make CMakeFiles/list3.dir/build
+.PHONY : list3/fast
+
+#=============================================================================
 # Target rules for targets named list
 
 # Build rule for target.
@@ -148,6 +161,33 @@ list: cmake_check_build_system
 list/fast:
 	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/build
 .PHONY : list/fast
+
+cmpflt.o: cmpflt.c.o
+
+.PHONY : cmpflt.o
+
+# target to build an object file
+cmpflt.c.o:
+	$(MAKE) -f CMakeFiles/list6.5.dir/build.make CMakeFiles/list6.5.dir/cmpflt.c.o
+.PHONY : cmpflt.c.o
+
+cmpflt.i: cmpflt.c.i
+
+.PHONY : cmpflt.i
+
+# target to preprocess a source file
+cmpflt.c.i:
+	$(MAKE) -f CMakeFiles/list6.5.dir/build.make CMakeFiles/list6.5.dir/cmpflt.c.i
+.PHONY : cmpflt.c.i
+
+cmpflt.s: cmpflt.c.s
+
+.PHONY : cmpflt.s
+
+# target to generate assembly for a file
+cmpflt.c.s:
+	$(MAKE) -f CMakeFiles/list6.5.dir/build.make CMakeFiles/list6.5.dir/cmpflt.c.s
+.PHONY : cmpflt.c.s
 
 summing.o: summing.c.o
 
@@ -237,10 +277,14 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... edit_cache"
-	@echo "... list3"
 	@echo "... list2"
+	@echo "... edit_cache"
+	@echo "... list6.5"
+	@echo "... list3"
 	@echo "... list"
+	@echo "... cmpflt.o"
+	@echo "... cmpflt.i"
+	@echo "... cmpflt.s"
 	@echo "... summing.o"
 	@echo "... summing.i"
 	@echo "... summing.s"
