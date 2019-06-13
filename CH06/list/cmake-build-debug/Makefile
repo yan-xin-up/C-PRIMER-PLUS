@@ -137,6 +137,19 @@ list6.7/fast:
 .PHONY : list6.7/fast
 
 #=============================================================================
+# Target rules for targets named list6.9
+
+# Build rule for target.
+list6.9: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 list6.9
+.PHONY : list6.9
+
+# fast build rule for target.
+list6.9/fast:
+	$(MAKE) -f CMakeFiles/list6.9.dir/build.make CMakeFiles/list6.9.dir/build
+.PHONY : list6.9/fast
+
+#=============================================================================
 # Target rules for targets named list6.5
 
 # Build rule for target.
@@ -200,6 +213,33 @@ list: cmake_check_build_system
 list/fast:
 	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/build
 .PHONY : list/fast
+
+boolean.o: boolean.c.o
+
+.PHONY : boolean.o
+
+# target to build an object file
+boolean.c.o:
+	$(MAKE) -f CMakeFiles/list6.9.dir/build.make CMakeFiles/list6.9.dir/boolean.c.o
+.PHONY : boolean.c.o
+
+boolean.i: boolean.c.i
+
+.PHONY : boolean.i
+
+# target to preprocess a source file
+boolean.c.i:
+	$(MAKE) -f CMakeFiles/list6.9.dir/build.make CMakeFiles/list6.9.dir/boolean.c.i
+.PHONY : boolean.c.i
+
+boolean.s: boolean.c.s
+
+.PHONY : boolean.s
+
+# target to generate assembly for a file
+boolean.c.s:
+	$(MAKE) -f CMakeFiles/list6.9.dir/build.make CMakeFiles/list6.9.dir/boolean.c.s
+.PHONY : boolean.c.s
 
 cmpflt.o: cmpflt.c.o
 
@@ -399,12 +439,16 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... list6.8"
 	@echo "... list6.7"
+	@echo "... list6.9"
 	@echo "... list6.5"
 	@echo "... list6.6"
 	@echo "... list3"
 	@echo "... edit_cache"
 	@echo "... list2"
 	@echo "... list"
+	@echo "... boolean.o"
+	@echo "... boolean.i"
+	@echo "... boolean.s"
 	@echo "... cmpflt.o"
 	@echo "... cmpflt.i"
 	@echo "... cmpflt.s"
