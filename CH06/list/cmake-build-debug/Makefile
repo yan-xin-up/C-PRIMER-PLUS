@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /Users/ivan/github/C-PRIMER-PLUS/CH06/list/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named list
+
+# Build rule for target.
+list: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 list
+.PHONY : list
+
+# fast build rule for target.
+list/fast:
+	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/build
+.PHONY : list/fast
+
+#=============================================================================
+# Target rules for targets named list6.11
+
+# Build rule for target.
+list6.11: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 list6.11
+.PHONY : list6.11
+
+# fast build rule for target.
+list6.11/fast:
+	$(MAKE) -f CMakeFiles/list6.11.dir/build.make CMakeFiles/list6.11.dir/build
+.PHONY : list6.11/fast
+
+#=============================================================================
 # Target rules for targets named list6.8
 
 # Build rule for target.
@@ -135,6 +161,19 @@ list6.7: cmake_check_build_system
 list6.7/fast:
 	$(MAKE) -f CMakeFiles/list6.7.dir/build.make CMakeFiles/list6.7.dir/build
 .PHONY : list6.7/fast
+
+#=============================================================================
+# Target rules for targets named list6.12
+
+# Build rule for target.
+list6.12: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 list6.12
+.PHONY : list6.12
+
+# fast build rule for target.
+list6.12/fast:
+	$(MAKE) -f CMakeFiles/list6.12.dir/build.make CMakeFiles/list6.12.dir/build
+.PHONY : list6.12/fast
 
 #=============================================================================
 # Target rules for targets named list6.9
@@ -163,19 +202,6 @@ list6.5/fast:
 .PHONY : list6.5/fast
 
 #=============================================================================
-# Target rules for targets named list6.6
-
-# Build rule for target.
-list6.6: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 list6.6
-.PHONY : list6.6
-
-# fast build rule for target.
-list6.6/fast:
-	$(MAKE) -f CMakeFiles/list6.6.dir/build.make CMakeFiles/list6.6.dir/build
-.PHONY : list6.6/fast
-
-#=============================================================================
 # Target rules for targets named list3
 
 # Build rule for target.
@@ -189,6 +215,32 @@ list3/fast:
 .PHONY : list3/fast
 
 #=============================================================================
+# Target rules for targets named list6.10
+
+# Build rule for target.
+list6.10: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 list6.10
+.PHONY : list6.10
+
+# fast build rule for target.
+list6.10/fast:
+	$(MAKE) -f CMakeFiles/list6.10.dir/build.make CMakeFiles/list6.10.dir/build
+.PHONY : list6.10/fast
+
+#=============================================================================
+# Target rules for targets named list6.6
+
+# Build rule for target.
+list6.6: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 list6.6
+.PHONY : list6.6
+
+# fast build rule for target.
+list6.6/fast:
+	$(MAKE) -f CMakeFiles/list6.6.dir/build.make CMakeFiles/list6.6.dir/build
+.PHONY : list6.6/fast
+
+#=============================================================================
 # Target rules for targets named list2
 
 # Build rule for target.
@@ -200,19 +252,6 @@ list2: cmake_check_build_system
 list2/fast:
 	$(MAKE) -f CMakeFiles/list2.dir/build.make CMakeFiles/list2.dir/build
 .PHONY : list2/fast
-
-#=============================================================================
-# Target rules for targets named list
-
-# Build rule for target.
-list: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 list
-.PHONY : list
-
-# fast build rule for target.
-list/fast:
-	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/build
-.PHONY : list/fast
 
 boolean.o: boolean.c.o
 
@@ -268,6 +307,36 @@ cmpflt.c.s:
 	$(MAKE) -f CMakeFiles/list6.5.dir/build.make CMakeFiles/list6.5.dir/cmpflt.c.s
 .PHONY : cmpflt.c.s
 
+for_cube.o: for_cube.c.o
+
+.PHONY : for_cube.o
+
+# target to build an object file
+for_cube.c.o:
+	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/for_cube.c.o
+	$(MAKE) -f CMakeFiles/list6.12.dir/build.make CMakeFiles/list6.12.dir/for_cube.c.o
+.PHONY : for_cube.c.o
+
+for_cube.i: for_cube.c.i
+
+.PHONY : for_cube.i
+
+# target to preprocess a source file
+for_cube.c.i:
+	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/for_cube.c.i
+	$(MAKE) -f CMakeFiles/list6.12.dir/build.make CMakeFiles/list6.12.dir/for_cube.c.i
+.PHONY : for_cube.c.i
+
+for_cube.s: for_cube.c.s
+
+.PHONY : for_cube.s
+
+# target to generate assembly for a file
+for_cube.c.s:
+	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/for_cube.c.s
+	$(MAKE) -f CMakeFiles/list6.12.dir/build.make CMakeFiles/list6.12.dir/for_cube.c.s
+.PHONY : for_cube.c.s
+
 summing.o: summing.c.o
 
 .PHONY : summing.o
@@ -294,6 +363,60 @@ summing.s: summing.c.s
 summing.c.s:
 	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/summing.c.s
 .PHONY : summing.c.s
+
+sweetie2.o: sweetie2.c.o
+
+.PHONY : sweetie2.o
+
+# target to build an object file
+sweetie2.c.o:
+	$(MAKE) -f CMakeFiles/list6.11.dir/build.make CMakeFiles/list6.11.dir/sweetie2.c.o
+.PHONY : sweetie2.c.o
+
+sweetie2.i: sweetie2.c.i
+
+.PHONY : sweetie2.i
+
+# target to preprocess a source file
+sweetie2.c.i:
+	$(MAKE) -f CMakeFiles/list6.11.dir/build.make CMakeFiles/list6.11.dir/sweetie2.c.i
+.PHONY : sweetie2.c.i
+
+sweetie2.s: sweetie2.c.s
+
+.PHONY : sweetie2.s
+
+# target to generate assembly for a file
+sweetie2.c.s:
+	$(MAKE) -f CMakeFiles/list6.11.dir/build.make CMakeFiles/list6.11.dir/sweetie2.c.s
+.PHONY : sweetie2.c.s
+
+sweetiel.o: sweetiel.c.o
+
+.PHONY : sweetiel.o
+
+# target to build an object file
+sweetiel.c.o:
+	$(MAKE) -f CMakeFiles/list6.10.dir/build.make CMakeFiles/list6.10.dir/sweetiel.c.o
+.PHONY : sweetiel.c.o
+
+sweetiel.i: sweetiel.c.i
+
+.PHONY : sweetiel.i
+
+# target to preprocess a source file
+sweetiel.c.i:
+	$(MAKE) -f CMakeFiles/list6.10.dir/build.make CMakeFiles/list6.10.dir/sweetiel.c.i
+.PHONY : sweetiel.c.i
+
+sweetiel.s: sweetiel.c.s
+
+.PHONY : sweetiel.s
+
+# target to generate assembly for a file
+sweetiel.c.s:
+	$(MAKE) -f CMakeFiles/list6.10.dir/build.make CMakeFiles/list6.10.dir/sweetiel.c.s
+.PHONY : sweetiel.c.s
 
 t_and_f.o: t_and_f.c.o
 
@@ -436,25 +559,37 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
+	@echo "... edit_cache"
+	@echo "... list"
+	@echo "... list6.11"
 	@echo "... list6.8"
 	@echo "... list6.7"
+	@echo "... list6.12"
+	@echo "... rebuild_cache"
 	@echo "... list6.9"
 	@echo "... list6.5"
-	@echo "... list6.6"
 	@echo "... list3"
-	@echo "... edit_cache"
+	@echo "... list6.10"
+	@echo "... list6.6"
 	@echo "... list2"
-	@echo "... list"
 	@echo "... boolean.o"
 	@echo "... boolean.i"
 	@echo "... boolean.s"
 	@echo "... cmpflt.o"
 	@echo "... cmpflt.i"
 	@echo "... cmpflt.s"
+	@echo "... for_cube.o"
+	@echo "... for_cube.i"
+	@echo "... for_cube.s"
 	@echo "... summing.o"
 	@echo "... summing.i"
 	@echo "... summing.s"
+	@echo "... sweetie2.o"
+	@echo "... sweetie2.i"
+	@echo "... sweetie2.s"
+	@echo "... sweetiel.o"
+	@echo "... sweetiel.i"
+	@echo "... sweetiel.s"
 	@echo "... t_and_f.o"
 	@echo "... t_and_f.i"
 	@echo "... t_and_f.s"

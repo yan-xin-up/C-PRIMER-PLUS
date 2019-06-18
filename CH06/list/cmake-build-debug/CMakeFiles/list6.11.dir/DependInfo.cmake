@@ -4,8 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/ivan/github/C-PRIMER-PLUS/CH06/list/for_cube.c" "/Users/ivan/github/C-PRIMER-PLUS/CH06/list/cmake-build-debug/CMakeFiles/list.dir/for_cube.c.o"
-  "/Users/ivan/github/C-PRIMER-PLUS/CH06/list/summing.c" "/Users/ivan/github/C-PRIMER-PLUS/CH06/list/cmake-build-debug/CMakeFiles/list.dir/summing.c.o"
+  "/Users/ivan/github/C-PRIMER-PLUS/CH06/list/sweetie2.c" "/Users/ivan/github/C-PRIMER-PLUS/CH06/list/cmake-build-debug/CMakeFiles/list6.11.dir/sweetie2.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
