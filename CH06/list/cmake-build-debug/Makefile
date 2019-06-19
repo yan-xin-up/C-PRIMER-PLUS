@@ -176,6 +176,19 @@ list6.12/fast:
 .PHONY : list6.12/fast
 
 #=============================================================================
+# Target rules for targets named for2.0
+
+# Build rule for target.
+for2.0: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 for2.0
+.PHONY : for2.0
+
+# fast build rule for target.
+for2.0/fast:
+	$(MAKE) -f CMakeFiles/for2.0.dir/build.make CMakeFiles/for2.0.dir/build
+.PHONY : for2.0/fast
+
+#=============================================================================
 # Target rules for targets named list6.9
 
 # Build rule for target.
@@ -319,6 +332,36 @@ cmpflt.s: cmpflt.c.s
 cmpflt.c.s:
 	$(MAKE) -f CMakeFiles/list6.5.dir/build.make CMakeFiles/list6.5.dir/cmpflt.c.s
 .PHONY : cmpflt.c.s
+
+for_13s.o: for_13s.c.o
+
+.PHONY : for_13s.o
+
+# target to build an object file
+for_13s.c.o:
+	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/for_13s.c.o
+	$(MAKE) -f CMakeFiles/for2.0.dir/build.make CMakeFiles/for2.0.dir/for_13s.c.o
+.PHONY : for_13s.c.o
+
+for_13s.i: for_13s.c.i
+
+.PHONY : for_13s.i
+
+# target to preprocess a source file
+for_13s.c.i:
+	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/for_13s.c.i
+	$(MAKE) -f CMakeFiles/for2.0.dir/build.make CMakeFiles/for2.0.dir/for_13s.c.i
+.PHONY : for_13s.c.i
+
+for_13s.s: for_13s.c.s
+
+.PHONY : for_13s.s
+
+# target to generate assembly for a file
+for_13s.c.s:
+	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/for_13s.c.s
+	$(MAKE) -f CMakeFiles/for2.0.dir/build.make CMakeFiles/for2.0.dir/for_13s.c.s
+.PHONY : for_13s.c.s
 
 for_cube.o: for_cube.c.o
 
@@ -606,6 +649,7 @@ help:
 	@echo "... list6.7"
 	@echo "... list6.12"
 	@echo "... rebuild_cache"
+	@echo "... for2.0"
 	@echo "... list6.9"
 	@echo "... for1.0"
 	@echo "... list6.5"
@@ -619,6 +663,9 @@ help:
 	@echo "... cmpflt.o"
 	@echo "... cmpflt.i"
 	@echo "... cmpflt.s"
+	@echo "... for_13s.o"
+	@echo "... for_13s.i"
+	@echo "... for_13s.s"
 	@echo "... for_cube.o"
 	@echo "... for_cube.i"
 	@echo "... for_cube.s"

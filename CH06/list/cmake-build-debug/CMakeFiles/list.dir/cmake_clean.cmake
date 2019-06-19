@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/list.dir/summing.c.o"
   "CMakeFiles/list.dir/for_cube.c.o"
+  "CMakeFiles/list.dir/for_13s.c.o"
   "list.pdb"
   "list"
 )
