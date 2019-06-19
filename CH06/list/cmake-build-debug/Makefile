@@ -189,6 +189,19 @@ list6.9/fast:
 .PHONY : list6.9/fast
 
 #=============================================================================
+# Target rules for targets named for1.0
+
+# Build rule for target.
+for1.0: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 for1.0
+.PHONY : for1.0
+
+# fast build rule for target.
+for1.0/fast:
+	$(MAKE) -f CMakeFiles/for1.0.dir/build.make CMakeFiles/for1.0.dir/build
+.PHONY : for1.0/fast
+
+#=============================================================================
 # Target rules for targets named list6.5
 
 # Build rule for target.
@@ -336,6 +349,33 @@ for_cube.c.s:
 	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/for_cube.c.s
 	$(MAKE) -f CMakeFiles/list6.12.dir/build.make CMakeFiles/list6.12.dir/for_cube.c.s
 .PHONY : for_cube.c.s
+
+for_down.o: for_down.c.o
+
+.PHONY : for_down.o
+
+# target to build an object file
+for_down.c.o:
+	$(MAKE) -f CMakeFiles/for1.0.dir/build.make CMakeFiles/for1.0.dir/for_down.c.o
+.PHONY : for_down.c.o
+
+for_down.i: for_down.c.i
+
+.PHONY : for_down.i
+
+# target to preprocess a source file
+for_down.c.i:
+	$(MAKE) -f CMakeFiles/for1.0.dir/build.make CMakeFiles/for1.0.dir/for_down.c.i
+.PHONY : for_down.c.i
+
+for_down.s: for_down.c.s
+
+.PHONY : for_down.s
+
+# target to generate assembly for a file
+for_down.c.s:
+	$(MAKE) -f CMakeFiles/for1.0.dir/build.make CMakeFiles/for1.0.dir/for_down.c.s
+.PHONY : for_down.c.s
 
 summing.o: summing.c.o
 
@@ -567,6 +607,7 @@ help:
 	@echo "... list6.12"
 	@echo "... rebuild_cache"
 	@echo "... list6.9"
+	@echo "... for1.0"
 	@echo "... list6.5"
 	@echo "... list3"
 	@echo "... list6.10"
@@ -581,6 +622,9 @@ help:
 	@echo "... for_cube.o"
 	@echo "... for_cube.i"
 	@echo "... for_cube.s"
+	@echo "... for_down.o"
+	@echo "... for_down.i"
+	@echo "... for_down.s"
 	@echo "... summing.o"
 	@echo "... summing.i"
 	@echo "... summing.s"
