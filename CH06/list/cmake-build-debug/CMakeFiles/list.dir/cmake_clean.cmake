@@ -7,6 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/list.dir/for_Wide.c.o"
   "CMakeFiles/list.dir/for_none.c.o"
   "CMakeFiles/list.dir/for_show.c.o"
+  "CMakeFiles/list.dir/postage.c.o"
   "list.pdb"
   "list"
 )

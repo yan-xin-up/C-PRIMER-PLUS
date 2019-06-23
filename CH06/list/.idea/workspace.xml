@@ -6,19 +6,20 @@
       <config projectName="list" targetName="for4.0" />
       <config projectName="list" targetName="for1.0" />
       <config projectName="list" targetName="for2.0" />
+      <config projectName="list" targetName="for7.0" />
       <config projectName="list" targetName="list2" />
       <config projectName="list" targetName="list6.12" />
-      <config projectName="list" targetName="for7.0" />
       <config projectName="list" targetName="list3" />
       <config projectName="list" targetName="list6.11" />
       <config projectName="list" targetName="for5.0" />
       <config projectName="list" targetName="for6.0" />
+      <config projectName="list" targetName="list6.13" />
       <config projectName="list" targetName="list" />
       <config projectName="list" targetName="list6.7" />
       <config projectName="list" targetName="list6.6" />
       <config projectName="list" targetName="list6.5" />
-      <config projectName="list" targetName="list6.9" />
       <config projectName="list" targetName="list6.10" />
+      <config projectName="list" targetName="list6.9" />
       <config projectName="list" targetName="list6.8" />
     </generated>
   </component>
@@ -29,17 +30,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="079855af-1800-44e9-bd55-c36f06c3ecbe" name="Default Changelist" comment=".10">
-      <change afterPath="$PROJECT_DIR$/for_Wide.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/for_char.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/for_geo.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/for_none.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/for_show.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postage.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/list.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/list.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/list.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/list.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/list.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/list.dir/cmake_clean.cmake" afterDir="false" />
@@ -89,17 +85,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+            <state relative-caret-position="345">
+              <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/for_show.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/for_show.c">
+        <entry file="file://$PROJECT_DIR$/postage.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="150">
+              <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -129,8 +134,9 @@
         <option value="$PROJECT_DIR$/for_Wide.c" />
         <option value="$PROJECT_DIR$/for_geo.c" />
         <option value="$PROJECT_DIR$/for_none.c" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/for_show.c" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/postage.c" />
       </list>
     </option>
   </component>
@@ -147,6 +153,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -158,7 +165,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -189,7 +195,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="CMake Application.for7.0">
+  <component name="RunManager" selected="CMake Application.list6.13">
     <configuration name="for1.0" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="list" TARGET_NAME="for1.0" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="list" RUN_TARGET_NAME="for1.0">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -255,6 +261,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="list6.13" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="list" TARGET_NAME="list6.13" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="list" RUN_TARGET_NAME="list6.13">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="list6.5" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="list" TARGET_NAME="list6.5" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="list" RUN_TARGET_NAME="list6.5">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -286,6 +297,7 @@
       <item itemvalue="CMake Application.list6.10" />
       <item itemvalue="CMake Application.list6.11" />
       <item itemvalue="CMake Application.list6.12" />
+      <item itemvalue="CMake Application.list6.13" />
       <item itemvalue="CMake Application.list6.5" />
       <item itemvalue="CMake Application.list6.6" />
       <item itemvalue="CMake Application.list6.7" />
@@ -320,12 +332,13 @@
       <workItem from="1560420909717" duration="1000" />
       <workItem from="1560436340348" duration="590000" />
       <workItem from="1560436996846" duration="21000" />
-      <workItem from="1560437446292" duration="8787000" />
+      <workItem from="1560437446292" duration="9124000" />
+      <workItem from="1561132958188" duration="1209000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22325000" />
+    <option name="totallyTimeSpent" value="23871000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -339,12 +352,12 @@
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="807" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28183118" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28540772" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.6811189" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6811189" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3986014" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -393,9 +406,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sweetiel.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/sweetiel.cpp" />
     <entry file="file://$PROJECT_DIR$/summing.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -490,17 +501,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/for_show.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/postage.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
         </state>
       </provider>
     </entry>

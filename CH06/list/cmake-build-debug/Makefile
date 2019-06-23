@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named list6.13
+
+# Build rule for target.
+list6.13: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 list6.13
+.PHONY : list6.13
+
+# fast build rule for target.
+list6.13/fast:
+	$(MAKE) -f CMakeFiles/list6.13.dir/build.make CMakeFiles/list6.13.dir/build
+.PHONY : list6.13/fast
+
+#=============================================================================
 # Target rules for targets named for6.0
 
 # Build rule for target.
@@ -635,6 +648,36 @@ for_show.c.s:
 	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/for_show.c.s
 .PHONY : for_show.c.s
 
+postage.o: postage.c.o
+
+.PHONY : postage.o
+
+# target to build an object file
+postage.c.o:
+	$(MAKE) -f CMakeFiles/list6.13.dir/build.make CMakeFiles/list6.13.dir/postage.c.o
+	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/postage.c.o
+.PHONY : postage.c.o
+
+postage.i: postage.c.i
+
+.PHONY : postage.i
+
+# target to preprocess a source file
+postage.c.i:
+	$(MAKE) -f CMakeFiles/list6.13.dir/build.make CMakeFiles/list6.13.dir/postage.c.i
+	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/postage.c.i
+.PHONY : postage.c.i
+
+postage.s: postage.c.s
+
+.PHONY : postage.s
+
+# target to generate assembly for a file
+postage.c.s:
+	$(MAKE) -f CMakeFiles/list6.13.dir/build.make CMakeFiles/list6.13.dir/postage.c.s
+	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/postage.c.s
+.PHONY : postage.c.s
+
 summing.o: summing.c.o
 
 .PHONY : summing.o
@@ -858,6 +901,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... list6.13"
 	@echo "... for6.0"
 	@echo "... for5.0"
 	@echo "... for3.0"
@@ -907,6 +951,9 @@ help:
 	@echo "... for_show.o"
 	@echo "... for_show.i"
 	@echo "... for_show.s"
+	@echo "... postage.o"
+	@echo "... postage.i"
+	@echo "... postage.s"
 	@echo "... summing.o"
 	@echo "... summing.i"
 	@echo "... summing.s"

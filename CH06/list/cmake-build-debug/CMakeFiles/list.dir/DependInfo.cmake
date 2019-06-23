@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/ivan/github/C-PRIMER-PLUS/CH06/list/for_geo.c" "/Users/ivan/github/C-PRIMER-PLUS/CH06/list/cmake-build-debug/CMakeFiles/list.dir/for_geo.c.o"
   "/Users/ivan/github/C-PRIMER-PLUS/CH06/list/for_none.c" "/Users/ivan/github/C-PRIMER-PLUS/CH06/list/cmake-build-debug/CMakeFiles/list.dir/for_none.c.o"
   "/Users/ivan/github/C-PRIMER-PLUS/CH06/list/for_show.c" "/Users/ivan/github/C-PRIMER-PLUS/CH06/list/cmake-build-debug/CMakeFiles/list.dir/for_show.c.o"
+  "/Users/ivan/github/C-PRIMER-PLUS/CH06/list/postage.c" "/Users/ivan/github/C-PRIMER-PLUS/CH06/list/cmake-build-debug/CMakeFiles/list.dir/postage.c.o"
   "/Users/ivan/github/C-PRIMER-PLUS/CH06/list/summing.c" "/Users/ivan/github/C-PRIMER-PLUS/CH06/list/cmake-build-debug/CMakeFiles/list.dir/summing.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
