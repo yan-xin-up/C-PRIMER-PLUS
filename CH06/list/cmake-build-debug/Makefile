@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named list6.7
+# Target rules for targets named list6.17
 
 # Build rule for target.
-list6.7: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 list6.7
-.PHONY : list6.7
+list6.17: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 list6.17
+.PHONY : list6.17
 
 # fast build rule for target.
-list6.7/fast:
-	$(MAKE) -f CMakeFiles/list6.7.dir/build.make CMakeFiles/list6.7.dir/build
-.PHONY : list6.7/fast
+list6.17/fast:
+	$(MAKE) -f CMakeFiles/list6.17.dir/build.make CMakeFiles/list6.17.dir/build
+.PHONY : list6.17/fast
 
 #=============================================================================
 # Target rules for targets named list6.16
@@ -304,6 +304,19 @@ list6.8: cmake_check_build_system
 list6.8/fast:
 	$(MAKE) -f CMakeFiles/list6.8.dir/build.make CMakeFiles/list6.8.dir/build
 .PHONY : list6.8/fast
+
+#=============================================================================
+# Target rules for targets named list6.7
+
+# Build rule for target.
+list6.7: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 list6.7
+.PHONY : list6.7
+
+# fast build rule for target.
+list6.7/fast:
+	$(MAKE) -f CMakeFiles/list6.7.dir/build.make CMakeFiles/list6.7.dir/build
+.PHONY : list6.7/fast
 
 #=============================================================================
 # Target rules for targets named list6.5
@@ -777,6 +790,36 @@ postage.c.s:
 	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/postage.c.s
 .PHONY : postage.c.s
 
+rowsl.o: rowsl.c.o
+
+.PHONY : rowsl.o
+
+# target to build an object file
+rowsl.c.o:
+	$(MAKE) -f CMakeFiles/list6.17.dir/build.make CMakeFiles/list6.17.dir/rowsl.c.o
+	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/rowsl.c.o
+.PHONY : rowsl.c.o
+
+rowsl.i: rowsl.c.i
+
+.PHONY : rowsl.i
+
+# target to preprocess a source file
+rowsl.c.i:
+	$(MAKE) -f CMakeFiles/list6.17.dir/build.make CMakeFiles/list6.17.dir/rowsl.c.i
+	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/rowsl.c.i
+.PHONY : rowsl.c.i
+
+rowsl.s: rowsl.c.s
+
+.PHONY : rowsl.s
+
+# target to generate assembly for a file
+rowsl.c.s:
+	$(MAKE) -f CMakeFiles/list6.17.dir/build.make CMakeFiles/list6.17.dir/rowsl.c.s
+	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/rowsl.c.s
+.PHONY : rowsl.c.s
+
 summing.o: summing.c.o
 
 .PHONY : summing.o
@@ -1030,8 +1073,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... list6.7"
-	@echo "... edit_cache"
+	@echo "... list6.17"
 	@echo "... list6.16"
 	@echo "... list6.13"
 	@echo "... list6.14"
@@ -1046,6 +1088,8 @@ help:
 	@echo "... list"
 	@echo "... list6.11"
 	@echo "... list6.8"
+	@echo "... edit_cache"
+	@echo "... list6.7"
 	@echo "... list6.5"
 	@echo "... list6.12"
 	@echo "... list6.9"
@@ -1092,6 +1136,9 @@ help:
 	@echo "... postage.o"
 	@echo "... postage.i"
 	@echo "... postage.s"
+	@echo "... rowsl.o"
+	@echo "... rowsl.i"
+	@echo "... rowsl.s"
 	@echo "... summing.o"
 	@echo "... summing.i"
 	@echo "... summing.s"

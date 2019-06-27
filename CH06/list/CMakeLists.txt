@@ -3,7 +3,7 @@ project(list C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(list summing.c for_cube.c for_13s.c for_char.c for_geo.c for_Wide.c for_none.c for_show.c postage.c zeno.c do_while.c entry.c)
+add_executable(list summing.c for_cube.c for_13s.c for_char.c for_geo.c for_Wide.c for_none.c for_show.c postage.c zeno.c do_while.c entry.c rowsl.c)
 add_executable(list2 when.c)
 add_executable(list3 while2.c)
 add_executable(list6.5 cmpflt.c)
@@ -25,4 +25,6 @@ add_executable(list6.13 postage.c)
 add_executable(list6.14 zeno.c zeno.c)
 add_executable(list6.15 do_while.c do_while.c)
 add_executable(list6.16 entry.c entry.c)
+add_executable(list6.17 rowsl.c rowsl.c)
+
 
