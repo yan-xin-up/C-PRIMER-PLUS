@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /Users/ivan/github/C-PRIMER-PLUS/CH06/list/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -77,6 +66,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named list6.7
+
+# Build rule for target.
+list6.7: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 list6.7
+.PHONY : list6.7
+
+# fast build rule for target.
+list6.7/fast:
+	$(MAKE) -f CMakeFiles/list6.7.dir/build.make CMakeFiles/list6.7.dir/build
+.PHONY : list6.7/fast
+
+#=============================================================================
+# Target rules for targets named list6.16
+
+# Build rule for target.
+list6.16: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 list6.16
+.PHONY : list6.16
+
+# fast build rule for target.
+list6.16/fast:
+	$(MAKE) -f CMakeFiles/list6.16.dir/build.make CMakeFiles/list6.16.dir/build
+.PHONY : list6.16/fast
+
+#=============================================================================
 # Target rules for targets named list6.13
 
 # Build rule for target.
@@ -122,6 +148,32 @@ list6.13: cmake_check_build_system
 list6.13/fast:
 	$(MAKE) -f CMakeFiles/list6.13.dir/build.make CMakeFiles/list6.13.dir/build
 .PHONY : list6.13/fast
+
+#=============================================================================
+# Target rules for targets named list6.14
+
+# Build rule for target.
+list6.14: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 list6.14
+.PHONY : list6.14
+
+# fast build rule for target.
+list6.14/fast:
+	$(MAKE) -f CMakeFiles/list6.14.dir/build.make CMakeFiles/list6.14.dir/build
+.PHONY : list6.14/fast
+
+#=============================================================================
+# Target rules for targets named for2.0
+
+# Build rule for target.
+for2.0: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 for2.0
+.PHONY : for2.0
+
+# fast build rule for target.
+for2.0/fast:
+	$(MAKE) -f CMakeFiles/for2.0.dir/build.make CMakeFiles/for2.0.dir/build
+.PHONY : for2.0/fast
 
 #=============================================================================
 # Target rules for targets named for6.0
@@ -148,6 +200,32 @@ for5.0: cmake_check_build_system
 for5.0/fast:
 	$(MAKE) -f CMakeFiles/for5.0.dir/build.make CMakeFiles/for5.0.dir/build
 .PHONY : for5.0/fast
+
+#=============================================================================
+# Target rules for targets named list6.6
+
+# Build rule for target.
+list6.6: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 list6.6
+.PHONY : list6.6
+
+# fast build rule for target.
+list6.6/fast:
+	$(MAKE) -f CMakeFiles/list6.6.dir/build.make CMakeFiles/list6.6.dir/build
+.PHONY : list6.6/fast
+
+#=============================================================================
+# Target rules for targets named list6.15
+
+# Build rule for target.
+list6.15: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 list6.15
+.PHONY : list6.15
+
+# fast build rule for target.
+list6.15/fast:
+	$(MAKE) -f CMakeFiles/list6.15.dir/build.make CMakeFiles/list6.15.dir/build
+.PHONY : list6.15/fast
 
 #=============================================================================
 # Target rules for targets named for3.0
@@ -228,17 +306,17 @@ list6.8/fast:
 .PHONY : list6.8/fast
 
 #=============================================================================
-# Target rules for targets named list6.7
+# Target rules for targets named list6.5
 
 # Build rule for target.
-list6.7: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 list6.7
-.PHONY : list6.7
+list6.5: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 list6.5
+.PHONY : list6.5
 
 # fast build rule for target.
-list6.7/fast:
-	$(MAKE) -f CMakeFiles/list6.7.dir/build.make CMakeFiles/list6.7.dir/build
-.PHONY : list6.7/fast
+list6.5/fast:
+	$(MAKE) -f CMakeFiles/list6.5.dir/build.make CMakeFiles/list6.5.dir/build
+.PHONY : list6.5/fast
 
 #=============================================================================
 # Target rules for targets named list6.12
@@ -252,19 +330,6 @@ list6.12: cmake_check_build_system
 list6.12/fast:
 	$(MAKE) -f CMakeFiles/list6.12.dir/build.make CMakeFiles/list6.12.dir/build
 .PHONY : list6.12/fast
-
-#=============================================================================
-# Target rules for targets named for2.0
-
-# Build rule for target.
-for2.0: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 for2.0
-.PHONY : for2.0
-
-# fast build rule for target.
-for2.0/fast:
-	$(MAKE) -f CMakeFiles/for2.0.dir/build.make CMakeFiles/for2.0.dir/build
-.PHONY : for2.0/fast
 
 #=============================================================================
 # Target rules for targets named list6.9
@@ -293,19 +358,6 @@ for1.0/fast:
 .PHONY : for1.0/fast
 
 #=============================================================================
-# Target rules for targets named list6.5
-
-# Build rule for target.
-list6.5: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 list6.5
-.PHONY : list6.5
-
-# fast build rule for target.
-list6.5/fast:
-	$(MAKE) -f CMakeFiles/list6.5.dir/build.make CMakeFiles/list6.5.dir/build
-.PHONY : list6.5/fast
-
-#=============================================================================
 # Target rules for targets named list3
 
 # Build rule for target.
@@ -330,19 +382,6 @@ list6.10: cmake_check_build_system
 list6.10/fast:
 	$(MAKE) -f CMakeFiles/list6.10.dir/build.make CMakeFiles/list6.10.dir/build
 .PHONY : list6.10/fast
-
-#=============================================================================
-# Target rules for targets named list6.6
-
-# Build rule for target.
-list6.6: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 list6.6
-.PHONY : list6.6
-
-# fast build rule for target.
-list6.6/fast:
-	$(MAKE) -f CMakeFiles/list6.6.dir/build.make CMakeFiles/list6.6.dir/build
-.PHONY : list6.6/fast
 
 #=============================================================================
 # Target rules for targets named list2
@@ -411,14 +450,74 @@ cmpflt.c.s:
 	$(MAKE) -f CMakeFiles/list6.5.dir/build.make CMakeFiles/list6.5.dir/cmpflt.c.s
 .PHONY : cmpflt.c.s
 
+do_while.o: do_while.c.o
+
+.PHONY : do_while.o
+
+# target to build an object file
+do_while.c.o:
+	$(MAKE) -f CMakeFiles/list6.15.dir/build.make CMakeFiles/list6.15.dir/do_while.c.o
+	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/do_while.c.o
+.PHONY : do_while.c.o
+
+do_while.i: do_while.c.i
+
+.PHONY : do_while.i
+
+# target to preprocess a source file
+do_while.c.i:
+	$(MAKE) -f CMakeFiles/list6.15.dir/build.make CMakeFiles/list6.15.dir/do_while.c.i
+	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/do_while.c.i
+.PHONY : do_while.c.i
+
+do_while.s: do_while.c.s
+
+.PHONY : do_while.s
+
+# target to generate assembly for a file
+do_while.c.s:
+	$(MAKE) -f CMakeFiles/list6.15.dir/build.make CMakeFiles/list6.15.dir/do_while.c.s
+	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/do_while.c.s
+.PHONY : do_while.c.s
+
+entry.o: entry.c.o
+
+.PHONY : entry.o
+
+# target to build an object file
+entry.c.o:
+	$(MAKE) -f CMakeFiles/list6.16.dir/build.make CMakeFiles/list6.16.dir/entry.c.o
+	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/entry.c.o
+.PHONY : entry.c.o
+
+entry.i: entry.c.i
+
+.PHONY : entry.i
+
+# target to preprocess a source file
+entry.c.i:
+	$(MAKE) -f CMakeFiles/list6.16.dir/build.make CMakeFiles/list6.16.dir/entry.c.i
+	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/entry.c.i
+.PHONY : entry.c.i
+
+entry.s: entry.c.s
+
+.PHONY : entry.s
+
+# target to generate assembly for a file
+entry.c.s:
+	$(MAKE) -f CMakeFiles/list6.16.dir/build.make CMakeFiles/list6.16.dir/entry.c.s
+	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/entry.c.s
+.PHONY : entry.c.s
+
 for_13s.o: for_13s.c.o
 
 .PHONY : for_13s.o
 
 # target to build an object file
 for_13s.c.o:
-	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/for_13s.c.o
 	$(MAKE) -f CMakeFiles/for2.0.dir/build.make CMakeFiles/for2.0.dir/for_13s.c.o
+	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/for_13s.c.o
 .PHONY : for_13s.c.o
 
 for_13s.i: for_13s.c.i
@@ -427,8 +526,8 @@ for_13s.i: for_13s.c.i
 
 # target to preprocess a source file
 for_13s.c.i:
-	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/for_13s.c.i
 	$(MAKE) -f CMakeFiles/for2.0.dir/build.make CMakeFiles/for2.0.dir/for_13s.c.i
+	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/for_13s.c.i
 .PHONY : for_13s.c.i
 
 for_13s.s: for_13s.c.s
@@ -437,8 +536,8 @@ for_13s.s: for_13s.c.s
 
 # target to generate assembly for a file
 for_13s.c.s:
-	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/for_13s.c.s
 	$(MAKE) -f CMakeFiles/for2.0.dir/build.make CMakeFiles/for2.0.dir/for_13s.c.s
+	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/for_13s.c.s
 .PHONY : for_13s.c.s
 
 for_Wide.o: for_Wide.c.o
@@ -894,32 +993,65 @@ while2.c.s:
 	$(MAKE) -f CMakeFiles/list3.dir/build.make CMakeFiles/list3.dir/while2.c.s
 .PHONY : while2.c.s
 
+zeno.o: zeno.c.o
+
+.PHONY : zeno.o
+
+# target to build an object file
+zeno.c.o:
+	$(MAKE) -f CMakeFiles/list6.14.dir/build.make CMakeFiles/list6.14.dir/zeno.c.o
+	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/zeno.c.o
+.PHONY : zeno.c.o
+
+zeno.i: zeno.c.i
+
+.PHONY : zeno.i
+
+# target to preprocess a source file
+zeno.c.i:
+	$(MAKE) -f CMakeFiles/list6.14.dir/build.make CMakeFiles/list6.14.dir/zeno.c.i
+	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/zeno.c.i
+.PHONY : zeno.c.i
+
+zeno.s: zeno.c.s
+
+.PHONY : zeno.s
+
+# target to generate assembly for a file
+zeno.c.s:
+	$(MAKE) -f CMakeFiles/list6.14.dir/build.make CMakeFiles/list6.14.dir/zeno.c.s
+	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/zeno.c.s
+.PHONY : zeno.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... rebuild_cache"
+	@echo "... list6.7"
 	@echo "... edit_cache"
+	@echo "... list6.16"
 	@echo "... list6.13"
+	@echo "... list6.14"
+	@echo "... for2.0"
 	@echo "... for6.0"
 	@echo "... for5.0"
+	@echo "... list6.6"
+	@echo "... list6.15"
 	@echo "... for3.0"
 	@echo "... for7.0"
 	@echo "... for4.0"
 	@echo "... list"
 	@echo "... list6.11"
 	@echo "... list6.8"
-	@echo "... list6.7"
+	@echo "... list6.5"
 	@echo "... list6.12"
-	@echo "... rebuild_cache"
-	@echo "... for2.0"
 	@echo "... list6.9"
 	@echo "... for1.0"
-	@echo "... list6.5"
 	@echo "... list3"
 	@echo "... list6.10"
-	@echo "... list6.6"
 	@echo "... list2"
 	@echo "... boolean.o"
 	@echo "... boolean.i"
@@ -927,6 +1059,12 @@ help:
 	@echo "... cmpflt.o"
 	@echo "... cmpflt.i"
 	@echo "... cmpflt.s"
+	@echo "... do_while.o"
+	@echo "... do_while.i"
+	@echo "... do_while.s"
+	@echo "... entry.o"
+	@echo "... entry.i"
+	@echo "... entry.s"
 	@echo "... for_13s.o"
 	@echo "... for_13s.i"
 	@echo "... for_13s.s"
@@ -978,6 +1116,9 @@ help:
 	@echo "... while2.o"
 	@echo "... while2.i"
 	@echo "... while2.s"
+	@echo "... zeno.o"
+	@echo "... zeno.i"
+	@echo "... zeno.s"
 .PHONY : help
 
 

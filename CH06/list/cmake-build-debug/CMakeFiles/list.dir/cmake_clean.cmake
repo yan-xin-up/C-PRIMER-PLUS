@@ -8,6 +8,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/list.dir/for_none.c.o"
   "CMakeFiles/list.dir/for_show.c.o"
   "CMakeFiles/list.dir/postage.c.o"
+  "CMakeFiles/list.dir/zeno.c.o"
+  "CMakeFiles/list.dir/do_while.c.o"
+  "CMakeFiles/list.dir/entry.c.o"
   "list.pdb"
   "list"
 )

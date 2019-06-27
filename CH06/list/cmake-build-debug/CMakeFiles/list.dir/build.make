@@ -174,6 +174,45 @@ CMakeFiles/list.dir/postage.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/list.dir/postage.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ivan/github/C-PRIMER-PLUS/CH06/list/postage.c -o CMakeFiles/list.dir/postage.c.s
 
+CMakeFiles/list.dir/zeno.c.o: CMakeFiles/list.dir/flags.make
+CMakeFiles/list.dir/zeno.c.o: ../zeno.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ivan/github/C-PRIMER-PLUS/CH06/list/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/list.dir/zeno.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/list.dir/zeno.c.o   -c /Users/ivan/github/C-PRIMER-PLUS/CH06/list/zeno.c
+
+CMakeFiles/list.dir/zeno.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/list.dir/zeno.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ivan/github/C-PRIMER-PLUS/CH06/list/zeno.c > CMakeFiles/list.dir/zeno.c.i
+
+CMakeFiles/list.dir/zeno.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/list.dir/zeno.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ivan/github/C-PRIMER-PLUS/CH06/list/zeno.c -o CMakeFiles/list.dir/zeno.c.s
+
+CMakeFiles/list.dir/do_while.c.o: CMakeFiles/list.dir/flags.make
+CMakeFiles/list.dir/do_while.c.o: ../do_while.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ivan/github/C-PRIMER-PLUS/CH06/list/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/list.dir/do_while.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/list.dir/do_while.c.o   -c /Users/ivan/github/C-PRIMER-PLUS/CH06/list/do_while.c
+
+CMakeFiles/list.dir/do_while.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/list.dir/do_while.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ivan/github/C-PRIMER-PLUS/CH06/list/do_while.c > CMakeFiles/list.dir/do_while.c.i
+
+CMakeFiles/list.dir/do_while.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/list.dir/do_while.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ivan/github/C-PRIMER-PLUS/CH06/list/do_while.c -o CMakeFiles/list.dir/do_while.c.s
+
+CMakeFiles/list.dir/entry.c.o: CMakeFiles/list.dir/flags.make
+CMakeFiles/list.dir/entry.c.o: ../entry.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ivan/github/C-PRIMER-PLUS/CH06/list/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/list.dir/entry.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/list.dir/entry.c.o   -c /Users/ivan/github/C-PRIMER-PLUS/CH06/list/entry.c
+
+CMakeFiles/list.dir/entry.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/list.dir/entry.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ivan/github/C-PRIMER-PLUS/CH06/list/entry.c > CMakeFiles/list.dir/entry.c.i
+
+CMakeFiles/list.dir/entry.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/list.dir/entry.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ivan/github/C-PRIMER-PLUS/CH06/list/entry.c -o CMakeFiles/list.dir/entry.c.s
+
 # Object files for target list
 list_OBJECTS = \
 "CMakeFiles/list.dir/summing.c.o" \
@@ -184,7 +223,10 @@ list_OBJECTS = \
 "CMakeFiles/list.dir/for_Wide.c.o" \
 "CMakeFiles/list.dir/for_none.c.o" \
 "CMakeFiles/list.dir/for_show.c.o" \
-"CMakeFiles/list.dir/postage.c.o"
+"CMakeFiles/list.dir/postage.c.o" \
+"CMakeFiles/list.dir/zeno.c.o" \
+"CMakeFiles/list.dir/do_while.c.o" \
+"CMakeFiles/list.dir/entry.c.o"
 
 # External object files for target list
 list_EXTERNAL_OBJECTS =
@@ -198,9 +240,12 @@ list: CMakeFiles/list.dir/for_Wide.c.o
 list: CMakeFiles/list.dir/for_none.c.o
 list: CMakeFiles/list.dir/for_show.c.o
 list: CMakeFiles/list.dir/postage.c.o
+list: CMakeFiles/list.dir/zeno.c.o
+list: CMakeFiles/list.dir/do_while.c.o
+list: CMakeFiles/list.dir/entry.c.o
 list: CMakeFiles/list.dir/build.make
 list: CMakeFiles/list.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ivan/github/C-PRIMER-PLUS/CH06/list/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C executable list"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ivan/github/C-PRIMER-PLUS/CH06/list/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking C executable list"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/list.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
