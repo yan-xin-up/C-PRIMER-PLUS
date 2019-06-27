@@ -202,6 +202,19 @@ for5.0/fast:
 .PHONY : for5.0/fast
 
 #=============================================================================
+# Target rules for targets named list6.18
+
+# Build rule for target.
+list6.18: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 list6.18
+.PHONY : list6.18
+
+# fast build rule for target.
+list6.18/fast:
+	$(MAKE) -f CMakeFiles/list6.18.dir/build.make CMakeFiles/list6.18.dir/build
+.PHONY : list6.18/fast
+
+#=============================================================================
 # Target rules for targets named list6.6
 
 # Build rule for target.
@@ -790,6 +803,36 @@ postage.c.s:
 	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/postage.c.s
 .PHONY : postage.c.s
 
+rows2.o: rows2.c.o
+
+.PHONY : rows2.o
+
+# target to build an object file
+rows2.c.o:
+	$(MAKE) -f CMakeFiles/list6.18.dir/build.make CMakeFiles/list6.18.dir/rows2.c.o
+	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/rows2.c.o
+.PHONY : rows2.c.o
+
+rows2.i: rows2.c.i
+
+.PHONY : rows2.i
+
+# target to preprocess a source file
+rows2.c.i:
+	$(MAKE) -f CMakeFiles/list6.18.dir/build.make CMakeFiles/list6.18.dir/rows2.c.i
+	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/rows2.c.i
+.PHONY : rows2.c.i
+
+rows2.s: rows2.c.s
+
+.PHONY : rows2.s
+
+# target to generate assembly for a file
+rows2.c.s:
+	$(MAKE) -f CMakeFiles/list6.18.dir/build.make CMakeFiles/list6.18.dir/rows2.c.s
+	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/rows2.c.s
+.PHONY : rows2.c.s
+
 rowsl.o: rowsl.c.o
 
 .PHONY : rowsl.o
@@ -1080,6 +1123,7 @@ help:
 	@echo "... for2.0"
 	@echo "... for6.0"
 	@echo "... for5.0"
+	@echo "... list6.18"
 	@echo "... list6.6"
 	@echo "... list6.15"
 	@echo "... for3.0"
@@ -1136,6 +1180,9 @@ help:
 	@echo "... postage.o"
 	@echo "... postage.i"
 	@echo "... postage.s"
+	@echo "... rows2.o"
+	@echo "... rows2.i"
+	@echo "... rows2.s"
 	@echo "... rowsl.o"
 	@echo "... rowsl.i"
 	@echo "... rowsl.s"

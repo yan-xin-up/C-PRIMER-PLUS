@@ -12,6 +12,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/list.dir/do_while.c.o"
   "CMakeFiles/list.dir/entry.c.o"
   "CMakeFiles/list.dir/rowsl.c.o"
+  "CMakeFiles/list.dir/rows2.c.o"
   "list.pdb"
   "list"
 )

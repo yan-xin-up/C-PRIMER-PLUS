@@ -14,6 +14,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/ivan/github/C-PRIMER-PLUS/CH06/list/for_none.c" "/Users/ivan/github/C-PRIMER-PLUS/CH06/list/cmake-build-debug/CMakeFiles/list.dir/for_none.c.o"
   "/Users/ivan/github/C-PRIMER-PLUS/CH06/list/for_show.c" "/Users/ivan/github/C-PRIMER-PLUS/CH06/list/cmake-build-debug/CMakeFiles/list.dir/for_show.c.o"
   "/Users/ivan/github/C-PRIMER-PLUS/CH06/list/postage.c" "/Users/ivan/github/C-PRIMER-PLUS/CH06/list/cmake-build-debug/CMakeFiles/list.dir/postage.c.o"
+  "/Users/ivan/github/C-PRIMER-PLUS/CH06/list/rows2.c" "/Users/ivan/github/C-PRIMER-PLUS/CH06/list/cmake-build-debug/CMakeFiles/list.dir/rows2.c.o"
   "/Users/ivan/github/C-PRIMER-PLUS/CH06/list/rowsl.c" "/Users/ivan/github/C-PRIMER-PLUS/CH06/list/cmake-build-debug/CMakeFiles/list.dir/rowsl.c.o"
   "/Users/ivan/github/C-PRIMER-PLUS/CH06/list/summing.c" "/Users/ivan/github/C-PRIMER-PLUS/CH06/list/cmake-build-debug/CMakeFiles/list.dir/summing.c.o"
   "/Users/ivan/github/C-PRIMER-PLUS/CH06/list/zeno.c" "/Users/ivan/github/C-PRIMER-PLUS/CH06/list/cmake-build-debug/CMakeFiles/list.dir/zeno.c.o"
