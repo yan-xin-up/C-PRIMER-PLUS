@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named list6.19
+
+# Build rule for target.
+list6.19: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 list6.19
+.PHONY : list6.19
+
+# fast build rule for target.
+list6.19/fast:
+	$(MAKE) -f CMakeFiles/list6.19.dir/build.make CMakeFiles/list6.19.dir/build
+.PHONY : list6.19/fast
+
+#=============================================================================
 # Target rules for targets named list6.17
 
 # Build rule for target.
@@ -863,6 +876,36 @@ rowsl.c.s:
 	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/rowsl.c.s
 .PHONY : rowsl.c.s
 
+scores_in.o: scores_in.c.o
+
+.PHONY : scores_in.o
+
+# target to build an object file
+scores_in.c.o:
+	$(MAKE) -f CMakeFiles/list6.19.dir/build.make CMakeFiles/list6.19.dir/scores_in.c.o
+	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/scores_in.c.o
+.PHONY : scores_in.c.o
+
+scores_in.i: scores_in.c.i
+
+.PHONY : scores_in.i
+
+# target to preprocess a source file
+scores_in.c.i:
+	$(MAKE) -f CMakeFiles/list6.19.dir/build.make CMakeFiles/list6.19.dir/scores_in.c.i
+	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/scores_in.c.i
+.PHONY : scores_in.c.i
+
+scores_in.s: scores_in.c.s
+
+.PHONY : scores_in.s
+
+# target to generate assembly for a file
+scores_in.c.s:
+	$(MAKE) -f CMakeFiles/list6.19.dir/build.make CMakeFiles/list6.19.dir/scores_in.c.s
+	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/scores_in.c.s
+.PHONY : scores_in.c.s
+
 summing.o: summing.c.o
 
 .PHONY : summing.o
@@ -1116,6 +1159,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... list6.19"
 	@echo "... list6.17"
 	@echo "... list6.16"
 	@echo "... list6.13"
@@ -1186,6 +1230,9 @@ help:
 	@echo "... rowsl.o"
 	@echo "... rowsl.i"
 	@echo "... rowsl.s"
+	@echo "... scores_in.o"
+	@echo "... scores_in.i"
+	@echo "... scores_in.s"
 	@echo "... summing.o"
 	@echo "... summing.i"
 	@echo "... summing.s"
