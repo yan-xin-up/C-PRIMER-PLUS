@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named list_example
+
+# Build rule for target.
+list_example: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 list_example
+.PHONY : list_example
+
+# fast build rule for target.
+list_example/fast:
+	$(MAKE) -f CMakeFiles/list_example.dir/build.make CMakeFiles/list_example.dir/build
+.PHONY : list_example/fast
+
+#=============================================================================
 # Target rules for targets named list6.19
 
 # Build rule for target.
@@ -317,6 +330,19 @@ list6.11: cmake_check_build_system
 list6.11/fast:
 	$(MAKE) -f CMakeFiles/list6.11.dir/build.make CMakeFiles/list6.11.dir/build
 .PHONY : list6.11/fast
+
+#=============================================================================
+# Target rules for targets named list6.20
+
+# Build rule for target.
+list6.20: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 list6.20
+.PHONY : list6.20
+
+# fast build rule for target.
+list6.20/fast:
+	$(MAKE) -f CMakeFiles/list6.20.dir/build.make CMakeFiles/list6.20.dir/build
+.PHONY : list6.20/fast
 
 #=============================================================================
 # Target rules for targets named list6.8
@@ -816,6 +842,36 @@ postage.c.s:
 	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/postage.c.s
 .PHONY : postage.c.s
 
+power.o: power.c.o
+
+.PHONY : power.o
+
+# target to build an object file
+power.c.o:
+	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/power.c.o
+	$(MAKE) -f CMakeFiles/list6.20.dir/build.make CMakeFiles/list6.20.dir/power.c.o
+.PHONY : power.c.o
+
+power.i: power.c.i
+
+.PHONY : power.i
+
+# target to preprocess a source file
+power.c.i:
+	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/power.c.i
+	$(MAKE) -f CMakeFiles/list6.20.dir/build.make CMakeFiles/list6.20.dir/power.c.i
+.PHONY : power.c.i
+
+power.s: power.c.s
+
+.PHONY : power.s
+
+# target to generate assembly for a file
+power.c.s:
+	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/power.c.s
+	$(MAKE) -f CMakeFiles/list6.20.dir/build.make CMakeFiles/list6.20.dir/power.c.s
+.PHONY : power.c.s
+
 rows2.o: rows2.c.o
 
 .PHONY : rows2.o
@@ -1014,6 +1070,36 @@ t_and_f.c.s:
 	$(MAKE) -f CMakeFiles/list6.6.dir/build.make CMakeFiles/list6.6.dir/t_and_f.c.s
 .PHONY : t_and_f.c.s
 
+three_for.o: three_for.c.o
+
+.PHONY : three_for.o
+
+# target to build an object file
+three_for.c.o:
+	$(MAKE) -f CMakeFiles/list_example.dir/build.make CMakeFiles/list_example.dir/three_for.c.o
+	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/three_for.c.o
+.PHONY : three_for.c.o
+
+three_for.i: three_for.c.i
+
+.PHONY : three_for.i
+
+# target to preprocess a source file
+three_for.c.i:
+	$(MAKE) -f CMakeFiles/list_example.dir/build.make CMakeFiles/list_example.dir/three_for.c.i
+	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/three_for.c.i
+.PHONY : three_for.c.i
+
+three_for.s: three_for.c.s
+
+.PHONY : three_for.s
+
+# target to generate assembly for a file
+three_for.c.s:
+	$(MAKE) -f CMakeFiles/list_example.dir/build.make CMakeFiles/list_example.dir/three_for.c.s
+	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/three_for.c.s
+.PHONY : three_for.c.s
+
 trouble.o: trouble.c.o
 
 .PHONY : trouble.o
@@ -1159,6 +1245,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... list_example"
 	@echo "... list6.19"
 	@echo "... list6.17"
 	@echo "... list6.16"
@@ -1175,6 +1262,7 @@ help:
 	@echo "... for4.0"
 	@echo "... list"
 	@echo "... list6.11"
+	@echo "... list6.20"
 	@echo "... list6.8"
 	@echo "... edit_cache"
 	@echo "... list6.7"
@@ -1224,6 +1312,9 @@ help:
 	@echo "... postage.o"
 	@echo "... postage.i"
 	@echo "... postage.s"
+	@echo "... power.o"
+	@echo "... power.i"
+	@echo "... power.s"
 	@echo "... rows2.o"
 	@echo "... rows2.i"
 	@echo "... rows2.s"
@@ -1245,6 +1336,9 @@ help:
 	@echo "... t_and_f.o"
 	@echo "... t_and_f.i"
 	@echo "... t_and_f.s"
+	@echo "... three_for.o"
+	@echo "... three_for.i"
+	@echo "... three_for.s"
 	@echo "... trouble.o"
 	@echo "... trouble.i"
 	@echo "... trouble.s"

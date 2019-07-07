@@ -14,6 +14,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/list.dir/rowsl.c.o"
   "CMakeFiles/list.dir/rows2.c.o"
   "CMakeFiles/list.dir/scores_in.c.o"
+  "CMakeFiles/list.dir/three_for.c.o"
+  "CMakeFiles/list.dir/power.c.o"
   "list.pdb"
   "list"
 )
