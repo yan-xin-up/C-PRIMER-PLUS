@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ivan/github/C-PRIMER-PLUS/CH06/Review_Question/5.c
+stdio.h
+-
+
+/Users/ivan/github/C-PRIMER-PLUS/CH06/Review_Question/main.c
+stdio.h
+-
+
