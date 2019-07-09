@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Review_Question7b
+
+# Build rule for target.
+Review_Question7b: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Review_Question7b
+.PHONY : Review_Question7b
+
+# fast build rule for target.
+Review_Question7b/fast:
+	$(MAKE) -f CMakeFiles/Review_Question7b.dir/build.make CMakeFiles/Review_Question7b.dir/build
+.PHONY : Review_Question7b/fast
+
+#=============================================================================
+# Target rules for targets named Review_Question7a
+
+# Build rule for target.
+Review_Question7a: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Review_Question7a
+.PHONY : Review_Question7a
+
+# fast build rule for target.
+Review_Question7a/fast:
+	$(MAKE) -f CMakeFiles/Review_Question7a.dir/build.make CMakeFiles/Review_Question7a.dir/build
+.PHONY : Review_Question7a/fast
+
+#=============================================================================
 # Target rules for targets named Review_Question6
 
 # Build rule for target.
@@ -190,14 +216,73 @@ Review_Question5/fast:
 	$(MAKE) -f CMakeFiles/Review_Question6.dir/build.make CMakeFiles/Review_Question6.dir/6.c.s
 .PHONY : 6.c.s
 
+a.o: a.c.o
+
+.PHONY : a.o
+
+# target to build an object file
+a.c.o:
+	$(MAKE) -f CMakeFiles/Review_Question7a.dir/build.make CMakeFiles/Review_Question7a.dir/a.c.o
+.PHONY : a.c.o
+
+a.i: a.c.i
+
+.PHONY : a.i
+
+# target to preprocess a source file
+a.c.i:
+	$(MAKE) -f CMakeFiles/Review_Question7a.dir/build.make CMakeFiles/Review_Question7a.dir/a.c.i
+.PHONY : a.c.i
+
+a.s: a.c.s
+
+.PHONY : a.s
+
+# target to generate assembly for a file
+a.c.s:
+	$(MAKE) -f CMakeFiles/Review_Question7a.dir/build.make CMakeFiles/Review_Question7a.dir/a.c.s
+.PHONY : a.c.s
+
+b.o: b.c.o
+
+.PHONY : b.o
+
+# target to build an object file
+b.c.o:
+	$(MAKE) -f CMakeFiles/Review_Question7b.dir/build.make CMakeFiles/Review_Question7b.dir/b.c.o
+	$(MAKE) -f CMakeFiles/Review_Question5.dir/build.make CMakeFiles/Review_Question5.dir/b.c.o
+.PHONY : b.c.o
+
+b.i: b.c.i
+
+.PHONY : b.i
+
+# target to preprocess a source file
+b.c.i:
+	$(MAKE) -f CMakeFiles/Review_Question7b.dir/build.make CMakeFiles/Review_Question7b.dir/b.c.i
+	$(MAKE) -f CMakeFiles/Review_Question5.dir/build.make CMakeFiles/Review_Question5.dir/b.c.i
+.PHONY : b.c.i
+
+b.s: b.c.s
+
+.PHONY : b.s
+
+# target to generate assembly for a file
+b.c.s:
+	$(MAKE) -f CMakeFiles/Review_Question7b.dir/build.make CMakeFiles/Review_Question7b.dir/b.c.s
+	$(MAKE) -f CMakeFiles/Review_Question5.dir/build.make CMakeFiles/Review_Question5.dir/b.c.s
+.PHONY : b.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... Review_Question6"
 	@echo "... rebuild_cache"
+	@echo "... Review_Question7b"
+	@echo "... Review_Question7a"
+	@echo "... Review_Question6"
 	@echo "... edit_cache"
 	@echo "... Review_Question5"
 	@echo "... 5.o"
@@ -206,6 +291,12 @@ help:
 	@echo "... 6.o"
 	@echo "... 6.i"
 	@echo "... 6.s"
+	@echo "... a.o"
+	@echo "... a.i"
+	@echo "... a.s"
+	@echo "... b.o"
+	@echo "... b.i"
+	@echo "... b.s"
 .PHONY : help
 
 

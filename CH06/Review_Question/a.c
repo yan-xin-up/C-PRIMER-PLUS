@@ -1,4 +1,15 @@
-//
-// Created by 辛岩 on 2019-07-08.
-//
+//7.a--HI！
+#include <stdio.h>
+int main(void)
+{
+    int i = 0;
+
+    while (++i<4)
+        printf("Hi! ");
+    do
+        printf("bye! ");
+    while(i++<8);
+
+    return 0;
+}
 

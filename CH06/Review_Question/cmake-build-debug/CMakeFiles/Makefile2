@@ -65,13 +65,87 @@ CMAKE_SOURCE_DIR = /Users/ivan/github/C-PRIMER-PLUS/CH06/Review_Question
 CMAKE_BINARY_DIR = /Users/ivan/github/C-PRIMER-PLUS/CH06/Review_Question/cmake-build-debug
 
 #=============================================================================
+# Target rules for target CMakeFiles/Review_Question7b.dir
+
+# All Build rule for target.
+CMakeFiles/Review_Question7b.dir/all:
+	$(MAKE) -f CMakeFiles/Review_Question7b.dir/build.make CMakeFiles/Review_Question7b.dir/depend
+	$(MAKE) -f CMakeFiles/Review_Question7b.dir/build.make CMakeFiles/Review_Question7b.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ivan/github/C-PRIMER-PLUS/CH06/Review_Question/cmake-build-debug/CMakeFiles --progress-num=8,9 "Built target Review_Question7b"
+.PHONY : CMakeFiles/Review_Question7b.dir/all
+
+# Include target in all.
+all: CMakeFiles/Review_Question7b.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Review_Question7b.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ivan/github/C-PRIMER-PLUS/CH06/Review_Question/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Review_Question7b.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ivan/github/C-PRIMER-PLUS/CH06/Review_Question/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Review_Question7b.dir/rule
+
+# Convenience name for target.
+Review_Question7b: CMakeFiles/Review_Question7b.dir/rule
+
+.PHONY : Review_Question7b
+
+# clean rule for target.
+CMakeFiles/Review_Question7b.dir/clean:
+	$(MAKE) -f CMakeFiles/Review_Question7b.dir/build.make CMakeFiles/Review_Question7b.dir/clean
+.PHONY : CMakeFiles/Review_Question7b.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Review_Question7b.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Review_Question7a.dir
+
+# All Build rule for target.
+CMakeFiles/Review_Question7a.dir/all:
+	$(MAKE) -f CMakeFiles/Review_Question7a.dir/build.make CMakeFiles/Review_Question7a.dir/depend
+	$(MAKE) -f CMakeFiles/Review_Question7a.dir/build.make CMakeFiles/Review_Question7a.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ivan/github/C-PRIMER-PLUS/CH06/Review_Question/cmake-build-debug/CMakeFiles --progress-num=6,7 "Built target Review_Question7a"
+.PHONY : CMakeFiles/Review_Question7a.dir/all
+
+# Include target in all.
+all: CMakeFiles/Review_Question7a.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Review_Question7a.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ivan/github/C-PRIMER-PLUS/CH06/Review_Question/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Review_Question7a.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ivan/github/C-PRIMER-PLUS/CH06/Review_Question/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Review_Question7a.dir/rule
+
+# Convenience name for target.
+Review_Question7a: CMakeFiles/Review_Question7a.dir/rule
+
+.PHONY : Review_Question7a
+
+# clean rule for target.
+CMakeFiles/Review_Question7a.dir/clean:
+	$(MAKE) -f CMakeFiles/Review_Question7a.dir/build.make CMakeFiles/Review_Question7a.dir/clean
+.PHONY : CMakeFiles/Review_Question7a.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Review_Question7a.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/Review_Question6.dir
 
 # All Build rule for target.
 CMakeFiles/Review_Question6.dir/all:
 	$(MAKE) -f CMakeFiles/Review_Question6.dir/build.make CMakeFiles/Review_Question6.dir/depend
 	$(MAKE) -f CMakeFiles/Review_Question6.dir/build.make CMakeFiles/Review_Question6.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ivan/github/C-PRIMER-PLUS/CH06/Review_Question/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target Review_Question6"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ivan/github/C-PRIMER-PLUS/CH06/Review_Question/cmake-build-debug/CMakeFiles --progress-num=4,5 "Built target Review_Question6"
 .PHONY : CMakeFiles/Review_Question6.dir/all
 
 # Include target in all.
@@ -108,7 +182,7 @@ clean: CMakeFiles/Review_Question6.dir/clean
 CMakeFiles/Review_Question5.dir/all:
 	$(MAKE) -f CMakeFiles/Review_Question5.dir/build.make CMakeFiles/Review_Question5.dir/depend
 	$(MAKE) -f CMakeFiles/Review_Question5.dir/build.make CMakeFiles/Review_Question5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ivan/github/C-PRIMER-PLUS/CH06/Review_Question/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Review_Question5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ivan/github/C-PRIMER-PLUS/CH06/Review_Question/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target Review_Question5"
 .PHONY : CMakeFiles/Review_Question5.dir/all
 
 # Include target in all.
@@ -118,7 +192,7 @@ all: CMakeFiles/Review_Question5.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Review_Question5.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ivan/github/C-PRIMER-PLUS/CH06/Review_Question/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ivan/github/C-PRIMER-PLUS/CH06/Review_Question/cmake-build-debug/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Review_Question5.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ivan/github/C-PRIMER-PLUS/CH06/Review_Question/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/Review_Question5.dir/rule
