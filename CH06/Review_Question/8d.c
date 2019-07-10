@@ -1,4 +1,13 @@
-//
-// Created by 辛岩 on 2019-07-10.
-//
+//8d--for
+#include <stdio.h>
+int main(void)
+{
+    char ch;
 
+    scanf("%c", &ch);
+
+    for(ch='$';ch!='g';scanf("%c",&ch))
+        printf("%c",ch);
+
+    return 0;
+}
