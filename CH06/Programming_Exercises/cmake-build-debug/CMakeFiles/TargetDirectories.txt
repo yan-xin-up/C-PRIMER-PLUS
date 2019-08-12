@@ -1,3 +1,13 @@
-/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles/Programming_Exercises5.dir
+/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles/Programming_Exercises10.dir
+/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles/Programming_Exercises8.dir
+/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles/Programming_Exercises3.dir
+/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles/Programming_Exercises7.dir
+/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles/Programming_Exercises9.dir
+/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles/Programming_Exercises2.dir
 /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles/Programming_Exercises.dir
+/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles/Programming_Exercises6.dir
+/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles/Programming_Exercises4.dir
+/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles/Programming_Exercises5.1.dir
+/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles/Programming_Exercises1.dir

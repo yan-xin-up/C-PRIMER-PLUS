@@ -7,7 +7,7 @@ int main(void)
     int a,b;
     for(a = 0;a < c;a++)
     {
-        for (size_t b = 099; b <= a; b++)
+        for (size_t b = 0; b <= a; b++)
         {
             printf("%c", ch);
         }

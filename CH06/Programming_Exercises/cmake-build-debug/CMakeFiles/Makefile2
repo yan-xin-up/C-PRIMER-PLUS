@@ -65,39 +65,409 @@ CMAKE_SOURCE_DIR = /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises
 CMAKE_BINARY_DIR = /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/Programming_Exercises.dir
+# Target rules for target CMakeFiles/Programming_Exercises5.dir
 
 # All Build rule for target.
-CMakeFiles/Programming_Exercises.dir/all:
-	$(MAKE) -f CMakeFiles/Programming_Exercises.dir/build.make CMakeFiles/Programming_Exercises.dir/depend
-	$(MAKE) -f CMakeFiles/Programming_Exercises.dir/build.make CMakeFiles/Programming_Exercises.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Programming_Exercises"
-.PHONY : CMakeFiles/Programming_Exercises.dir/all
+CMakeFiles/Programming_Exercises5.dir/all:
+	$(MAKE) -f CMakeFiles/Programming_Exercises5.dir/build.make CMakeFiles/Programming_Exercises5.dir/depend
+	$(MAKE) -f CMakeFiles/Programming_Exercises5.dir/build.make CMakeFiles/Programming_Exercises5.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target Programming_Exercises5"
+.PHONY : CMakeFiles/Programming_Exercises5.dir/all
 
 # Include target in all.
-all: CMakeFiles/Programming_Exercises.dir/all
+all: CMakeFiles/Programming_Exercises5.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Programming_Exercises.dir/rule: cmake_check_build_system
+CMakeFiles/Programming_Exercises5.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Programming_Exercises.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Programming_Exercises5.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Programming_Exercises.dir/rule
+.PHONY : CMakeFiles/Programming_Exercises5.dir/rule
 
 # Convenience name for target.
-Programming_Exercises: CMakeFiles/Programming_Exercises.dir/rule
+Programming_Exercises5: CMakeFiles/Programming_Exercises5.dir/rule
 
-.PHONY : Programming_Exercises
-
-# clean rule for target.
-CMakeFiles/Programming_Exercises.dir/clean:
-	$(MAKE) -f CMakeFiles/Programming_Exercises.dir/build.make CMakeFiles/Programming_Exercises.dir/clean
-.PHONY : CMakeFiles/Programming_Exercises.dir/clean
+.PHONY : Programming_Exercises5
 
 # clean rule for target.
-clean: CMakeFiles/Programming_Exercises.dir/clean
+CMakeFiles/Programming_Exercises5.dir/clean:
+	$(MAKE) -f CMakeFiles/Programming_Exercises5.dir/build.make CMakeFiles/Programming_Exercises5.dir/clean
+.PHONY : CMakeFiles/Programming_Exercises5.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Programming_Exercises5.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Programming_Exercises10.dir
+
+# All Build rule for target.
+CMakeFiles/Programming_Exercises10.dir/all:
+	$(MAKE) -f CMakeFiles/Programming_Exercises10.dir/build.make CMakeFiles/Programming_Exercises10.dir/depend
+	$(MAKE) -f CMakeFiles/Programming_Exercises10.dir/build.make CMakeFiles/Programming_Exercises10.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target Programming_Exercises10"
+.PHONY : CMakeFiles/Programming_Exercises10.dir/all
+
+# Include target in all.
+all: CMakeFiles/Programming_Exercises10.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Programming_Exercises10.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Programming_Exercises10.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Programming_Exercises10.dir/rule
+
+# Convenience name for target.
+Programming_Exercises10: CMakeFiles/Programming_Exercises10.dir/rule
+
+.PHONY : Programming_Exercises10
+
+# clean rule for target.
+CMakeFiles/Programming_Exercises10.dir/clean:
+	$(MAKE) -f CMakeFiles/Programming_Exercises10.dir/build.make CMakeFiles/Programming_Exercises10.dir/clean
+.PHONY : CMakeFiles/Programming_Exercises10.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Programming_Exercises10.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Programming_Exercises8.dir
+
+# All Build rule for target.
+CMakeFiles/Programming_Exercises8.dir/all:
+	$(MAKE) -f CMakeFiles/Programming_Exercises8.dir/build.make CMakeFiles/Programming_Exercises8.dir/depend
+	$(MAKE) -f CMakeFiles/Programming_Exercises8.dir/build.make CMakeFiles/Programming_Exercises8.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target Programming_Exercises8"
+.PHONY : CMakeFiles/Programming_Exercises8.dir/all
+
+# Include target in all.
+all: CMakeFiles/Programming_Exercises8.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Programming_Exercises8.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Programming_Exercises8.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Programming_Exercises8.dir/rule
+
+# Convenience name for target.
+Programming_Exercises8: CMakeFiles/Programming_Exercises8.dir/rule
+
+.PHONY : Programming_Exercises8
+
+# clean rule for target.
+CMakeFiles/Programming_Exercises8.dir/clean:
+	$(MAKE) -f CMakeFiles/Programming_Exercises8.dir/build.make CMakeFiles/Programming_Exercises8.dir/clean
+.PHONY : CMakeFiles/Programming_Exercises8.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Programming_Exercises8.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Programming_Exercises3.dir
+
+# All Build rule for target.
+CMakeFiles/Programming_Exercises3.dir/all:
+	$(MAKE) -f CMakeFiles/Programming_Exercises3.dir/build.make CMakeFiles/Programming_Exercises3.dir/depend
+	$(MAKE) -f CMakeFiles/Programming_Exercises3.dir/build.make CMakeFiles/Programming_Exercises3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target Programming_Exercises3"
+.PHONY : CMakeFiles/Programming_Exercises3.dir/all
+
+# Include target in all.
+all: CMakeFiles/Programming_Exercises3.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Programming_Exercises3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Programming_Exercises3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Programming_Exercises3.dir/rule
+
+# Convenience name for target.
+Programming_Exercises3: CMakeFiles/Programming_Exercises3.dir/rule
+
+.PHONY : Programming_Exercises3
+
+# clean rule for target.
+CMakeFiles/Programming_Exercises3.dir/clean:
+	$(MAKE) -f CMakeFiles/Programming_Exercises3.dir/build.make CMakeFiles/Programming_Exercises3.dir/clean
+.PHONY : CMakeFiles/Programming_Exercises3.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Programming_Exercises3.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Programming_Exercises7.dir
+
+# All Build rule for target.
+CMakeFiles/Programming_Exercises7.dir/all:
+	$(MAKE) -f CMakeFiles/Programming_Exercises7.dir/build.make CMakeFiles/Programming_Exercises7.dir/depend
+	$(MAKE) -f CMakeFiles/Programming_Exercises7.dir/build.make CMakeFiles/Programming_Exercises7.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target Programming_Exercises7"
+.PHONY : CMakeFiles/Programming_Exercises7.dir/all
+
+# Include target in all.
+all: CMakeFiles/Programming_Exercises7.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Programming_Exercises7.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Programming_Exercises7.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Programming_Exercises7.dir/rule
+
+# Convenience name for target.
+Programming_Exercises7: CMakeFiles/Programming_Exercises7.dir/rule
+
+.PHONY : Programming_Exercises7
+
+# clean rule for target.
+CMakeFiles/Programming_Exercises7.dir/clean:
+	$(MAKE) -f CMakeFiles/Programming_Exercises7.dir/build.make CMakeFiles/Programming_Exercises7.dir/clean
+.PHONY : CMakeFiles/Programming_Exercises7.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Programming_Exercises7.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Programming_Exercises9.dir
+
+# All Build rule for target.
+CMakeFiles/Programming_Exercises9.dir/all:
+	$(MAKE) -f CMakeFiles/Programming_Exercises9.dir/build.make CMakeFiles/Programming_Exercises9.dir/depend
+	$(MAKE) -f CMakeFiles/Programming_Exercises9.dir/build.make CMakeFiles/Programming_Exercises9.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target Programming_Exercises9"
+.PHONY : CMakeFiles/Programming_Exercises9.dir/all
+
+# Include target in all.
+all: CMakeFiles/Programming_Exercises9.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Programming_Exercises9.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Programming_Exercises9.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Programming_Exercises9.dir/rule
+
+# Convenience name for target.
+Programming_Exercises9: CMakeFiles/Programming_Exercises9.dir/rule
+
+.PHONY : Programming_Exercises9
+
+# clean rule for target.
+CMakeFiles/Programming_Exercises9.dir/clean:
+	$(MAKE) -f CMakeFiles/Programming_Exercises9.dir/build.make CMakeFiles/Programming_Exercises9.dir/clean
+.PHONY : CMakeFiles/Programming_Exercises9.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Programming_Exercises9.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Programming_Exercises2.dir
+
+# All Build rule for target.
+CMakeFiles/Programming_Exercises2.dir/all:
+	$(MAKE) -f CMakeFiles/Programming_Exercises2.dir/build.make CMakeFiles/Programming_Exercises2.dir/depend
+	$(MAKE) -f CMakeFiles/Programming_Exercises2.dir/build.make CMakeFiles/Programming_Exercises2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target Programming_Exercises2"
+.PHONY : CMakeFiles/Programming_Exercises2.dir/all
+
+# Include target in all.
+all: CMakeFiles/Programming_Exercises2.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Programming_Exercises2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Programming_Exercises2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Programming_Exercises2.dir/rule
+
+# Convenience name for target.
+Programming_Exercises2: CMakeFiles/Programming_Exercises2.dir/rule
+
+.PHONY : Programming_Exercises2
+
+# clean rule for target.
+CMakeFiles/Programming_Exercises2.dir/clean:
+	$(MAKE) -f CMakeFiles/Programming_Exercises2.dir/build.make CMakeFiles/Programming_Exercises2.dir/clean
+.PHONY : CMakeFiles/Programming_Exercises2.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Programming_Exercises2.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Programming_Exercises6.dir
+
+# All Build rule for target.
+CMakeFiles/Programming_Exercises6.dir/all:
+	$(MAKE) -f CMakeFiles/Programming_Exercises6.dir/build.make CMakeFiles/Programming_Exercises6.dir/depend
+	$(MAKE) -f CMakeFiles/Programming_Exercises6.dir/build.make CMakeFiles/Programming_Exercises6.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target Programming_Exercises6"
+.PHONY : CMakeFiles/Programming_Exercises6.dir/all
+
+# Include target in all.
+all: CMakeFiles/Programming_Exercises6.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Programming_Exercises6.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Programming_Exercises6.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Programming_Exercises6.dir/rule
+
+# Convenience name for target.
+Programming_Exercises6: CMakeFiles/Programming_Exercises6.dir/rule
+
+.PHONY : Programming_Exercises6
+
+# clean rule for target.
+CMakeFiles/Programming_Exercises6.dir/clean:
+	$(MAKE) -f CMakeFiles/Programming_Exercises6.dir/build.make CMakeFiles/Programming_Exercises6.dir/clean
+.PHONY : CMakeFiles/Programming_Exercises6.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Programming_Exercises6.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Programming_Exercises4.dir
+
+# All Build rule for target.
+CMakeFiles/Programming_Exercises4.dir/all:
+	$(MAKE) -f CMakeFiles/Programming_Exercises4.dir/build.make CMakeFiles/Programming_Exercises4.dir/depend
+	$(MAKE) -f CMakeFiles/Programming_Exercises4.dir/build.make CMakeFiles/Programming_Exercises4.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target Programming_Exercises4"
+.PHONY : CMakeFiles/Programming_Exercises4.dir/all
+
+# Include target in all.
+all: CMakeFiles/Programming_Exercises4.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Programming_Exercises4.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Programming_Exercises4.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Programming_Exercises4.dir/rule
+
+# Convenience name for target.
+Programming_Exercises4: CMakeFiles/Programming_Exercises4.dir/rule
+
+.PHONY : Programming_Exercises4
+
+# clean rule for target.
+CMakeFiles/Programming_Exercises4.dir/clean:
+	$(MAKE) -f CMakeFiles/Programming_Exercises4.dir/build.make CMakeFiles/Programming_Exercises4.dir/clean
+.PHONY : CMakeFiles/Programming_Exercises4.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Programming_Exercises4.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Programming_Exercises5.1.dir
+
+# All Build rule for target.
+CMakeFiles/Programming_Exercises5.1.dir/all:
+	$(MAKE) -f CMakeFiles/Programming_Exercises5.1.dir/build.make CMakeFiles/Programming_Exercises5.1.dir/depend
+	$(MAKE) -f CMakeFiles/Programming_Exercises5.1.dir/build.make CMakeFiles/Programming_Exercises5.1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target Programming_Exercises5.1"
+.PHONY : CMakeFiles/Programming_Exercises5.1.dir/all
+
+# Include target in all.
+all: CMakeFiles/Programming_Exercises5.1.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Programming_Exercises5.1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Programming_Exercises5.1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Programming_Exercises5.1.dir/rule
+
+# Convenience name for target.
+Programming_Exercises5.1: CMakeFiles/Programming_Exercises5.1.dir/rule
+
+.PHONY : Programming_Exercises5.1
+
+# clean rule for target.
+CMakeFiles/Programming_Exercises5.1.dir/clean:
+	$(MAKE) -f CMakeFiles/Programming_Exercises5.1.dir/build.make CMakeFiles/Programming_Exercises5.1.dir/clean
+.PHONY : CMakeFiles/Programming_Exercises5.1.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Programming_Exercises5.1.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Programming_Exercises1.dir
+
+# All Build rule for target.
+CMakeFiles/Programming_Exercises1.dir/all:
+	$(MAKE) -f CMakeFiles/Programming_Exercises1.dir/build.make CMakeFiles/Programming_Exercises1.dir/depend
+	$(MAKE) -f CMakeFiles/Programming_Exercises1.dir/build.make CMakeFiles/Programming_Exercises1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target Programming_Exercises1"
+.PHONY : CMakeFiles/Programming_Exercises1.dir/all
+
+# Include target in all.
+all: CMakeFiles/Programming_Exercises1.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Programming_Exercises1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles 12
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Programming_Exercises1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Programming_Exercises1.dir/rule
+
+# Convenience name for target.
+Programming_Exercises1: CMakeFiles/Programming_Exercises1.dir/rule
+
+.PHONY : Programming_Exercises1
+
+# clean rule for target.
+CMakeFiles/Programming_Exercises1.dir/clean:
+	$(MAKE) -f CMakeFiles/Programming_Exercises1.dir/build.make CMakeFiles/Programming_Exercises1.dir/clean
+.PHONY : CMakeFiles/Programming_Exercises1.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Programming_Exercises1.dir/clean
 
 .PHONY : clean
 

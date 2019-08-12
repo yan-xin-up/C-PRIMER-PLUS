@@ -11,11 +11,11 @@ int main(void)
     for(size_t i=0;i< le;i++)
     {
         char temp = 'A' - 1;
-        for(size_t b=0;b<(le-i-1);b++)
+        for(size_t j=0;j<(le-i-1);j++)
         {
             printf(" ");
         }
-            for(size_t b=0;b<=i;b++)
+            for(size_t k=0;k<=i;k++)
             {
                 printf("%c", ++temp);
             }

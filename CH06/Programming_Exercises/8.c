@@ -1,17 +1,18 @@
 //8.c--差减积
-#include<string.h>
+#include<stdio.h>
 int main(void)
 {
-    float a,b;
-    int status;
+    double a,b;
+    double result;
     printf("please enter two words\n");
 
-    status = scanf("%f %f", &a,&b);
-    while(status == 2)
+    while(scanf("%lf %lf",&a,&b) == 2)
     {
-        printf("%f", (a - b) / a * b);
+        double sub = a - b;
+        double pro = a * b;
+        result = sub / pro;
+        printf("%lf",result);
         printf("\n");
-        scanf("%f %f",&a,&b);
     }
 
     return 0;

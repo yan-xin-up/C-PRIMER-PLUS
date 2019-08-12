@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/1.c" "/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles/Programming_Exercises.dir/1.c.o"
+  "/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/2.c" "/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles/Programming_Exercises.dir/2.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
