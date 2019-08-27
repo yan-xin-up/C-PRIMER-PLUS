@@ -70,167 +70,47 @@ CMakeFiles/Programming_Exercises1.dir/1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Programming_Exercises1.dir/1.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/1.c -o CMakeFiles/Programming_Exercises1.dir/1.c.s
 
-CMakeFiles/Programming_Exercises1.dir/2.c.o: CMakeFiles/Programming_Exercises1.dir/flags.make
-CMakeFiles/Programming_Exercises1.dir/2.c.o: ../2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Programming_Exercises1.dir/2.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Programming_Exercises1.dir/2.c.o   -c /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/2.c
+CMakeFiles/Programming_Exercises1.dir/13.c.o: CMakeFiles/Programming_Exercises1.dir/flags.make
+CMakeFiles/Programming_Exercises1.dir/13.c.o: ../13.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Programming_Exercises1.dir/13.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Programming_Exercises1.dir/13.c.o   -c /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/13.c
 
-CMakeFiles/Programming_Exercises1.dir/2.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Programming_Exercises1.dir/2.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/2.c > CMakeFiles/Programming_Exercises1.dir/2.c.i
+CMakeFiles/Programming_Exercises1.dir/13.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Programming_Exercises1.dir/13.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/13.c > CMakeFiles/Programming_Exercises1.dir/13.c.i
 
-CMakeFiles/Programming_Exercises1.dir/2.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Programming_Exercises1.dir/2.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/2.c -o CMakeFiles/Programming_Exercises1.dir/2.c.s
+CMakeFiles/Programming_Exercises1.dir/13.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Programming_Exercises1.dir/13.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/13.c -o CMakeFiles/Programming_Exercises1.dir/13.c.s
 
-CMakeFiles/Programming_Exercises1.dir/3.c.o: CMakeFiles/Programming_Exercises1.dir/flags.make
-CMakeFiles/Programming_Exercises1.dir/3.c.o: ../3.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Programming_Exercises1.dir/3.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Programming_Exercises1.dir/3.c.o   -c /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/3.c
+CMakeFiles/Programming_Exercises1.dir/14.c.o: CMakeFiles/Programming_Exercises1.dir/flags.make
+CMakeFiles/Programming_Exercises1.dir/14.c.o: ../14.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Programming_Exercises1.dir/14.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Programming_Exercises1.dir/14.c.o   -c /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/14.c
 
-CMakeFiles/Programming_Exercises1.dir/3.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Programming_Exercises1.dir/3.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/3.c > CMakeFiles/Programming_Exercises1.dir/3.c.i
+CMakeFiles/Programming_Exercises1.dir/14.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Programming_Exercises1.dir/14.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/14.c > CMakeFiles/Programming_Exercises1.dir/14.c.i
 
-CMakeFiles/Programming_Exercises1.dir/3.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Programming_Exercises1.dir/3.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/3.c -o CMakeFiles/Programming_Exercises1.dir/3.c.s
-
-CMakeFiles/Programming_Exercises1.dir/4.c.o: CMakeFiles/Programming_Exercises1.dir/flags.make
-CMakeFiles/Programming_Exercises1.dir/4.c.o: ../4.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Programming_Exercises1.dir/4.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Programming_Exercises1.dir/4.c.o   -c /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/4.c
-
-CMakeFiles/Programming_Exercises1.dir/4.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Programming_Exercises1.dir/4.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/4.c > CMakeFiles/Programming_Exercises1.dir/4.c.i
-
-CMakeFiles/Programming_Exercises1.dir/4.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Programming_Exercises1.dir/4.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/4.c -o CMakeFiles/Programming_Exercises1.dir/4.c.s
-
-CMakeFiles/Programming_Exercises1.dir/5.c.o: CMakeFiles/Programming_Exercises1.dir/flags.make
-CMakeFiles/Programming_Exercises1.dir/5.c.o: ../5.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Programming_Exercises1.dir/5.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Programming_Exercises1.dir/5.c.o   -c /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/5.c
-
-CMakeFiles/Programming_Exercises1.dir/5.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Programming_Exercises1.dir/5.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/5.c > CMakeFiles/Programming_Exercises1.dir/5.c.i
-
-CMakeFiles/Programming_Exercises1.dir/5.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Programming_Exercises1.dir/5.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/5.c -o CMakeFiles/Programming_Exercises1.dir/5.c.s
-
-CMakeFiles/Programming_Exercises1.dir/5.1.c.o: CMakeFiles/Programming_Exercises1.dir/flags.make
-CMakeFiles/Programming_Exercises1.dir/5.1.c.o: ../5.1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Programming_Exercises1.dir/5.1.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Programming_Exercises1.dir/5.1.c.o   -c /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/5.1.c
-
-CMakeFiles/Programming_Exercises1.dir/5.1.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Programming_Exercises1.dir/5.1.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/5.1.c > CMakeFiles/Programming_Exercises1.dir/5.1.c.i
-
-CMakeFiles/Programming_Exercises1.dir/5.1.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Programming_Exercises1.dir/5.1.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/5.1.c -o CMakeFiles/Programming_Exercises1.dir/5.1.c.s
-
-CMakeFiles/Programming_Exercises1.dir/6.c.o: CMakeFiles/Programming_Exercises1.dir/flags.make
-CMakeFiles/Programming_Exercises1.dir/6.c.o: ../6.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Programming_Exercises1.dir/6.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Programming_Exercises1.dir/6.c.o   -c /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/6.c
-
-CMakeFiles/Programming_Exercises1.dir/6.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Programming_Exercises1.dir/6.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/6.c > CMakeFiles/Programming_Exercises1.dir/6.c.i
-
-CMakeFiles/Programming_Exercises1.dir/6.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Programming_Exercises1.dir/6.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/6.c -o CMakeFiles/Programming_Exercises1.dir/6.c.s
-
-CMakeFiles/Programming_Exercises1.dir/7.c.o: CMakeFiles/Programming_Exercises1.dir/flags.make
-CMakeFiles/Programming_Exercises1.dir/7.c.o: ../7.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/Programming_Exercises1.dir/7.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Programming_Exercises1.dir/7.c.o   -c /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/7.c
-
-CMakeFiles/Programming_Exercises1.dir/7.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Programming_Exercises1.dir/7.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/7.c > CMakeFiles/Programming_Exercises1.dir/7.c.i
-
-CMakeFiles/Programming_Exercises1.dir/7.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Programming_Exercises1.dir/7.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/7.c -o CMakeFiles/Programming_Exercises1.dir/7.c.s
-
-CMakeFiles/Programming_Exercises1.dir/8.c.o: CMakeFiles/Programming_Exercises1.dir/flags.make
-CMakeFiles/Programming_Exercises1.dir/8.c.o: ../8.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/Programming_Exercises1.dir/8.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Programming_Exercises1.dir/8.c.o   -c /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/8.c
-
-CMakeFiles/Programming_Exercises1.dir/8.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Programming_Exercises1.dir/8.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/8.c > CMakeFiles/Programming_Exercises1.dir/8.c.i
-
-CMakeFiles/Programming_Exercises1.dir/8.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Programming_Exercises1.dir/8.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/8.c -o CMakeFiles/Programming_Exercises1.dir/8.c.s
-
-CMakeFiles/Programming_Exercises1.dir/9.c.o: CMakeFiles/Programming_Exercises1.dir/flags.make
-CMakeFiles/Programming_Exercises1.dir/9.c.o: ../9.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/Programming_Exercises1.dir/9.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Programming_Exercises1.dir/9.c.o   -c /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/9.c
-
-CMakeFiles/Programming_Exercises1.dir/9.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Programming_Exercises1.dir/9.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/9.c > CMakeFiles/Programming_Exercises1.dir/9.c.i
-
-CMakeFiles/Programming_Exercises1.dir/9.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Programming_Exercises1.dir/9.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/9.c -o CMakeFiles/Programming_Exercises1.dir/9.c.s
-
-CMakeFiles/Programming_Exercises1.dir/10.c.o: CMakeFiles/Programming_Exercises1.dir/flags.make
-CMakeFiles/Programming_Exercises1.dir/10.c.o: ../10.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/Programming_Exercises1.dir/10.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Programming_Exercises1.dir/10.c.o   -c /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/10.c
-
-CMakeFiles/Programming_Exercises1.dir/10.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Programming_Exercises1.dir/10.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/10.c > CMakeFiles/Programming_Exercises1.dir/10.c.i
-
-CMakeFiles/Programming_Exercises1.dir/10.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Programming_Exercises1.dir/10.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/10.c -o CMakeFiles/Programming_Exercises1.dir/10.c.s
+CMakeFiles/Programming_Exercises1.dir/14.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Programming_Exercises1.dir/14.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/14.c -o CMakeFiles/Programming_Exercises1.dir/14.c.s
 
 # Object files for target Programming_Exercises1
 Programming_Exercises1_OBJECTS = \
 "CMakeFiles/Programming_Exercises1.dir/1.c.o" \
-"CMakeFiles/Programming_Exercises1.dir/2.c.o" \
-"CMakeFiles/Programming_Exercises1.dir/3.c.o" \
-"CMakeFiles/Programming_Exercises1.dir/4.c.o" \
-"CMakeFiles/Programming_Exercises1.dir/5.c.o" \
-"CMakeFiles/Programming_Exercises1.dir/5.1.c.o" \
-"CMakeFiles/Programming_Exercises1.dir/6.c.o" \
-"CMakeFiles/Programming_Exercises1.dir/7.c.o" \
-"CMakeFiles/Programming_Exercises1.dir/8.c.o" \
-"CMakeFiles/Programming_Exercises1.dir/9.c.o" \
-"CMakeFiles/Programming_Exercises1.dir/10.c.o"
+"CMakeFiles/Programming_Exercises1.dir/13.c.o" \
+"CMakeFiles/Programming_Exercises1.dir/14.c.o"
 
 # External object files for target Programming_Exercises1
 Programming_Exercises1_EXTERNAL_OBJECTS =
 
 Programming_Exercises1: CMakeFiles/Programming_Exercises1.dir/1.c.o
-Programming_Exercises1: CMakeFiles/Programming_Exercises1.dir/2.c.o
-Programming_Exercises1: CMakeFiles/Programming_Exercises1.dir/3.c.o
-Programming_Exercises1: CMakeFiles/Programming_Exercises1.dir/4.c.o
-Programming_Exercises1: CMakeFiles/Programming_Exercises1.dir/5.c.o
-Programming_Exercises1: CMakeFiles/Programming_Exercises1.dir/5.1.c.o
-Programming_Exercises1: CMakeFiles/Programming_Exercises1.dir/6.c.o
-Programming_Exercises1: CMakeFiles/Programming_Exercises1.dir/7.c.o
-Programming_Exercises1: CMakeFiles/Programming_Exercises1.dir/8.c.o
-Programming_Exercises1: CMakeFiles/Programming_Exercises1.dir/9.c.o
-Programming_Exercises1: CMakeFiles/Programming_Exercises1.dir/10.c.o
+Programming_Exercises1: CMakeFiles/Programming_Exercises1.dir/13.c.o
+Programming_Exercises1: CMakeFiles/Programming_Exercises1.dir/14.c.o
 Programming_Exercises1: CMakeFiles/Programming_Exercises1.dir/build.make
 Programming_Exercises1: CMakeFiles/Programming_Exercises1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking C executable Programming_Exercises1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable Programming_Exercises1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Programming_Exercises1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

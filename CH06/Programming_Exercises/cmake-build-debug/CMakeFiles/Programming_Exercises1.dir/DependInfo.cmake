@@ -5,16 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/1.c" "/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles/Programming_Exercises1.dir/1.c.o"
-  "/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/10.c" "/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles/Programming_Exercises1.dir/10.c.o"
-  "/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/2.c" "/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles/Programming_Exercises1.dir/2.c.o"
-  "/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/3.c" "/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles/Programming_Exercises1.dir/3.c.o"
-  "/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/4.c" "/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles/Programming_Exercises1.dir/4.c.o"
-  "/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/5.1.c" "/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles/Programming_Exercises1.dir/5.1.c.o"
-  "/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/5.c" "/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles/Programming_Exercises1.dir/5.c.o"
-  "/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/6.c" "/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles/Programming_Exercises1.dir/6.c.o"
-  "/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/7.c" "/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles/Programming_Exercises1.dir/7.c.o"
-  "/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/8.c" "/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles/Programming_Exercises1.dir/8.c.o"
-  "/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/9.c" "/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles/Programming_Exercises1.dir/9.c.o"
+  "/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/13.c" "/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles/Programming_Exercises1.dir/13.c.o"
+  "/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/14.c" "/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles/Programming_Exercises1.dir/14.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

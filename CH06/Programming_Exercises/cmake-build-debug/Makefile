@@ -111,6 +111,71 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Programming_Exercises15
+
+# Build rule for target.
+Programming_Exercises15: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Programming_Exercises15
+.PHONY : Programming_Exercises15
+
+# fast build rule for target.
+Programming_Exercises15/fast:
+	$(MAKE) -f CMakeFiles/Programming_Exercises15.dir/build.make CMakeFiles/Programming_Exercises15.dir/build
+.PHONY : Programming_Exercises15/fast
+
+#=============================================================================
+# Target rules for targets named Programming_Exercises14
+
+# Build rule for target.
+Programming_Exercises14: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Programming_Exercises14
+.PHONY : Programming_Exercises14
+
+# fast build rule for target.
+Programming_Exercises14/fast:
+	$(MAKE) -f CMakeFiles/Programming_Exercises14.dir/build.make CMakeFiles/Programming_Exercises14.dir/build
+.PHONY : Programming_Exercises14/fast
+
+#=============================================================================
+# Target rules for targets named Programming_Exercises13
+
+# Build rule for target.
+Programming_Exercises13: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Programming_Exercises13
+.PHONY : Programming_Exercises13
+
+# fast build rule for target.
+Programming_Exercises13/fast:
+	$(MAKE) -f CMakeFiles/Programming_Exercises13.dir/build.make CMakeFiles/Programming_Exercises13.dir/build
+.PHONY : Programming_Exercises13/fast
+
+#=============================================================================
+# Target rules for targets named Programming_Exercises12
+
+# Build rule for target.
+Programming_Exercises12: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Programming_Exercises12
+.PHONY : Programming_Exercises12
+
+# fast build rule for target.
+Programming_Exercises12/fast:
+	$(MAKE) -f CMakeFiles/Programming_Exercises12.dir/build.make CMakeFiles/Programming_Exercises12.dir/build
+.PHONY : Programming_Exercises12/fast
+
+#=============================================================================
+# Target rules for targets named Programming_Exercises11
+
+# Build rule for target.
+Programming_Exercises11: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Programming_Exercises11
+.PHONY : Programming_Exercises11
+
+# fast build rule for target.
+Programming_Exercises11/fast:
+	$(MAKE) -f CMakeFiles/Programming_Exercises11.dir/build.make CMakeFiles/Programming_Exercises11.dir/build
+.PHONY : Programming_Exercises11/fast
+
+#=============================================================================
 # Target rules for targets named Programming_Exercises5
 
 # Build rule for target.
@@ -287,7 +352,6 @@ Programming_Exercises1/fast:
 # target to build an object file
 10.c.o:
 	$(MAKE) -f CMakeFiles/Programming_Exercises10.dir/build.make CMakeFiles/Programming_Exercises10.dir/10.c.o
-	$(MAKE) -f CMakeFiles/Programming_Exercises1.dir/build.make CMakeFiles/Programming_Exercises1.dir/10.c.o
 .PHONY : 10.c.o
 
 10.i: 10.c.i
@@ -297,7 +361,6 @@ Programming_Exercises1/fast:
 # target to preprocess a source file
 10.c.i:
 	$(MAKE) -f CMakeFiles/Programming_Exercises10.dir/build.make CMakeFiles/Programming_Exercises10.dir/10.c.i
-	$(MAKE) -f CMakeFiles/Programming_Exercises1.dir/build.make CMakeFiles/Programming_Exercises1.dir/10.c.i
 .PHONY : 10.c.i
 
 10.s: 10.c.s
@@ -307,8 +370,148 @@ Programming_Exercises1/fast:
 # target to generate assembly for a file
 10.c.s:
 	$(MAKE) -f CMakeFiles/Programming_Exercises10.dir/build.make CMakeFiles/Programming_Exercises10.dir/10.c.s
-	$(MAKE) -f CMakeFiles/Programming_Exercises1.dir/build.make CMakeFiles/Programming_Exercises1.dir/10.c.s
 .PHONY : 10.c.s
+
+11.o: 11.c.o
+
+.PHONY : 11.o
+
+# target to build an object file
+11.c.o:
+	$(MAKE) -f CMakeFiles/Programming_Exercises11.dir/build.make CMakeFiles/Programming_Exercises11.dir/11.c.o
+.PHONY : 11.c.o
+
+11.i: 11.c.i
+
+.PHONY : 11.i
+
+# target to preprocess a source file
+11.c.i:
+	$(MAKE) -f CMakeFiles/Programming_Exercises11.dir/build.make CMakeFiles/Programming_Exercises11.dir/11.c.i
+.PHONY : 11.c.i
+
+11.s: 11.c.s
+
+.PHONY : 11.s
+
+# target to generate assembly for a file
+11.c.s:
+	$(MAKE) -f CMakeFiles/Programming_Exercises11.dir/build.make CMakeFiles/Programming_Exercises11.dir/11.c.s
+.PHONY : 11.c.s
+
+12.o: 12.c.o
+
+.PHONY : 12.o
+
+# target to build an object file
+12.c.o:
+	$(MAKE) -f CMakeFiles/Programming_Exercises12.dir/build.make CMakeFiles/Programming_Exercises12.dir/12.c.o
+.PHONY : 12.c.o
+
+12.i: 12.c.i
+
+.PHONY : 12.i
+
+# target to preprocess a source file
+12.c.i:
+	$(MAKE) -f CMakeFiles/Programming_Exercises12.dir/build.make CMakeFiles/Programming_Exercises12.dir/12.c.i
+.PHONY : 12.c.i
+
+12.s: 12.c.s
+
+.PHONY : 12.s
+
+# target to generate assembly for a file
+12.c.s:
+	$(MAKE) -f CMakeFiles/Programming_Exercises12.dir/build.make CMakeFiles/Programming_Exercises12.dir/12.c.s
+.PHONY : 12.c.s
+
+13.o: 13.c.o
+
+.PHONY : 13.o
+
+# target to build an object file
+13.c.o:
+	$(MAKE) -f CMakeFiles/Programming_Exercises13.dir/build.make CMakeFiles/Programming_Exercises13.dir/13.c.o
+	$(MAKE) -f CMakeFiles/Programming_Exercises1.dir/build.make CMakeFiles/Programming_Exercises1.dir/13.c.o
+.PHONY : 13.c.o
+
+13.i: 13.c.i
+
+.PHONY : 13.i
+
+# target to preprocess a source file
+13.c.i:
+	$(MAKE) -f CMakeFiles/Programming_Exercises13.dir/build.make CMakeFiles/Programming_Exercises13.dir/13.c.i
+	$(MAKE) -f CMakeFiles/Programming_Exercises1.dir/build.make CMakeFiles/Programming_Exercises1.dir/13.c.i
+.PHONY : 13.c.i
+
+13.s: 13.c.s
+
+.PHONY : 13.s
+
+# target to generate assembly for a file
+13.c.s:
+	$(MAKE) -f CMakeFiles/Programming_Exercises13.dir/build.make CMakeFiles/Programming_Exercises13.dir/13.c.s
+	$(MAKE) -f CMakeFiles/Programming_Exercises1.dir/build.make CMakeFiles/Programming_Exercises1.dir/13.c.s
+.PHONY : 13.c.s
+
+14.o: 14.c.o
+
+.PHONY : 14.o
+
+# target to build an object file
+14.c.o:
+	$(MAKE) -f CMakeFiles/Programming_Exercises14.dir/build.make CMakeFiles/Programming_Exercises14.dir/14.c.o
+	$(MAKE) -f CMakeFiles/Programming_Exercises1.dir/build.make CMakeFiles/Programming_Exercises1.dir/14.c.o
+.PHONY : 14.c.o
+
+14.i: 14.c.i
+
+.PHONY : 14.i
+
+# target to preprocess a source file
+14.c.i:
+	$(MAKE) -f CMakeFiles/Programming_Exercises14.dir/build.make CMakeFiles/Programming_Exercises14.dir/14.c.i
+	$(MAKE) -f CMakeFiles/Programming_Exercises1.dir/build.make CMakeFiles/Programming_Exercises1.dir/14.c.i
+.PHONY : 14.c.i
+
+14.s: 14.c.s
+
+.PHONY : 14.s
+
+# target to generate assembly for a file
+14.c.s:
+	$(MAKE) -f CMakeFiles/Programming_Exercises14.dir/build.make CMakeFiles/Programming_Exercises14.dir/14.c.s
+	$(MAKE) -f CMakeFiles/Programming_Exercises1.dir/build.make CMakeFiles/Programming_Exercises1.dir/14.c.s
+.PHONY : 14.c.s
+
+15.o: 15.c.o
+
+.PHONY : 15.o
+
+# target to build an object file
+15.c.o:
+	$(MAKE) -f CMakeFiles/Programming_Exercises15.dir/build.make CMakeFiles/Programming_Exercises15.dir/15.c.o
+.PHONY : 15.c.o
+
+15.i: 15.c.i
+
+.PHONY : 15.i
+
+# target to preprocess a source file
+15.c.i:
+	$(MAKE) -f CMakeFiles/Programming_Exercises15.dir/build.make CMakeFiles/Programming_Exercises15.dir/15.c.i
+.PHONY : 15.c.i
+
+15.s: 15.c.s
+
+.PHONY : 15.s
+
+# target to generate assembly for a file
+15.c.s:
+	$(MAKE) -f CMakeFiles/Programming_Exercises15.dir/build.make CMakeFiles/Programming_Exercises15.dir/15.c.s
+.PHONY : 15.c.s
 
 2.o: 2.c.o
 
@@ -317,7 +520,6 @@ Programming_Exercises1/fast:
 # target to build an object file
 2.c.o:
 	$(MAKE) -f CMakeFiles/Programming_Exercises2.dir/build.make CMakeFiles/Programming_Exercises2.dir/2.c.o
-	$(MAKE) -f CMakeFiles/Programming_Exercises1.dir/build.make CMakeFiles/Programming_Exercises1.dir/2.c.o
 .PHONY : 2.c.o
 
 2.i: 2.c.i
@@ -327,7 +529,6 @@ Programming_Exercises1/fast:
 # target to preprocess a source file
 2.c.i:
 	$(MAKE) -f CMakeFiles/Programming_Exercises2.dir/build.make CMakeFiles/Programming_Exercises2.dir/2.c.i
-	$(MAKE) -f CMakeFiles/Programming_Exercises1.dir/build.make CMakeFiles/Programming_Exercises1.dir/2.c.i
 .PHONY : 2.c.i
 
 2.s: 2.c.s
@@ -337,7 +538,6 @@ Programming_Exercises1/fast:
 # target to generate assembly for a file
 2.c.s:
 	$(MAKE) -f CMakeFiles/Programming_Exercises2.dir/build.make CMakeFiles/Programming_Exercises2.dir/2.c.s
-	$(MAKE) -f CMakeFiles/Programming_Exercises1.dir/build.make CMakeFiles/Programming_Exercises1.dir/2.c.s
 .PHONY : 2.c.s
 
 3.o: 3.c.o
@@ -347,7 +547,6 @@ Programming_Exercises1/fast:
 # target to build an object file
 3.c.o:
 	$(MAKE) -f CMakeFiles/Programming_Exercises3.dir/build.make CMakeFiles/Programming_Exercises3.dir/3.c.o
-	$(MAKE) -f CMakeFiles/Programming_Exercises1.dir/build.make CMakeFiles/Programming_Exercises1.dir/3.c.o
 .PHONY : 3.c.o
 
 3.i: 3.c.i
@@ -357,7 +556,6 @@ Programming_Exercises1/fast:
 # target to preprocess a source file
 3.c.i:
 	$(MAKE) -f CMakeFiles/Programming_Exercises3.dir/build.make CMakeFiles/Programming_Exercises3.dir/3.c.i
-	$(MAKE) -f CMakeFiles/Programming_Exercises1.dir/build.make CMakeFiles/Programming_Exercises1.dir/3.c.i
 .PHONY : 3.c.i
 
 3.s: 3.c.s
@@ -367,7 +565,6 @@ Programming_Exercises1/fast:
 # target to generate assembly for a file
 3.c.s:
 	$(MAKE) -f CMakeFiles/Programming_Exercises3.dir/build.make CMakeFiles/Programming_Exercises3.dir/3.c.s
-	$(MAKE) -f CMakeFiles/Programming_Exercises1.dir/build.make CMakeFiles/Programming_Exercises1.dir/3.c.s
 .PHONY : 3.c.s
 
 4.o: 4.c.o
@@ -377,7 +574,6 @@ Programming_Exercises1/fast:
 # target to build an object file
 4.c.o:
 	$(MAKE) -f CMakeFiles/Programming_Exercises4.dir/build.make CMakeFiles/Programming_Exercises4.dir/4.c.o
-	$(MAKE) -f CMakeFiles/Programming_Exercises1.dir/build.make CMakeFiles/Programming_Exercises1.dir/4.c.o
 .PHONY : 4.c.o
 
 4.i: 4.c.i
@@ -387,7 +583,6 @@ Programming_Exercises1/fast:
 # target to preprocess a source file
 4.c.i:
 	$(MAKE) -f CMakeFiles/Programming_Exercises4.dir/build.make CMakeFiles/Programming_Exercises4.dir/4.c.i
-	$(MAKE) -f CMakeFiles/Programming_Exercises1.dir/build.make CMakeFiles/Programming_Exercises1.dir/4.c.i
 .PHONY : 4.c.i
 
 4.s: 4.c.s
@@ -397,7 +592,6 @@ Programming_Exercises1/fast:
 # target to generate assembly for a file
 4.c.s:
 	$(MAKE) -f CMakeFiles/Programming_Exercises4.dir/build.make CMakeFiles/Programming_Exercises4.dir/4.c.s
-	$(MAKE) -f CMakeFiles/Programming_Exercises1.dir/build.make CMakeFiles/Programming_Exercises1.dir/4.c.s
 .PHONY : 4.c.s
 
 5.1.o: 5.1.c.o
@@ -407,7 +601,6 @@ Programming_Exercises1/fast:
 # target to build an object file
 5.1.c.o:
 	$(MAKE) -f CMakeFiles/Programming_Exercises5.1.dir/build.make CMakeFiles/Programming_Exercises5.1.dir/5.1.c.o
-	$(MAKE) -f CMakeFiles/Programming_Exercises1.dir/build.make CMakeFiles/Programming_Exercises1.dir/5.1.c.o
 .PHONY : 5.1.c.o
 
 5.1.i: 5.1.c.i
@@ -417,7 +610,6 @@ Programming_Exercises1/fast:
 # target to preprocess a source file
 5.1.c.i:
 	$(MAKE) -f CMakeFiles/Programming_Exercises5.1.dir/build.make CMakeFiles/Programming_Exercises5.1.dir/5.1.c.i
-	$(MAKE) -f CMakeFiles/Programming_Exercises1.dir/build.make CMakeFiles/Programming_Exercises1.dir/5.1.c.i
 .PHONY : 5.1.c.i
 
 5.1.s: 5.1.c.s
@@ -427,7 +619,6 @@ Programming_Exercises1/fast:
 # target to generate assembly for a file
 5.1.c.s:
 	$(MAKE) -f CMakeFiles/Programming_Exercises5.1.dir/build.make CMakeFiles/Programming_Exercises5.1.dir/5.1.c.s
-	$(MAKE) -f CMakeFiles/Programming_Exercises1.dir/build.make CMakeFiles/Programming_Exercises1.dir/5.1.c.s
 .PHONY : 5.1.c.s
 
 5.o: 5.c.o
@@ -437,7 +628,6 @@ Programming_Exercises1/fast:
 # target to build an object file
 5.c.o:
 	$(MAKE) -f CMakeFiles/Programming_Exercises5.dir/build.make CMakeFiles/Programming_Exercises5.dir/5.c.o
-	$(MAKE) -f CMakeFiles/Programming_Exercises1.dir/build.make CMakeFiles/Programming_Exercises1.dir/5.c.o
 .PHONY : 5.c.o
 
 5.i: 5.c.i
@@ -447,7 +637,6 @@ Programming_Exercises1/fast:
 # target to preprocess a source file
 5.c.i:
 	$(MAKE) -f CMakeFiles/Programming_Exercises5.dir/build.make CMakeFiles/Programming_Exercises5.dir/5.c.i
-	$(MAKE) -f CMakeFiles/Programming_Exercises1.dir/build.make CMakeFiles/Programming_Exercises1.dir/5.c.i
 .PHONY : 5.c.i
 
 5.s: 5.c.s
@@ -457,7 +646,6 @@ Programming_Exercises1/fast:
 # target to generate assembly for a file
 5.c.s:
 	$(MAKE) -f CMakeFiles/Programming_Exercises5.dir/build.make CMakeFiles/Programming_Exercises5.dir/5.c.s
-	$(MAKE) -f CMakeFiles/Programming_Exercises1.dir/build.make CMakeFiles/Programming_Exercises1.dir/5.c.s
 .PHONY : 5.c.s
 
 6.o: 6.c.o
@@ -467,7 +655,6 @@ Programming_Exercises1/fast:
 # target to build an object file
 6.c.o:
 	$(MAKE) -f CMakeFiles/Programming_Exercises6.dir/build.make CMakeFiles/Programming_Exercises6.dir/6.c.o
-	$(MAKE) -f CMakeFiles/Programming_Exercises1.dir/build.make CMakeFiles/Programming_Exercises1.dir/6.c.o
 .PHONY : 6.c.o
 
 6.i: 6.c.i
@@ -477,7 +664,6 @@ Programming_Exercises1/fast:
 # target to preprocess a source file
 6.c.i:
 	$(MAKE) -f CMakeFiles/Programming_Exercises6.dir/build.make CMakeFiles/Programming_Exercises6.dir/6.c.i
-	$(MAKE) -f CMakeFiles/Programming_Exercises1.dir/build.make CMakeFiles/Programming_Exercises1.dir/6.c.i
 .PHONY : 6.c.i
 
 6.s: 6.c.s
@@ -487,7 +673,6 @@ Programming_Exercises1/fast:
 # target to generate assembly for a file
 6.c.s:
 	$(MAKE) -f CMakeFiles/Programming_Exercises6.dir/build.make CMakeFiles/Programming_Exercises6.dir/6.c.s
-	$(MAKE) -f CMakeFiles/Programming_Exercises1.dir/build.make CMakeFiles/Programming_Exercises1.dir/6.c.s
 .PHONY : 6.c.s
 
 7.o: 7.c.o
@@ -497,7 +682,6 @@ Programming_Exercises1/fast:
 # target to build an object file
 7.c.o:
 	$(MAKE) -f CMakeFiles/Programming_Exercises7.dir/build.make CMakeFiles/Programming_Exercises7.dir/7.c.o
-	$(MAKE) -f CMakeFiles/Programming_Exercises1.dir/build.make CMakeFiles/Programming_Exercises1.dir/7.c.o
 .PHONY : 7.c.o
 
 7.i: 7.c.i
@@ -507,7 +691,6 @@ Programming_Exercises1/fast:
 # target to preprocess a source file
 7.c.i:
 	$(MAKE) -f CMakeFiles/Programming_Exercises7.dir/build.make CMakeFiles/Programming_Exercises7.dir/7.c.i
-	$(MAKE) -f CMakeFiles/Programming_Exercises1.dir/build.make CMakeFiles/Programming_Exercises1.dir/7.c.i
 .PHONY : 7.c.i
 
 7.s: 7.c.s
@@ -517,7 +700,6 @@ Programming_Exercises1/fast:
 # target to generate assembly for a file
 7.c.s:
 	$(MAKE) -f CMakeFiles/Programming_Exercises7.dir/build.make CMakeFiles/Programming_Exercises7.dir/7.c.s
-	$(MAKE) -f CMakeFiles/Programming_Exercises1.dir/build.make CMakeFiles/Programming_Exercises1.dir/7.c.s
 .PHONY : 7.c.s
 
 8.o: 8.c.o
@@ -527,7 +709,6 @@ Programming_Exercises1/fast:
 # target to build an object file
 8.c.o:
 	$(MAKE) -f CMakeFiles/Programming_Exercises8.dir/build.make CMakeFiles/Programming_Exercises8.dir/8.c.o
-	$(MAKE) -f CMakeFiles/Programming_Exercises1.dir/build.make CMakeFiles/Programming_Exercises1.dir/8.c.o
 .PHONY : 8.c.o
 
 8.i: 8.c.i
@@ -537,7 +718,6 @@ Programming_Exercises1/fast:
 # target to preprocess a source file
 8.c.i:
 	$(MAKE) -f CMakeFiles/Programming_Exercises8.dir/build.make CMakeFiles/Programming_Exercises8.dir/8.c.i
-	$(MAKE) -f CMakeFiles/Programming_Exercises1.dir/build.make CMakeFiles/Programming_Exercises1.dir/8.c.i
 .PHONY : 8.c.i
 
 8.s: 8.c.s
@@ -547,7 +727,6 @@ Programming_Exercises1/fast:
 # target to generate assembly for a file
 8.c.s:
 	$(MAKE) -f CMakeFiles/Programming_Exercises8.dir/build.make CMakeFiles/Programming_Exercises8.dir/8.c.s
-	$(MAKE) -f CMakeFiles/Programming_Exercises1.dir/build.make CMakeFiles/Programming_Exercises1.dir/8.c.s
 .PHONY : 8.c.s
 
 9.o: 9.c.o
@@ -557,7 +736,6 @@ Programming_Exercises1/fast:
 # target to build an object file
 9.c.o:
 	$(MAKE) -f CMakeFiles/Programming_Exercises9.dir/build.make CMakeFiles/Programming_Exercises9.dir/9.c.o
-	$(MAKE) -f CMakeFiles/Programming_Exercises1.dir/build.make CMakeFiles/Programming_Exercises1.dir/9.c.o
 .PHONY : 9.c.o
 
 9.i: 9.c.i
@@ -567,7 +745,6 @@ Programming_Exercises1/fast:
 # target to preprocess a source file
 9.c.i:
 	$(MAKE) -f CMakeFiles/Programming_Exercises9.dir/build.make CMakeFiles/Programming_Exercises9.dir/9.c.i
-	$(MAKE) -f CMakeFiles/Programming_Exercises1.dir/build.make CMakeFiles/Programming_Exercises1.dir/9.c.i
 .PHONY : 9.c.i
 
 9.s: 9.c.s
@@ -577,7 +754,6 @@ Programming_Exercises1/fast:
 # target to generate assembly for a file
 9.c.s:
 	$(MAKE) -f CMakeFiles/Programming_Exercises9.dir/build.make CMakeFiles/Programming_Exercises9.dir/9.c.s
-	$(MAKE) -f CMakeFiles/Programming_Exercises1.dir/build.make CMakeFiles/Programming_Exercises1.dir/9.c.s
 .PHONY : 9.c.s
 
 # Help Target
@@ -586,6 +762,11 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... Programming_Exercises15"
+	@echo "... Programming_Exercises14"
+	@echo "... Programming_Exercises13"
+	@echo "... Programming_Exercises12"
+	@echo "... Programming_Exercises11"
 	@echo "... Programming_Exercises5"
 	@echo "... Programming_Exercises10"
 	@echo "... Programming_Exercises8"
@@ -605,6 +786,21 @@ help:
 	@echo "... 10.o"
 	@echo "... 10.i"
 	@echo "... 10.s"
+	@echo "... 11.o"
+	@echo "... 11.i"
+	@echo "... 11.s"
+	@echo "... 12.o"
+	@echo "... 12.i"
+	@echo "... 12.s"
+	@echo "... 13.o"
+	@echo "... 13.i"
+	@echo "... 13.s"
+	@echo "... 14.o"
+	@echo "... 14.i"
+	@echo "... 14.s"
+	@echo "... 15.o"
+	@echo "... 15.i"
+	@echo "... 15.s"
 	@echo "... 2.o"
 	@echo "... 2.i"
 	@echo "... 2.s"

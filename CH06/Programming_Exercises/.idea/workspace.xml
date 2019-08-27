@@ -6,13 +6,18 @@
       <config projectName="Programming_Exercises" targetName="Programming_Exercises7" />
       <config projectName="Programming_Exercises" targetName="Programming_Exercises6" />
       <config projectName="Programming_Exercises" targetName="Programming_Exercises9" />
-      <config projectName="Programming_Exercises" targetName="Programming_Exercises8" />
       <config projectName="Programming_Exercises" targetName="Programming_Exercises10" />
+      <config projectName="Programming_Exercises" targetName="Programming_Exercises8" />
       <config projectName="Programming_Exercises" targetName="Programming_Exercises3" />
       <config projectName="Programming_Exercises" targetName="Programming_Exercises2" />
       <config projectName="Programming_Exercises" targetName="Programming_Exercises5" />
-      <config projectName="Programming_Exercises" targetName="Programming_Exercises5.1" />
       <config projectName="Programming_Exercises" targetName="Programming_Exercises4" />
+      <config projectName="Programming_Exercises" targetName="Programming_Exercises15" />
+      <config projectName="Programming_Exercises" targetName="Programming_Exercises11" />
+      <config projectName="Programming_Exercises" targetName="Programming_Exercises12" />
+      <config projectName="Programming_Exercises" targetName="Programming_Exercises13" />
+      <config projectName="Programming_Exercises" targetName="Programming_Exercises14" />
+      <config projectName="Programming_Exercises" targetName="Programming_Exercises5.1" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -22,27 +27,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f942177-e0f3-4db8-a2d7-84149edf28bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/10.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.c" beforeDir="false" afterPath="$PROJECT_DIR$/2.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5.1.c" beforeDir="false" afterPath="$PROJECT_DIR$/5.1.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5.c" beforeDir="false" afterPath="$PROJECT_DIR$/5.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/8.c" beforeDir="false" afterPath="$PROJECT_DIR$/8.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programming_Exercises.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programming_Exercises.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programming_Exercises.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programming_Exercises.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programming_Exercises.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programming_Exercises.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programming_Exercises.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programming_Exercises.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programming_Exercises.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programming_Exercises.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programming_Exercises1.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programming_Exercises1.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programming_Exercises1.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programming_Exercises1.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programming_Exercises1.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programming_Exercises1.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programming_Exercises1.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programming_Exercises1.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programming_Exercises1.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programming_Exercises1.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programming_Exercises1.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programming_Exercises1.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programming_Exercises10.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programming_Exercises10.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programming_Exercises2.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programming_Exercises2.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programming_Exercises3.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programming_Exercises3.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programming_Exercises4.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programming_Exercises4.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programming_Exercises5.1.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programming_Exercises5.1.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programming_Exercises5.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programming_Exercises5.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programming_Exercises6.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programming_Exercises6.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programming_Exercises7.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programming_Exercises7.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programming_Exercises8.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programming_Exercises8.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programming_Exercises9.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programming_Exercises9.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Programming_Exercises.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Programming_Exercises.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Programming_Exercises4" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Programming_Exercises4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Review_Question/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Review_Question/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Review_Question/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Review_Question/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Review_Question/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Review_Question/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
@@ -86,9 +100,10 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="ObjectiveC" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="IntelliLang.Configuration" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -102,13 +117,38 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="CMake Application.Programming_Exercises10">
+  <component name="RunManager" selected="CMake Application.Programming_Exercises15">
     <configuration name="Programming_Exercises1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Programming_Exercises" TARGET_NAME="Programming_Exercises1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Programming_Exercises" RUN_TARGET_NAME="Programming_Exercises1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="Programming_Exercises10" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Programming_Exercises" TARGET_NAME="Programming_Exercises10" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Programming_Exercises" RUN_TARGET_NAME="Programming_Exercises10">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Programming_Exercises11" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Programming_Exercises" TARGET_NAME="Programming_Exercises11" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Programming_Exercises" RUN_TARGET_NAME="Programming_Exercises11">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Programming_Exercises12" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Programming_Exercises" TARGET_NAME="Programming_Exercises12" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Programming_Exercises" RUN_TARGET_NAME="Programming_Exercises12">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Programming_Exercises13" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Programming_Exercises" TARGET_NAME="Programming_Exercises13" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Programming_Exercises" RUN_TARGET_NAME="Programming_Exercises13">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Programming_Exercises14" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Programming_Exercises" TARGET_NAME="Programming_Exercises14" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Programming_Exercises" RUN_TARGET_NAME="Programming_Exercises14">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Programming_Exercises15" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Programming_Exercises" TARGET_NAME="Programming_Exercises15" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Programming_Exercises" RUN_TARGET_NAME="Programming_Exercises15">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -161,6 +201,11 @@
     <list>
       <item itemvalue="CMake Application.Programming_Exercises1" />
       <item itemvalue="CMake Application.Programming_Exercises10" />
+      <item itemvalue="CMake Application.Programming_Exercises11" />
+      <item itemvalue="CMake Application.Programming_Exercises12" />
+      <item itemvalue="CMake Application.Programming_Exercises13" />
+      <item itemvalue="CMake Application.Programming_Exercises14" />
+      <item itemvalue="CMake Application.Programming_Exercises15" />
       <item itemvalue="CMake Application.Programming_Exercises2" />
       <item itemvalue="CMake Application.Programming_Exercises3" />
       <item itemvalue="CMake Application.Programming_Exercises4" />
@@ -187,6 +232,13 @@
       <workItem from="1564409995259" duration="2756000" />
       <workItem from="1564929384106" duration="3982000" />
       <workItem from="1565103413611" duration="13914000" />
+      <workItem from="1565703573475" duration="2106000" />
+      <workItem from="1565708722376" duration="2132000" />
+      <workItem from="1565711664062" duration="211000" />
+      <workItem from="1566400897262" duration="5401000" />
+      <workItem from="1566490344823" duration="4616000" />
+      <workItem from="1566916897730" duration="656000" />
+      <workItem from="1566919933839" duration="770000" />
     </task>
     <servers />
   </component>
@@ -198,7 +250,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
