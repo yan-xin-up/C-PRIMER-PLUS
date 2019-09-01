@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/1.c" "/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles/Programming_Exercises1.dir/1.c.o"
   "/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/13.c" "/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles/Programming_Exercises1.dir/13.c.o"
   "/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/14.c" "/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles/Programming_Exercises1.dir/14.c.o"
+  "/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/16.c" "/Users/ivan/github/C-PRIMER-PLUS/CH06/Programming_Exercises/cmake-build-debug/CMakeFiles/Programming_Exercises1.dir/16.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

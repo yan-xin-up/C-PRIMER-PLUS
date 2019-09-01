@@ -3,7 +3,7 @@ project(Programming_Exercises C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(Programming_Exercises1 1.c 13.c 14.c)
+add_executable(Programming_Exercises1 1.c 13.c 14.c 16.c)
 add_executable(Programming_Exercises2 2.c)
 add_executable(Programming_Exercises3 3.c)
 add_executable(Programming_Exercises4 4.c)
@@ -19,3 +19,4 @@ add_executable(Programming_Exercises12 12.c 12.c)
 add_executable(Programming_Exercises13 13.c)
 add_executable(Programming_Exercises14 14.c)
 add_executable(Programming_Exercises15 15.c)
+add_executable(Programming_Exercises16 16.c 16.c)
