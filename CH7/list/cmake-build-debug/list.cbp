@@ -37,6 +37,82 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ivan/github/C-PRIMER-PLUS/CH7/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="list7.3">
+				<Option output="/Users/ivan/github/C-PRIMER-PLUS/CH7/list/cmake-build-debug/list7.3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ivan/github/C-PRIMER-PLUS/CH7/list/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ivan/github/C-PRIMER-PLUS/CH7/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 list7.3"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ivan/github/C-PRIMER-PLUS/CH7/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ivan/github/C-PRIMER-PLUS/CH7/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ivan/github/C-PRIMER-PLUS/CH7/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list7.3/fast">
+				<Option output="/Users/ivan/github/C-PRIMER-PLUS/CH7/list/cmake-build-debug/list7.3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ivan/github/C-PRIMER-PLUS/CH7/list/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ivan/github/C-PRIMER-PLUS/CH7/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 list7.3/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ivan/github/C-PRIMER-PLUS/CH7/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ivan/github/C-PRIMER-PLUS/CH7/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ivan/github/C-PRIMER-PLUS/CH7/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list7.2">
+				<Option output="/Users/ivan/github/C-PRIMER-PLUS/CH7/list/cmake-build-debug/list7.2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ivan/github/C-PRIMER-PLUS/CH7/list/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ivan/github/C-PRIMER-PLUS/CH7/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 list7.2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ivan/github/C-PRIMER-PLUS/CH7/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ivan/github/C-PRIMER-PLUS/CH7/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ivan/github/C-PRIMER-PLUS/CH7/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list7.2/fast">
+				<Option output="/Users/ivan/github/C-PRIMER-PLUS/CH7/list/cmake-build-debug/list7.2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ivan/github/C-PRIMER-PLUS/CH7/list/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ivan/github/C-PRIMER-PLUS/CH7/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 list7.2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ivan/github/C-PRIMER-PLUS/CH7/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ivan/github/C-PRIMER-PLUS/CH7/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ivan/github/C-PRIMER-PLUS/CH7/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="list7.1">
 				<Option output="/Users/ivan/github/C-PRIMER-PLUS/CH7/list/cmake-build-debug/list7.1" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/ivan/github/C-PRIMER-PLUS/CH7/list/cmake-build-debug"/>
@@ -77,6 +153,13 @@
 			</Target>
 		</Build>
 		<Unit filename="/Users/ivan/github/C-PRIMER-PLUS/CH7/list/colddays.c">
+			<Option target="list7.1"/>
+		</Unit>
+		<Unit filename="/Users/ivan/github/C-PRIMER-PLUS/CH7/list/cypher1.c">
+			<Option target="list7.2"/>
+		</Unit>
+		<Unit filename="/Users/ivan/github/C-PRIMER-PLUS/CH7/list/cypher2.c">
+			<Option target="list7.3"/>
 			<Option target="list7.1"/>
 		</Unit>
 		<Unit filename="/Users/ivan/github/C-PRIMER-PLUS/CH7/list/CMakeLists.txt">

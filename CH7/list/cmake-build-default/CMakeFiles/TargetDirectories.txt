@@ -1,0 +1,6 @@
+/Users/ivan/github/C-PRIMER-PLUS/CH7/list/cmake-build-default/CMakeFiles/rebuild_cache.dir
+/Users/ivan/github/C-PRIMER-PLUS/CH7/list/cmake-build-default/CMakeFiles/edit_cache.dir
+/Users/ivan/github/C-PRIMER-PLUS/CH7/list/cmake-build-default/CMakeFiles/list7.4.dir
+/Users/ivan/github/C-PRIMER-PLUS/CH7/list/cmake-build-default/CMakeFiles/list7.3.dir
+/Users/ivan/github/C-PRIMER-PLUS/CH7/list/cmake-build-default/CMakeFiles/list7.2.dir
+/Users/ivan/github/C-PRIMER-PLUS/CH7/list/cmake-build-default/CMakeFiles/list7.1.dir
