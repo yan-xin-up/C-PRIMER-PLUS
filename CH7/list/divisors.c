@@ -31,5 +31,6 @@ int main(void)
         printf("please enter an integer to analysis: ");
         printf("Enter q to quit.\n");
     }
+    printf("bye.\n");
     return 0;
 }
