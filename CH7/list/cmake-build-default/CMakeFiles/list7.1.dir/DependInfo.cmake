@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "/Users/ivan/github/C-PRIMER-PLUS/CH7/list/colddays.c" "/Users/ivan/github/C-PRIMER-PLUS/CH7/list/cmake-build-default/CMakeFiles/list7.1.dir/colddays.c.o"
   "/Users/ivan/github/C-PRIMER-PLUS/CH7/list/cypher2.c" "/Users/ivan/github/C-PRIMER-PLUS/CH7/list/cmake-build-default/CMakeFiles/list7.1.dir/cypher2.c.o"
+  "/Users/ivan/github/C-PRIMER-PLUS/CH7/list/wordcnt.c" "/Users/ivan/github/C-PRIMER-PLUS/CH7/list/cmake-build-default/CMakeFiles/list7.1.dir/wordcnt.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

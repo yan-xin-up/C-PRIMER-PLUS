@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ivan/github/C-PRIMER-PLUS/CH7/list/wordcnt.c
+stdio.h
+-
+ctype.h
+-
+stdbool.h
+-
+
