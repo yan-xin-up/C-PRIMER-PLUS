@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/ivan/github/C-PRIMER-PLUS/CH7/list/cypher2.c" "/Users/ivan/github/C-PRIMER-PLUS/CH7/list/cmake-build-debug/CMakeFiles/list7.3.dir/cypher2.c.o"
+  "/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cypher2.c" "/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/CMakeFiles/list7.3.dir/cypher2.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

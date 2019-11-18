@@ -11,12 +11,14 @@ int main(void)
     float min = MAX;
     float max = MIN;
 
+
+    
     printf("please enter the first score (q to quit): \n");
     while(scanf("%f",&score) == 1)
     {
         if(score < MIN || score > MAX)
         {
-            printf("%0.1f is an invalid value.Try again: ",
+            printf("%0.1f is an invalid value.Try again: \n",
                     score);
             continue;                       //jumps to while loop test condition
         }

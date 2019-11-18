@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ivan/github/C-PRIMER-PLUS/CH7/list
+CMAKE_SOURCE_DIR = /Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ivan/github/C-PRIMER-PLUS/CH7/list/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ivan/github/C-PRIMER-PLUS/CH7/list/cmake-build-debug/CMakeFiles /Users/ivan/github/C-PRIMER-PLUS/CH7/list/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/CMakeFiles /Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ivan/github/C-PRIMER-PLUS/CH7/list/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,6 +111,123 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named exercise2
+
+# Build rule for target.
+exercise2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 exercise2
+.PHONY : exercise2
+
+# fast build rule for target.
+exercise2/fast:
+	$(MAKE) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/build
+.PHONY : exercise2/fast
+
+#=============================================================================
+# Target rules for targets named exercise1
+
+# Build rule for target.
+exercise1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 exercise1
+.PHONY : exercise1
+
+# fast build rule for target.
+exercise1/fast:
+	$(MAKE) -f CMakeFiles/exercise1.dir/build.make CMakeFiles/exercise1.dir/build
+.PHONY : exercise1/fast
+
+#=============================================================================
+# Target rules for targets named list7.9
+
+# Build rule for target.
+list7.9: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 list7.9
+.PHONY : list7.9
+
+# fast build rule for target.
+list7.9/fast:
+	$(MAKE) -f CMakeFiles/list7.9.dir/build.make CMakeFiles/list7.9.dir/build
+.PHONY : list7.9/fast
+
+#=============================================================================
+# Target rules for targets named list7.8
+
+# Build rule for target.
+list7.8: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 list7.8
+.PHONY : list7.8
+
+# fast build rule for target.
+list7.8/fast:
+	$(MAKE) -f CMakeFiles/list7.8.dir/build.make CMakeFiles/list7.8.dir/build
+.PHONY : list7.8/fast
+
+#=============================================================================
+# Target rules for targets named list7.7
+
+# Build rule for target.
+list7.7: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 list7.7
+.PHONY : list7.7
+
+# fast build rule for target.
+list7.7/fast:
+	$(MAKE) -f CMakeFiles/list7.7.dir/build.make CMakeFiles/list7.7.dir/build
+.PHONY : list7.7/fast
+
+#=============================================================================
+# Target rules for targets named list7.6
+
+# Build rule for target.
+list7.6: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 list7.6
+.PHONY : list7.6
+
+# fast build rule for target.
+list7.6/fast:
+	$(MAKE) -f CMakeFiles/list7.6.dir/build.make CMakeFiles/list7.6.dir/build
+.PHONY : list7.6/fast
+
+#=============================================================================
+# Target rules for targets named list7.1
+
+# Build rule for target.
+list7.1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 list7.1
+.PHONY : list7.1
+
+# fast build rule for target.
+list7.1/fast:
+	$(MAKE) -f CMakeFiles/list7.1.dir/build.make CMakeFiles/list7.1.dir/build
+.PHONY : list7.1/fast
+
+#=============================================================================
+# Target rules for targets named list7.5
+
+# Build rule for target.
+list7.5: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 list7.5
+.PHONY : list7.5
+
+# fast build rule for target.
+list7.5/fast:
+	$(MAKE) -f CMakeFiles/list7.5.dir/build.make CMakeFiles/list7.5.dir/build
+.PHONY : list7.5/fast
+
+#=============================================================================
+# Target rules for targets named list7.4
+
+# Build rule for target.
+list7.4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 list7.4
+.PHONY : list7.4
+
+# fast build rule for target.
+list7.4/fast:
+	$(MAKE) -f CMakeFiles/list7.4.dir/build.make CMakeFiles/list7.4.dir/build
+.PHONY : list7.4/fast
+
+#=============================================================================
 # Target rules for targets named list7.3
 
 # Build rule for target.
@@ -136,18 +253,32 @@ list7.2/fast:
 	$(MAKE) -f CMakeFiles/list7.2.dir/build.make CMakeFiles/list7.2.dir/build
 .PHONY : list7.2/fast
 
-#=============================================================================
-# Target rules for targets named list7.1
+chcount.o: chcount.c.o
 
-# Build rule for target.
-list7.1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 list7.1
-.PHONY : list7.1
+.PHONY : chcount.o
 
-# fast build rule for target.
-list7.1/fast:
-	$(MAKE) -f CMakeFiles/list7.1.dir/build.make CMakeFiles/list7.1.dir/build
-.PHONY : list7.1/fast
+# target to build an object file
+chcount.c.o:
+	$(MAKE) -f CMakeFiles/list7.6.dir/build.make CMakeFiles/list7.6.dir/chcount.c.o
+.PHONY : chcount.c.o
+
+chcount.i: chcount.c.i
+
+.PHONY : chcount.i
+
+# target to preprocess a source file
+chcount.c.i:
+	$(MAKE) -f CMakeFiles/list7.6.dir/build.make CMakeFiles/list7.6.dir/chcount.c.i
+.PHONY : chcount.c.i
+
+chcount.s: chcount.c.s
+
+.PHONY : chcount.s
+
+# target to generate assembly for a file
+chcount.c.s:
+	$(MAKE) -f CMakeFiles/list7.6.dir/build.make CMakeFiles/list7.6.dir/chcount.c.s
+.PHONY : chcount.c.s
 
 colddays.o: colddays.c.o
 
@@ -175,6 +306,33 @@ colddays.s: colddays.c.s
 colddays.c.s:
 	$(MAKE) -f CMakeFiles/list7.1.dir/build.make CMakeFiles/list7.1.dir/colddays.c.s
 .PHONY : colddays.c.s
+
+count.o: count.c.o
+
+.PHONY : count.o
+
+# target to build an object file
+count.c.o:
+	$(MAKE) -f CMakeFiles/exercise1.dir/build.make CMakeFiles/exercise1.dir/count.c.o
+.PHONY : count.c.o
+
+count.i: count.c.i
+
+.PHONY : count.i
+
+# target to preprocess a source file
+count.c.i:
+	$(MAKE) -f CMakeFiles/exercise1.dir/build.make CMakeFiles/exercise1.dir/count.c.i
+.PHONY : count.c.i
+
+count.s: count.c.s
+
+.PHONY : count.s
+
+# target to generate assembly for a file
+count.c.s:
+	$(MAKE) -f CMakeFiles/exercise1.dir/build.make CMakeFiles/exercise1.dir/count.c.s
+.PHONY : count.c.s
 
 cypher1.o: cypher1.c.o
 
@@ -210,7 +368,6 @@ cypher2.o: cypher2.c.o
 # target to build an object file
 cypher2.c.o:
 	$(MAKE) -f CMakeFiles/list7.3.dir/build.make CMakeFiles/list7.3.dir/cypher2.c.o
-	$(MAKE) -f CMakeFiles/list7.1.dir/build.make CMakeFiles/list7.1.dir/cypher2.c.o
 .PHONY : cypher2.c.o
 
 cypher2.i: cypher2.c.i
@@ -220,7 +377,6 @@ cypher2.i: cypher2.c.i
 # target to preprocess a source file
 cypher2.c.i:
 	$(MAKE) -f CMakeFiles/list7.3.dir/build.make CMakeFiles/list7.3.dir/cypher2.c.i
-	$(MAKE) -f CMakeFiles/list7.1.dir/build.make CMakeFiles/list7.1.dir/cypher2.c.i
 .PHONY : cypher2.c.i
 
 cypher2.s: cypher2.c.s
@@ -230,8 +386,169 @@ cypher2.s: cypher2.c.s
 # target to generate assembly for a file
 cypher2.c.s:
 	$(MAKE) -f CMakeFiles/list7.3.dir/build.make CMakeFiles/list7.3.dir/cypher2.c.s
-	$(MAKE) -f CMakeFiles/list7.1.dir/build.make CMakeFiles/list7.1.dir/cypher2.c.s
 .PHONY : cypher2.c.s
+
+divisors.o: divisors.c.o
+
+.PHONY : divisors.o
+
+# target to build an object file
+divisors.c.o:
+	$(MAKE) -f CMakeFiles/list7.5.dir/build.make CMakeFiles/list7.5.dir/divisors.c.o
+.PHONY : divisors.c.o
+
+divisors.i: divisors.c.i
+
+.PHONY : divisors.i
+
+# target to preprocess a source file
+divisors.c.i:
+	$(MAKE) -f CMakeFiles/list7.5.dir/build.make CMakeFiles/list7.5.dir/divisors.c.i
+.PHONY : divisors.c.i
+
+divisors.s: divisors.c.s
+
+.PHONY : divisors.s
+
+# target to generate assembly for a file
+divisors.c.s:
+	$(MAKE) -f CMakeFiles/list7.5.dir/build.make CMakeFiles/list7.5.dir/divisors.c.s
+.PHONY : divisors.c.s
+
+electric.o: electric.c.o
+
+.PHONY : electric.o
+
+# target to build an object file
+electric.c.o:
+	$(MAKE) -f CMakeFiles/list7.4.dir/build.make CMakeFiles/list7.4.dir/electric.c.o
+.PHONY : electric.c.o
+
+electric.i: electric.c.i
+
+.PHONY : electric.i
+
+# target to preprocess a source file
+electric.c.i:
+	$(MAKE) -f CMakeFiles/list7.4.dir/build.make CMakeFiles/list7.4.dir/electric.c.i
+.PHONY : electric.c.i
+
+electric.s: electric.c.s
+
+.PHONY : electric.s
+
+# target to generate assembly for a file
+electric.c.s:
+	$(MAKE) -f CMakeFiles/list7.4.dir/build.make CMakeFiles/list7.4.dir/electric.c.s
+.PHONY : electric.c.s
+
+for.o: for.c.o
+
+.PHONY : for.o
+
+# target to build an object file
+for.c.o:
+	$(MAKE) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/for.c.o
+.PHONY : for.c.o
+
+for.i: for.c.i
+
+.PHONY : for.i
+
+# target to preprocess a source file
+for.c.i:
+	$(MAKE) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/for.c.i
+.PHONY : for.c.i
+
+for.s: for.c.s
+
+.PHONY : for.s
+
+# target to generate assembly for a file
+for.c.s:
+	$(MAKE) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/for.c.s
+.PHONY : for.c.s
+
+skippart.o: skippart.c.o
+
+.PHONY : skippart.o
+
+# target to build an object file
+skippart.c.o:
+	$(MAKE) -f CMakeFiles/list7.9.dir/build.make CMakeFiles/list7.9.dir/skippart.c.o
+.PHONY : skippart.c.o
+
+skippart.i: skippart.c.i
+
+.PHONY : skippart.i
+
+# target to preprocess a source file
+skippart.c.i:
+	$(MAKE) -f CMakeFiles/list7.9.dir/build.make CMakeFiles/list7.9.dir/skippart.c.i
+.PHONY : skippart.c.i
+
+skippart.s: skippart.c.s
+
+.PHONY : skippart.s
+
+# target to generate assembly for a file
+skippart.c.s:
+	$(MAKE) -f CMakeFiles/list7.9.dir/build.make CMakeFiles/list7.9.dir/skippart.c.s
+.PHONY : skippart.c.s
+
+the_paint.o: the_paint.c.o
+
+.PHONY : the_paint.o
+
+# target to build an object file
+the_paint.c.o:
+	$(MAKE) -f CMakeFiles/list7.8.dir/build.make CMakeFiles/list7.8.dir/the_paint.c.o
+.PHONY : the_paint.c.o
+
+the_paint.i: the_paint.c.i
+
+.PHONY : the_paint.i
+
+# target to preprocess a source file
+the_paint.c.i:
+	$(MAKE) -f CMakeFiles/list7.8.dir/build.make CMakeFiles/list7.8.dir/the_paint.c.i
+.PHONY : the_paint.c.i
+
+the_paint.s: the_paint.c.s
+
+.PHONY : the_paint.s
+
+# target to generate assembly for a file
+the_paint.c.s:
+	$(MAKE) -f CMakeFiles/list7.8.dir/build.make CMakeFiles/list7.8.dir/the_paint.c.s
+.PHONY : the_paint.c.s
+
+wordcnt.o: wordcnt.c.o
+
+.PHONY : wordcnt.o
+
+# target to build an object file
+wordcnt.c.o:
+	$(MAKE) -f CMakeFiles/list7.7.dir/build.make CMakeFiles/list7.7.dir/wordcnt.c.o
+.PHONY : wordcnt.c.o
+
+wordcnt.i: wordcnt.c.i
+
+.PHONY : wordcnt.i
+
+# target to preprocess a source file
+wordcnt.c.i:
+	$(MAKE) -f CMakeFiles/list7.7.dir/build.make CMakeFiles/list7.7.dir/wordcnt.c.i
+.PHONY : wordcnt.c.i
+
+wordcnt.s: wordcnt.c.s
+
+.PHONY : wordcnt.s
+
+# target to generate assembly for a file
+wordcnt.c.s:
+	$(MAKE) -f CMakeFiles/list7.7.dir/build.make CMakeFiles/list7.7.dir/wordcnt.c.s
+.PHONY : wordcnt.c.s
 
 # Help Target
 help:
@@ -240,19 +557,51 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... edit_cache"
-	@echo "... list7.3"
-	@echo "... list7.2"
+	@echo "... exercise2"
+	@echo "... exercise1"
+	@echo "... list7.9"
+	@echo "... list7.8"
+	@echo "... list7.7"
+	@echo "... list7.6"
 	@echo "... list7.1"
+	@echo "... list7.5"
+	@echo "... list7.4"
+	@echo "... list7.3"
+	@echo "... edit_cache"
+	@echo "... list7.2"
+	@echo "... chcount.o"
+	@echo "... chcount.i"
+	@echo "... chcount.s"
 	@echo "... colddays.o"
 	@echo "... colddays.i"
 	@echo "... colddays.s"
+	@echo "... count.o"
+	@echo "... count.i"
+	@echo "... count.s"
 	@echo "... cypher1.o"
 	@echo "... cypher1.i"
 	@echo "... cypher1.s"
 	@echo "... cypher2.o"
 	@echo "... cypher2.i"
 	@echo "... cypher2.s"
+	@echo "... divisors.o"
+	@echo "... divisors.i"
+	@echo "... divisors.s"
+	@echo "... electric.o"
+	@echo "... electric.i"
+	@echo "... electric.s"
+	@echo "... for.o"
+	@echo "... for.i"
+	@echo "... for.s"
+	@echo "... skippart.o"
+	@echo "... skippart.i"
+	@echo "... skippart.s"
+	@echo "... the_paint.o"
+	@echo "... the_paint.i"
+	@echo "... the_paint.s"
+	@echo "... wordcnt.o"
+	@echo "... wordcnt.i"
+	@echo "... wordcnt.s"
 .PHONY : help
 
 
