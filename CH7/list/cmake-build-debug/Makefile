@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named list7.10break.c
+
+# Build rule for target.
+list7.10break.c: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 list7.10break.c
+.PHONY : list7.10break.c
+
+# fast build rule for target.
+list7.10break.c/fast:
+	$(MAKE) -f CMakeFiles/list7.10break.c.dir/build.make CMakeFiles/list7.10break.c.dir/build
+.PHONY : list7.10break.c/fast
+
+#=============================================================================
 # Target rules for targets named exercise2
 
 # Build rule for target.
@@ -252,6 +265,33 @@ list7.2: cmake_check_build_system
 list7.2/fast:
 	$(MAKE) -f CMakeFiles/list7.2.dir/build.make CMakeFiles/list7.2.dir/build
 .PHONY : list7.2/fast
+
+break.o: break.c.o
+
+.PHONY : break.o
+
+# target to build an object file
+break.c.o:
+	$(MAKE) -f CMakeFiles/list7.10break.c.dir/build.make CMakeFiles/list7.10break.c.dir/break.c.o
+.PHONY : break.c.o
+
+break.i: break.c.i
+
+.PHONY : break.i
+
+# target to preprocess a source file
+break.c.i:
+	$(MAKE) -f CMakeFiles/list7.10break.c.dir/build.make CMakeFiles/list7.10break.c.dir/break.c.i
+.PHONY : break.c.i
+
+break.s: break.c.s
+
+.PHONY : break.s
+
+# target to generate assembly for a file
+break.c.s:
+	$(MAKE) -f CMakeFiles/list7.10break.c.dir/build.make CMakeFiles/list7.10break.c.dir/break.c.s
+.PHONY : break.c.s
 
 chcount.o: chcount.c.o
 
@@ -557,6 +597,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... list7.10break.c"
 	@echo "... exercise2"
 	@echo "... exercise1"
 	@echo "... list7.9"
@@ -569,6 +610,9 @@ help:
 	@echo "... list7.3"
 	@echo "... edit_cache"
 	@echo "... list7.2"
+	@echo "... break.o"
+	@echo "... break.i"
+	@echo "... break.s"
 	@echo "... chcount.o"
 	@echo "... chcount.i"
 	@echo "... chcount.s"
