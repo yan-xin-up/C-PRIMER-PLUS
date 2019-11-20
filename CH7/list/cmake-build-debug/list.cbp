@@ -27,6 +27,44 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="exercise3">
+				<Option output="/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/exercise3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise3"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise3/fast">
+				<Option output="/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/exercise3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise3/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="list7.10break.c">
 				<Option output="/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/list7.10break.c" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug"/>
@@ -331,6 +369,44 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="list7.11animals.c">
+				<Option output="/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/list7.11animals.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 list7.11animals.c"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list7.11animals.c/fast">
+				<Option output="/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/list7.11animals.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 list7.11animals.c/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="list7.5">
 				<Option output="/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/list7.5" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug"/>
@@ -494,6 +570,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/animals.c">
+			<Option target="list7.11animals.c"/>
+		</Unit>
 		<Unit filename="/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/break.c">
 			<Option target="list7.10break.c"/>
 		</Unit>
@@ -517,6 +596,9 @@
 		</Unit>
 		<Unit filename="/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/electric.c">
 			<Option target="list7.4"/>
+		</Unit>
+		<Unit filename="/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/exercise3 break.c">
+			<Option target="exercise3"/>
 		</Unit>
 		<Unit filename="/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/for.c">
 			<Option target="exercise2"/>

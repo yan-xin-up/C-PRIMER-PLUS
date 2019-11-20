@@ -53,6 +53,7 @@ CMAKE_BINARY_DIR = /Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-bui
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/exercise3.dir/all
 all: CMakeFiles/list7.10break.c.dir/all
 all: CMakeFiles/exercise2.dir/all
 all: CMakeFiles/exercise1.dir/all
@@ -61,6 +62,7 @@ all: CMakeFiles/list7.8.dir/all
 all: CMakeFiles/list7.7.dir/all
 all: CMakeFiles/list7.6.dir/all
 all: CMakeFiles/list7.1.dir/all
+all: CMakeFiles/list7.11animals.c.dir/all
 all: CMakeFiles/list7.5.dir/all
 all: CMakeFiles/list7.4.dir/all
 all: CMakeFiles/list7.3.dir/all
@@ -69,6 +71,7 @@ all: CMakeFiles/list7.2.dir/all
 .PHONY : all
 
 # The main recursive "clean" target.
+clean: CMakeFiles/exercise3.dir/clean
 clean: CMakeFiles/list7.10break.c.dir/clean
 clean: CMakeFiles/exercise2.dir/clean
 clean: CMakeFiles/exercise1.dir/clean
@@ -77,6 +80,7 @@ clean: CMakeFiles/list7.8.dir/clean
 clean: CMakeFiles/list7.7.dir/clean
 clean: CMakeFiles/list7.6.dir/clean
 clean: CMakeFiles/list7.1.dir/clean
+clean: CMakeFiles/list7.11animals.c.dir/clean
 clean: CMakeFiles/list7.5.dir/clean
 clean: CMakeFiles/list7.4.dir/clean
 clean: CMakeFiles/list7.3.dir/clean
@@ -90,13 +94,40 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
+# Target rules for target CMakeFiles/exercise3.dir
+
+# All Build rule for target.
+CMakeFiles/exercise3.dir/all:
+	$(MAKE) -f CMakeFiles/exercise3.dir/build.make CMakeFiles/exercise3.dir/depend
+	$(MAKE) -f CMakeFiles/exercise3.dir/build.make CMakeFiles/exercise3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target exercise3"
+.PHONY : CMakeFiles/exercise3.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/exercise3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/exercise3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/exercise3.dir/rule
+
+# Convenience name for target.
+exercise3: CMakeFiles/exercise3.dir/rule
+
+.PHONY : exercise3
+
+# clean rule for target.
+CMakeFiles/exercise3.dir/clean:
+	$(MAKE) -f CMakeFiles/exercise3.dir/build.make CMakeFiles/exercise3.dir/clean
+.PHONY : CMakeFiles/exercise3.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/list7.10break.c.dir
 
 # All Build rule for target.
 CMakeFiles/list7.10break.c.dir/all:
 	$(MAKE) -f CMakeFiles/list7.10break.c.dir/build.make CMakeFiles/list7.10break.c.dir/depend
 	$(MAKE) -f CMakeFiles/list7.10break.c.dir/build.make CMakeFiles/list7.10break.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target list7.10break.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target list7.10break.c"
 .PHONY : CMakeFiles/list7.10break.c.dir/all
 
 # Build rule for subdir invocation for target.
@@ -177,7 +208,7 @@ CMakeFiles/exercise1.dir/clean:
 CMakeFiles/list7.9.dir/all:
 	$(MAKE) -f CMakeFiles/list7.9.dir/build.make CMakeFiles/list7.9.dir/depend
 	$(MAKE) -f CMakeFiles/list7.9.dir/build.make CMakeFiles/list7.9.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target list7.9"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target list7.9"
 .PHONY : CMakeFiles/list7.9.dir/all
 
 # Build rule for subdir invocation for target.
@@ -204,7 +235,7 @@ CMakeFiles/list7.9.dir/clean:
 CMakeFiles/list7.8.dir/all:
 	$(MAKE) -f CMakeFiles/list7.8.dir/build.make CMakeFiles/list7.8.dir/depend
 	$(MAKE) -f CMakeFiles/list7.8.dir/build.make CMakeFiles/list7.8.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target list7.8"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target list7.8"
 .PHONY : CMakeFiles/list7.8.dir/all
 
 # Build rule for subdir invocation for target.
@@ -231,7 +262,7 @@ CMakeFiles/list7.8.dir/clean:
 CMakeFiles/list7.7.dir/all:
 	$(MAKE) -f CMakeFiles/list7.7.dir/build.make CMakeFiles/list7.7.dir/depend
 	$(MAKE) -f CMakeFiles/list7.7.dir/build.make CMakeFiles/list7.7.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target list7.7"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target list7.7"
 .PHONY : CMakeFiles/list7.7.dir/all
 
 # Build rule for subdir invocation for target.
@@ -258,7 +289,7 @@ CMakeFiles/list7.7.dir/clean:
 CMakeFiles/list7.6.dir/all:
 	$(MAKE) -f CMakeFiles/list7.6.dir/build.make CMakeFiles/list7.6.dir/depend
 	$(MAKE) -f CMakeFiles/list7.6.dir/build.make CMakeFiles/list7.6.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target list7.6"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target list7.6"
 .PHONY : CMakeFiles/list7.6.dir/all
 
 # Build rule for subdir invocation for target.
@@ -285,7 +316,7 @@ CMakeFiles/list7.6.dir/clean:
 CMakeFiles/list7.1.dir/all:
 	$(MAKE) -f CMakeFiles/list7.1.dir/build.make CMakeFiles/list7.1.dir/depend
 	$(MAKE) -f CMakeFiles/list7.1.dir/build.make CMakeFiles/list7.1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target list7.1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target list7.1"
 .PHONY : CMakeFiles/list7.1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -306,13 +337,40 @@ CMakeFiles/list7.1.dir/clean:
 .PHONY : CMakeFiles/list7.1.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/list7.11animals.c.dir
+
+# All Build rule for target.
+CMakeFiles/list7.11animals.c.dir/all:
+	$(MAKE) -f CMakeFiles/list7.11animals.c.dir/build.make CMakeFiles/list7.11animals.c.dir/depend
+	$(MAKE) -f CMakeFiles/list7.11animals.c.dir/build.make CMakeFiles/list7.11animals.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target list7.11animals.c"
+.PHONY : CMakeFiles/list7.11animals.c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/list7.11animals.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/list7.11animals.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/list7.11animals.c.dir/rule
+
+# Convenience name for target.
+list7.11animals.c: CMakeFiles/list7.11animals.c.dir/rule
+
+.PHONY : list7.11animals.c
+
+# clean rule for target.
+CMakeFiles/list7.11animals.c.dir/clean:
+	$(MAKE) -f CMakeFiles/list7.11animals.c.dir/build.make CMakeFiles/list7.11animals.c.dir/clean
+.PHONY : CMakeFiles/list7.11animals.c.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/list7.5.dir
 
 # All Build rule for target.
 CMakeFiles/list7.5.dir/all:
 	$(MAKE) -f CMakeFiles/list7.5.dir/build.make CMakeFiles/list7.5.dir/depend
 	$(MAKE) -f CMakeFiles/list7.5.dir/build.make CMakeFiles/list7.5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target list7.5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target list7.5"
 .PHONY : CMakeFiles/list7.5.dir/all
 
 # Build rule for subdir invocation for target.
@@ -339,7 +397,7 @@ CMakeFiles/list7.5.dir/clean:
 CMakeFiles/list7.4.dir/all:
 	$(MAKE) -f CMakeFiles/list7.4.dir/build.make CMakeFiles/list7.4.dir/depend
 	$(MAKE) -f CMakeFiles/list7.4.dir/build.make CMakeFiles/list7.4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target list7.4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target list7.4"
 .PHONY : CMakeFiles/list7.4.dir/all
 
 # Build rule for subdir invocation for target.
@@ -366,7 +424,7 @@ CMakeFiles/list7.4.dir/clean:
 CMakeFiles/list7.3.dir/all:
 	$(MAKE) -f CMakeFiles/list7.3.dir/build.make CMakeFiles/list7.3.dir/depend
 	$(MAKE) -f CMakeFiles/list7.3.dir/build.make CMakeFiles/list7.3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target list7.3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target list7.3"
 .PHONY : CMakeFiles/list7.3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -393,7 +451,7 @@ CMakeFiles/list7.3.dir/clean:
 CMakeFiles/list7.2.dir/all:
 	$(MAKE) -f CMakeFiles/list7.2.dir/build.make CMakeFiles/list7.2.dir/depend
 	$(MAKE) -f CMakeFiles/list7.2.dir/build.make CMakeFiles/list7.2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target list7.2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target list7.2"
 .PHONY : CMakeFiles/list7.2.dir/all
 
 # Build rule for subdir invocation for target.

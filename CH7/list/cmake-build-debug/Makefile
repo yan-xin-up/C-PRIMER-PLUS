@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named exercise3
+
+# Build rule for target.
+exercise3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 exercise3
+.PHONY : exercise3
+
+# fast build rule for target.
+exercise3/fast:
+	$(MAKE) -f CMakeFiles/exercise3.dir/build.make CMakeFiles/exercise3.dir/build
+.PHONY : exercise3/fast
+
+#=============================================================================
 # Target rules for targets named list7.10break.c
 
 # Build rule for target.
@@ -215,6 +228,19 @@ list7.1/fast:
 .PHONY : list7.1/fast
 
 #=============================================================================
+# Target rules for targets named list7.11animals.c
+
+# Build rule for target.
+list7.11animals.c: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 list7.11animals.c
+.PHONY : list7.11animals.c
+
+# fast build rule for target.
+list7.11animals.c/fast:
+	$(MAKE) -f CMakeFiles/list7.11animals.c.dir/build.make CMakeFiles/list7.11animals.c.dir/build
+.PHONY : list7.11animals.c/fast
+
+#=============================================================================
 # Target rules for targets named list7.5
 
 # Build rule for target.
@@ -265,6 +291,33 @@ list7.2: cmake_check_build_system
 list7.2/fast:
 	$(MAKE) -f CMakeFiles/list7.2.dir/build.make CMakeFiles/list7.2.dir/build
 .PHONY : list7.2/fast
+
+animals.o: animals.c.o
+
+.PHONY : animals.o
+
+# target to build an object file
+animals.c.o:
+	$(MAKE) -f CMakeFiles/list7.11animals.c.dir/build.make CMakeFiles/list7.11animals.c.dir/animals.c.o
+.PHONY : animals.c.o
+
+animals.i: animals.c.i
+
+.PHONY : animals.i
+
+# target to preprocess a source file
+animals.c.i:
+	$(MAKE) -f CMakeFiles/list7.11animals.c.dir/build.make CMakeFiles/list7.11animals.c.dir/animals.c.i
+.PHONY : animals.c.i
+
+animals.s: animals.c.s
+
+.PHONY : animals.s
+
+# target to generate assembly for a file
+animals.c.s:
+	$(MAKE) -f CMakeFiles/list7.11animals.c.dir/build.make CMakeFiles/list7.11animals.c.dir/animals.c.s
+.PHONY : animals.c.s
 
 break.o: break.c.o
 
@@ -482,6 +535,33 @@ electric.c.s:
 	$(MAKE) -f CMakeFiles/list7.4.dir/build.make CMakeFiles/list7.4.dir/electric.c.s
 .PHONY : electric.c.s
 
+exercise3_break.o: exercise3_break.c.o
+
+.PHONY : exercise3_break.o
+
+# target to build an object file
+exercise3_break.c.o:
+	$(MAKE) -f CMakeFiles/exercise3.dir/build.make CMakeFiles/exercise3.dir/exercise3_break.c.o
+.PHONY : exercise3_break.c.o
+
+exercise3_break.i: exercise3_break.c.i
+
+.PHONY : exercise3_break.i
+
+# target to preprocess a source file
+exercise3_break.c.i:
+	$(MAKE) -f CMakeFiles/exercise3.dir/build.make CMakeFiles/exercise3.dir/exercise3_break.c.i
+.PHONY : exercise3_break.c.i
+
+exercise3_break.s: exercise3_break.c.s
+
+.PHONY : exercise3_break.s
+
+# target to generate assembly for a file
+exercise3_break.c.s:
+	$(MAKE) -f CMakeFiles/exercise3.dir/build.make CMakeFiles/exercise3.dir/exercise3_break.c.s
+.PHONY : exercise3_break.c.s
+
 for.o: for.c.o
 
 .PHONY : for.o
@@ -597,6 +677,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... exercise3"
 	@echo "... list7.10break.c"
 	@echo "... exercise2"
 	@echo "... exercise1"
@@ -605,11 +686,15 @@ help:
 	@echo "... list7.7"
 	@echo "... list7.6"
 	@echo "... list7.1"
+	@echo "... list7.11animals.c"
 	@echo "... list7.5"
 	@echo "... list7.4"
 	@echo "... list7.3"
 	@echo "... edit_cache"
 	@echo "... list7.2"
+	@echo "... animals.o"
+	@echo "... animals.i"
+	@echo "... animals.s"
 	@echo "... break.o"
 	@echo "... break.i"
 	@echo "... break.s"
@@ -634,6 +719,9 @@ help:
 	@echo "... electric.o"
 	@echo "... electric.i"
 	@echo "... electric.s"
+	@echo "... exercise3_break.o"
+	@echo "... exercise3_break.i"
+	@echo "... exercise3_break.s"
 	@echo "... for.o"
 	@echo "... for.i"
 	@echo "... for.s"
