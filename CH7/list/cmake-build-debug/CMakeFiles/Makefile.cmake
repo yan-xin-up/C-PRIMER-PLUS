@@ -47,10 +47,12 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/list7.12vowels.c.dir/DependInfo.cmake"
   "CMakeFiles/exercise3.dir/DependInfo.cmake"
   "CMakeFiles/list7.10break.c.dir/DependInfo.cmake"
   "CMakeFiles/exercise2.dir/DependInfo.cmake"
   "CMakeFiles/exercise1.dir/DependInfo.cmake"
+  "CMakeFiles/exercise4fanhui.dir/DependInfo.cmake"
   "CMakeFiles/list7.9.dir/DependInfo.cmake"
   "CMakeFiles/list7.8.dir/DependInfo.cmake"
   "CMakeFiles/list7.7.dir/DependInfo.cmake"

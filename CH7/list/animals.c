@@ -43,7 +43,7 @@ int main (void)
         while(getchar() != '\n')
             continue;                           //处理数入行的剩余部分
          printf("please type another letter or a #.\n");
-         
+
     }                                           //while 循环结束
     printf("Bye!\n");
     return 0;

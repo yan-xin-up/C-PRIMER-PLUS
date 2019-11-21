@@ -1,8 +1,10 @@
 /Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/CMakeFiles/list7.12vowels.c.dir
 /Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/CMakeFiles/exercise3.dir
 /Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/CMakeFiles/list7.10break.c.dir
 /Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/CMakeFiles/exercise2.dir
 /Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/CMakeFiles/exercise1.dir
+/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/CMakeFiles/exercise4fanhui.dir
 /Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/CMakeFiles/list7.9.dir
 /Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/CMakeFiles/list7.8.dir
 /Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/list/cmake-build-debug/CMakeFiles/list7.7.dir

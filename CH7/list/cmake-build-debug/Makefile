@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named list7.12vowels.c
+
+# Build rule for target.
+list7.12vowels.c: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 list7.12vowels.c
+.PHONY : list7.12vowels.c
+
+# fast build rule for target.
+list7.12vowels.c/fast:
+	$(MAKE) -f CMakeFiles/list7.12vowels.c.dir/build.make CMakeFiles/list7.12vowels.c.dir/build
+.PHONY : list7.12vowels.c/fast
+
+#=============================================================================
 # Target rules for targets named exercise3
 
 # Build rule for target.
@@ -161,6 +174,19 @@ exercise1: cmake_check_build_system
 exercise1/fast:
 	$(MAKE) -f CMakeFiles/exercise1.dir/build.make CMakeFiles/exercise1.dir/build
 .PHONY : exercise1/fast
+
+#=============================================================================
+# Target rules for targets named exercise4fanhui
+
+# Build rule for target.
+exercise4fanhui: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 exercise4fanhui
+.PHONY : exercise4fanhui
+
+# fast build rule for target.
+exercise4fanhui/fast:
+	$(MAKE) -f CMakeFiles/exercise4fanhui.dir/build.make CMakeFiles/exercise4fanhui.dir/build
+.PHONY : exercise4fanhui/fast
 
 #=============================================================================
 # Target rules for targets named list7.9
@@ -589,6 +615,33 @@ for.c.s:
 	$(MAKE) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/for.c.s
 .PHONY : for.c.s
 
+return.o: return.c.o
+
+.PHONY : return.o
+
+# target to build an object file
+return.c.o:
+	$(MAKE) -f CMakeFiles/exercise4fanhui.dir/build.make CMakeFiles/exercise4fanhui.dir/return.c.o
+.PHONY : return.c.o
+
+return.i: return.c.i
+
+.PHONY : return.i
+
+# target to preprocess a source file
+return.c.i:
+	$(MAKE) -f CMakeFiles/exercise4fanhui.dir/build.make CMakeFiles/exercise4fanhui.dir/return.c.i
+.PHONY : return.c.i
+
+return.s: return.c.s
+
+.PHONY : return.s
+
+# target to generate assembly for a file
+return.c.s:
+	$(MAKE) -f CMakeFiles/exercise4fanhui.dir/build.make CMakeFiles/exercise4fanhui.dir/return.c.s
+.PHONY : return.c.s
+
 skippart.o: skippart.c.o
 
 .PHONY : skippart.o
@@ -643,6 +696,33 @@ the_paint.c.s:
 	$(MAKE) -f CMakeFiles/list7.8.dir/build.make CMakeFiles/list7.8.dir/the_paint.c.s
 .PHONY : the_paint.c.s
 
+vowels.o: vowels.c.o
+
+.PHONY : vowels.o
+
+# target to build an object file
+vowels.c.o:
+	$(MAKE) -f CMakeFiles/list7.12vowels.c.dir/build.make CMakeFiles/list7.12vowels.c.dir/vowels.c.o
+.PHONY : vowels.c.o
+
+vowels.i: vowels.c.i
+
+.PHONY : vowels.i
+
+# target to preprocess a source file
+vowels.c.i:
+	$(MAKE) -f CMakeFiles/list7.12vowels.c.dir/build.make CMakeFiles/list7.12vowels.c.dir/vowels.c.i
+.PHONY : vowels.c.i
+
+vowels.s: vowels.c.s
+
+.PHONY : vowels.s
+
+# target to generate assembly for a file
+vowels.c.s:
+	$(MAKE) -f CMakeFiles/list7.12vowels.c.dir/build.make CMakeFiles/list7.12vowels.c.dir/vowels.c.s
+.PHONY : vowels.c.s
+
 wordcnt.o: wordcnt.c.o
 
 .PHONY : wordcnt.o
@@ -677,10 +757,12 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... list7.12vowels.c"
 	@echo "... exercise3"
 	@echo "... list7.10break.c"
 	@echo "... exercise2"
 	@echo "... exercise1"
+	@echo "... exercise4fanhui"
 	@echo "... list7.9"
 	@echo "... list7.8"
 	@echo "... list7.7"
@@ -725,12 +807,18 @@ help:
 	@echo "... for.o"
 	@echo "... for.i"
 	@echo "... for.s"
+	@echo "... return.o"
+	@echo "... return.i"
+	@echo "... return.s"
 	@echo "... skippart.o"
 	@echo "... skippart.i"
 	@echo "... skippart.s"
 	@echo "... the_paint.o"
 	@echo "... the_paint.i"
 	@echo "... the_paint.s"
+	@echo "... vowels.o"
+	@echo "... vowels.i"
+	@echo "... vowels.s"
 	@echo "... wordcnt.o"
 	@echo "... wordcnt.i"
 	@echo "... wordcnt.s"
