@@ -1,0 +1,3 @@
+/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/Review_Question/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/Review_Question/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/Review_Question/cmake-build-debug/CMakeFiles/Review_Question1weight.c.dir
