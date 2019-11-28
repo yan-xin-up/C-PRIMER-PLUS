@@ -53,6 +53,7 @@ CMAKE_BINARY_DIR = /Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/Review_Questio
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/Review_Question7.c.dir/all
 all: CMakeFiles/Review_Question6.c.dir/all
 all: CMakeFiles/Review_Question5.c.dir/all
 all: CMakeFiles/Review_Question1weight.c.dir/all
@@ -60,6 +61,7 @@ all: CMakeFiles/Review_Question1weight.c.dir/all
 .PHONY : all
 
 # The main recursive "clean" target.
+clean: CMakeFiles/Review_Question7.c.dir/clean
 clean: CMakeFiles/Review_Question6.c.dir/clean
 clean: CMakeFiles/Review_Question5.c.dir/clean
 clean: CMakeFiles/Review_Question1weight.c.dir/clean
@@ -70,6 +72,33 @@ clean: CMakeFiles/Review_Question1weight.c.dir/clean
 preinstall:
 
 .PHONY : preinstall
+
+#=============================================================================
+# Target rules for target CMakeFiles/Review_Question7.c.dir
+
+# All Build rule for target.
+CMakeFiles/Review_Question7.c.dir/all:
+	$(MAKE) -f CMakeFiles/Review_Question7.c.dir/build.make CMakeFiles/Review_Question7.c.dir/depend
+	$(MAKE) -f CMakeFiles/Review_Question7.c.dir/build.make CMakeFiles/Review_Question7.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/Review_Question/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target Review_Question7.c"
+.PHONY : CMakeFiles/Review_Question7.c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Review_Question7.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/Review_Question/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Review_Question7.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/Review_Question/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Review_Question7.c.dir/rule
+
+# Convenience name for target.
+Review_Question7.c: CMakeFiles/Review_Question7.c.dir/rule
+
+.PHONY : Review_Question7.c
+
+# clean rule for target.
+CMakeFiles/Review_Question7.c.dir/clean:
+	$(MAKE) -f CMakeFiles/Review_Question7.c.dir/build.make CMakeFiles/Review_Question7.c.dir/clean
+.PHONY : CMakeFiles/Review_Question7.c.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/Review_Question6.c.dir
