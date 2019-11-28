@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Review_Question5.c
+
+# Build rule for target.
+Review_Question5.c: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Review_Question5.c
+.PHONY : Review_Question5.c
+
+# fast build rule for target.
+Review_Question5.c/fast:
+	$(MAKE) -f CMakeFiles/Review_Question5.c.dir/build.make CMakeFiles/Review_Question5.c.dir/build
+.PHONY : Review_Question5.c/fast
+
+#=============================================================================
 # Target rules for targets named Review_Question1weight.c
 
 # Build rule for target.
@@ -122,6 +135,33 @@ Review_Question1weight.c: cmake_check_build_system
 Review_Question1weight.c/fast:
 	$(MAKE) -f CMakeFiles/Review_Question1weight.c.dir/build.make CMakeFiles/Review_Question1weight.c.dir/build
 .PHONY : Review_Question1weight.c/fast
+
+5.o: 5.c.o
+
+.PHONY : 5.o
+
+# target to build an object file
+5.c.o:
+	$(MAKE) -f CMakeFiles/Review_Question5.c.dir/build.make CMakeFiles/Review_Question5.c.dir/5.c.o
+.PHONY : 5.c.o
+
+5.i: 5.c.i
+
+.PHONY : 5.i
+
+# target to preprocess a source file
+5.c.i:
+	$(MAKE) -f CMakeFiles/Review_Question5.c.dir/build.make CMakeFiles/Review_Question5.c.dir/5.c.i
+.PHONY : 5.c.i
+
+5.s: 5.c.s
+
+.PHONY : 5.s
+
+# target to generate assembly for a file
+5.c.s:
+	$(MAKE) -f CMakeFiles/Review_Question5.c.dir/build.make CMakeFiles/Review_Question5.c.dir/5.c.s
+.PHONY : 5.c.s
 
 weight.o: weight.c.o
 
@@ -158,7 +198,11 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... Review_Question5.c"
 	@echo "... Review_Question1weight.c"
+	@echo "... 5.o"
+	@echo "... 5.i"
+	@echo "... 5.s"
 	@echo "... weight.o"
 	@echo "... weight.i"
 	@echo "... weight.s"

@@ -4,7 +4,7 @@ int main(void)
 {
     int weight,height;
 
-    scanf("%d",&weight,&height);
+    scanf("%d %d",&weight,&height);                 //此处注意变量的个数，转换说明的个数
     if(weight < 100 && height > 64)
         if(height >= 72)
             printf("You are very tall for your weight.\n");
