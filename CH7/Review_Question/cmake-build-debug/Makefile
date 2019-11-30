@@ -150,6 +150,19 @@ Review_Question7.c/fast:
 .PHONY : Review_Question7.c/fast
 
 #=============================================================================
+# Target rules for targets named Review_Question10.c
+
+# Build rule for target.
+Review_Question10.c: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Review_Question10.c
+.PHONY : Review_Question10.c
+
+# fast build rule for target.
+Review_Question10.c/fast:
+	$(MAKE) -f CMakeFiles/Review_Question10.c.dir/build.make CMakeFiles/Review_Question10.c.dir/build
+.PHONY : Review_Question10.c/fast
+
+#=============================================================================
 # Target rules for targets named Review_Question6.c
 
 # Build rule for target.
@@ -187,6 +200,33 @@ Review_Question1weight.c: cmake_check_build_system
 Review_Question1weight.c/fast:
 	$(MAKE) -f CMakeFiles/Review_Question1weight.c.dir/build.make CMakeFiles/Review_Question1weight.c.dir/build
 .PHONY : Review_Question1weight.c/fast
+
+10.o: 10.c.o
+
+.PHONY : 10.o
+
+# target to build an object file
+10.c.o:
+	$(MAKE) -f CMakeFiles/Review_Question10.c.dir/build.make CMakeFiles/Review_Question10.c.dir/10.c.o
+.PHONY : 10.c.o
+
+10.i: 10.c.i
+
+.PHONY : 10.i
+
+# target to preprocess a source file
+10.c.i:
+	$(MAKE) -f CMakeFiles/Review_Question10.c.dir/build.make CMakeFiles/Review_Question10.c.dir/10.c.i
+.PHONY : 10.c.i
+
+10.s: 10.c.s
+
+.PHONY : 10.s
+
+# target to generate assembly for a file
+10.c.s:
+	$(MAKE) -f CMakeFiles/Review_Question10.c.dir/build.make CMakeFiles/Review_Question10.c.dir/10.c.s
+.PHONY : 10.c.s
 
 5.o: 5.c.o
 
@@ -361,9 +401,13 @@ help:
 	@echo "... Review_Question8.c"
 	@echo "... Review_Question7.c"
 	@echo "... edit_cache"
+	@echo "... Review_Question10.c"
 	@echo "... Review_Question6.c"
 	@echo "... Review_Question5.c"
 	@echo "... Review_Question1weight.c"
+	@echo "... 10.o"
+	@echo "... 10.i"
+	@echo "... 10.s"
 	@echo "... 5.o"
 	@echo "... 5.i"
 	@echo "... 5.s"
