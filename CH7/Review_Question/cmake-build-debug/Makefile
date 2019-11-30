@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named answer_Queston10.c
+
+# Build rule for target.
+answer_Queston10.c: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 answer_Queston10.c
+.PHONY : answer_Queston10.c
+
+# fast build rule for target.
+answer_Queston10.c/fast:
+	$(MAKE) -f CMakeFiles/answer_Queston10.c.dir/build.make CMakeFiles/answer_Queston10.c.dir/build
+.PHONY : answer_Queston10.c/fast
+
+#=============================================================================
 # Target rules for targets named Review_Question9.c
 
 # Build rule for target.
@@ -363,6 +376,33 @@ Review_Question1weight.c/fast:
 	$(MAKE) -f CMakeFiles/Review_Question9.c.dir/build.make CMakeFiles/Review_Question9.c.dir/9.c.s
 .PHONY : 9.c.s
 
+answer.o: answer.c.o
+
+.PHONY : answer.o
+
+# target to build an object file
+answer.c.o:
+	$(MAKE) -f CMakeFiles/answer_Queston10.c.dir/build.make CMakeFiles/answer_Queston10.c.dir/answer.c.o
+.PHONY : answer.c.o
+
+answer.i: answer.c.i
+
+.PHONY : answer.i
+
+# target to preprocess a source file
+answer.c.i:
+	$(MAKE) -f CMakeFiles/answer_Queston10.c.dir/build.make CMakeFiles/answer_Queston10.c.dir/answer.c.i
+.PHONY : answer.c.i
+
+answer.s: answer.c.s
+
+.PHONY : answer.s
+
+# target to generate assembly for a file
+answer.c.s:
+	$(MAKE) -f CMakeFiles/answer_Queston10.c.dir/build.make CMakeFiles/answer_Queston10.c.dir/answer.c.s
+.PHONY : answer.c.s
+
 weight.o: weight.c.o
 
 .PHONY : weight.o
@@ -396,6 +436,7 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... answer_Queston10.c"
 	@echo "... rebuild_cache"
 	@echo "... Review_Question9.c"
 	@echo "... Review_Question8.c"
@@ -423,6 +464,9 @@ help:
 	@echo "... 9.o"
 	@echo "... 9.i"
 	@echo "... 9.s"
+	@echo "... answer.o"
+	@echo "... answer.i"
+	@echo "... answer.s"
 	@echo "... weight.o"
 	@echo "... weight.i"
 	@echo "... weight.s"

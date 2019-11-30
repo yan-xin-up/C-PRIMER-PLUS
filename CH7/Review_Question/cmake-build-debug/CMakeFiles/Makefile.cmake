@@ -47,6 +47,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/answer_Queston10.c.dir/DependInfo.cmake"
   "CMakeFiles/Review_Question9.c.dir/DependInfo.cmake"
   "CMakeFiles/Review_Question8.c.dir/DependInfo.cmake"
   "CMakeFiles/Review_Question7.c.dir/DependInfo.cmake"
