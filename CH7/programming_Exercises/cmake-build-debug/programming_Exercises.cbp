@@ -17,6 +17,44 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Programming_Exercises2.c">
+				<Option output="/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug/Programming_Exercises2.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 Programming_Exercises2.c"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Programming_Exercises2.c/fast">
+				<Option output="/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug/Programming_Exercises2.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 Programming_Exercises2.c/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="programming_Exercises1.1.c">
 				<Option output="/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug/programming_Exercises1.1.c" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug"/>
@@ -116,6 +154,9 @@
 		</Build>
 		<Unit filename="/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/exercise1.c">
 			<Option target="programming_Exercises"/>
+		</Unit>
+		<Unit filename="/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/exercise2.c">
+			<Option target="Programming_Exercises2.c"/>
 		</Unit>
 		<Unit filename="/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/exercises1.1.c">
 			<Option target="programming_Exercises1.1.c"/>
