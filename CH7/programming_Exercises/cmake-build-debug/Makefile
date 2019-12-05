@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Programming_Exercises3.c
+
+# Build rule for target.
+Programming_Exercises3.c: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Programming_Exercises3.c
+.PHONY : Programming_Exercises3.c
+
+# fast build rule for target.
+Programming_Exercises3.c/fast:
+	$(MAKE) -f CMakeFiles/Programming_Exercises3.c.dir/build.make CMakeFiles/Programming_Exercises3.c.dir/build
+.PHONY : Programming_Exercises3.c/fast
+
+#=============================================================================
 # Target rules for targets named Programming_Exercises2.c
 
 # Build rule for target.
@@ -203,6 +216,33 @@ exercise2.c.s:
 	$(MAKE) -f CMakeFiles/Programming_Exercises2.c.dir/build.make CMakeFiles/Programming_Exercises2.c.dir/exercise2.c.s
 .PHONY : exercise2.c.s
 
+exercise3.o: exercise3.c.o
+
+.PHONY : exercise3.o
+
+# target to build an object file
+exercise3.c.o:
+	$(MAKE) -f CMakeFiles/Programming_Exercises3.c.dir/build.make CMakeFiles/Programming_Exercises3.c.dir/exercise3.c.o
+.PHONY : exercise3.c.o
+
+exercise3.i: exercise3.c.i
+
+.PHONY : exercise3.i
+
+# target to preprocess a source file
+exercise3.c.i:
+	$(MAKE) -f CMakeFiles/Programming_Exercises3.c.dir/build.make CMakeFiles/Programming_Exercises3.c.dir/exercise3.c.i
+.PHONY : exercise3.c.i
+
+exercise3.s: exercise3.c.s
+
+.PHONY : exercise3.s
+
+# target to generate assembly for a file
+exercise3.c.s:
+	$(MAKE) -f CMakeFiles/Programming_Exercises3.c.dir/build.make CMakeFiles/Programming_Exercises3.c.dir/exercise3.c.s
+.PHONY : exercise3.c.s
+
 exercises1.1.o: exercises1.1.c.o
 
 .PHONY : exercises1.1.o
@@ -236,9 +276,10 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... rebuild_cache"
+	@echo "... Programming_Exercises3.c"
 	@echo "... Programming_Exercises2.c"
 	@echo "... programming_Exercises1.1.c"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... programming_Exercises"
 	@echo "... exercise1.o"
@@ -247,6 +288,9 @@ help:
 	@echo "... exercise2.o"
 	@echo "... exercise2.i"
 	@echo "... exercise2.s"
+	@echo "... exercise3.o"
+	@echo "... exercise3.i"
+	@echo "... exercise3.s"
 	@echo "... exercises1.1.o"
 	@echo "... exercises1.1.i"
 	@echo "... exercises1.1.s"
