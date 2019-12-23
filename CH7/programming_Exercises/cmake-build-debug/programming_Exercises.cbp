@@ -27,6 +27,92 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Programming_Exercise5.c">
+				<Option output="/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug/Programming_Exercise5.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 Programming_Exercise5.c"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Programming_Exercise5.c/fast">
+				<Option output="/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug/Programming_Exercise5.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 Programming_Exercise5.c/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="programming_Exercise4.c">
+				<Option output="/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug/programming_Exercise4.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 programming_Exercise4.c"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="programming_Exercise4.c/fast">
+				<Option output="/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug/programming_Exercise4.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 programming_Exercise4.c/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="Programming_Exercises3.c">
 				<Option output="/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug/Programming_Exercises3.c" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug"/>
@@ -141,11 +227,39 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
+			<Target title="Programming_Exercise6.c">
+				<Option output="/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug/Programming_Exercise6.c" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug"/>
-				<Option type="4"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 Programming_Exercise6.c"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Programming_Exercise6.c/fast">
+				<Option output="/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug/Programming_Exercise6.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 Programming_Exercise6.c/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -198,6 +312,15 @@
 		</Unit>
 		<Unit filename="/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/exercise3.c">
 			<Option target="Programming_Exercises3.c"/>
+		</Unit>
+		<Unit filename="/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/exercise4.c">
+			<Option target="programming_Exercise4.c"/>
+		</Unit>
+		<Unit filename="/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/exercise5.c">
+			<Option target="Programming_Exercise5.c"/>
+		</Unit>
+		<Unit filename="/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/exercise6.c">
+			<Option target="Programming_Exercise6.c"/>
 		</Unit>
 		<Unit filename="/Users/ivan/Documents/GitHub/C-PRIMER-PLUS/CH7/programming_Exercises/exercises1.1.c">
 			<Option target="programming_Exercises1.1.c"/>

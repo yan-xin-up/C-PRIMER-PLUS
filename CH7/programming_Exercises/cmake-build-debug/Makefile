@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Programming_Exercise5.c
+
+# Build rule for target.
+Programming_Exercise5.c: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Programming_Exercise5.c
+.PHONY : Programming_Exercise5.c
+
+# fast build rule for target.
+Programming_Exercise5.c/fast:
+	$(MAKE) -f CMakeFiles/Programming_Exercise5.c.dir/build.make CMakeFiles/Programming_Exercise5.c.dir/build
+.PHONY : Programming_Exercise5.c/fast
+
+#=============================================================================
+# Target rules for targets named programming_Exercise4.c
+
+# Build rule for target.
+programming_Exercise4.c: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 programming_Exercise4.c
+.PHONY : programming_Exercise4.c
+
+# fast build rule for target.
+programming_Exercise4.c/fast:
+	$(MAKE) -f CMakeFiles/programming_Exercise4.c.dir/build.make CMakeFiles/programming_Exercise4.c.dir/build
+.PHONY : programming_Exercise4.c/fast
+
+#=============================================================================
 # Target rules for targets named Programming_Exercises3.c
 
 # Build rule for target.
@@ -148,6 +174,19 @@ programming_Exercises1.1.c: cmake_check_build_system
 programming_Exercises1.1.c/fast:
 	$(MAKE) -f CMakeFiles/programming_Exercises1.1.c.dir/build.make CMakeFiles/programming_Exercises1.1.c.dir/build
 .PHONY : programming_Exercises1.1.c/fast
+
+#=============================================================================
+# Target rules for targets named Programming_Exercise6.c
+
+# Build rule for target.
+Programming_Exercise6.c: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Programming_Exercise6.c
+.PHONY : Programming_Exercise6.c
+
+# fast build rule for target.
+Programming_Exercise6.c/fast:
+	$(MAKE) -f CMakeFiles/Programming_Exercise6.c.dir/build.make CMakeFiles/Programming_Exercise6.c.dir/build
+.PHONY : Programming_Exercise6.c/fast
 
 #=============================================================================
 # Target rules for targets named programming_Exercises
@@ -243,6 +282,87 @@ exercise3.c.s:
 	$(MAKE) -f CMakeFiles/Programming_Exercises3.c.dir/build.make CMakeFiles/Programming_Exercises3.c.dir/exercise3.c.s
 .PHONY : exercise3.c.s
 
+exercise4.o: exercise4.c.o
+
+.PHONY : exercise4.o
+
+# target to build an object file
+exercise4.c.o:
+	$(MAKE) -f CMakeFiles/programming_Exercise4.c.dir/build.make CMakeFiles/programming_Exercise4.c.dir/exercise4.c.o
+.PHONY : exercise4.c.o
+
+exercise4.i: exercise4.c.i
+
+.PHONY : exercise4.i
+
+# target to preprocess a source file
+exercise4.c.i:
+	$(MAKE) -f CMakeFiles/programming_Exercise4.c.dir/build.make CMakeFiles/programming_Exercise4.c.dir/exercise4.c.i
+.PHONY : exercise4.c.i
+
+exercise4.s: exercise4.c.s
+
+.PHONY : exercise4.s
+
+# target to generate assembly for a file
+exercise4.c.s:
+	$(MAKE) -f CMakeFiles/programming_Exercise4.c.dir/build.make CMakeFiles/programming_Exercise4.c.dir/exercise4.c.s
+.PHONY : exercise4.c.s
+
+exercise5.o: exercise5.c.o
+
+.PHONY : exercise5.o
+
+# target to build an object file
+exercise5.c.o:
+	$(MAKE) -f CMakeFiles/Programming_Exercise5.c.dir/build.make CMakeFiles/Programming_Exercise5.c.dir/exercise5.c.o
+.PHONY : exercise5.c.o
+
+exercise5.i: exercise5.c.i
+
+.PHONY : exercise5.i
+
+# target to preprocess a source file
+exercise5.c.i:
+	$(MAKE) -f CMakeFiles/Programming_Exercise5.c.dir/build.make CMakeFiles/Programming_Exercise5.c.dir/exercise5.c.i
+.PHONY : exercise5.c.i
+
+exercise5.s: exercise5.c.s
+
+.PHONY : exercise5.s
+
+# target to generate assembly for a file
+exercise5.c.s:
+	$(MAKE) -f CMakeFiles/Programming_Exercise5.c.dir/build.make CMakeFiles/Programming_Exercise5.c.dir/exercise5.c.s
+.PHONY : exercise5.c.s
+
+exercise6.o: exercise6.c.o
+
+.PHONY : exercise6.o
+
+# target to build an object file
+exercise6.c.o:
+	$(MAKE) -f CMakeFiles/Programming_Exercise6.c.dir/build.make CMakeFiles/Programming_Exercise6.c.dir/exercise6.c.o
+.PHONY : exercise6.c.o
+
+exercise6.i: exercise6.c.i
+
+.PHONY : exercise6.i
+
+# target to preprocess a source file
+exercise6.c.i:
+	$(MAKE) -f CMakeFiles/Programming_Exercise6.c.dir/build.make CMakeFiles/Programming_Exercise6.c.dir/exercise6.c.i
+.PHONY : exercise6.c.i
+
+exercise6.s: exercise6.c.s
+
+.PHONY : exercise6.s
+
+# target to generate assembly for a file
+exercise6.c.s:
+	$(MAKE) -f CMakeFiles/Programming_Exercise6.c.dir/build.make CMakeFiles/Programming_Exercise6.c.dir/exercise6.c.s
+.PHONY : exercise6.c.s
+
 exercises1.1.o: exercises1.1.c.o
 
 .PHONY : exercises1.1.o
@@ -277,10 +397,13 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... edit_cache"
+	@echo "... Programming_Exercise5.c"
+	@echo "... programming_Exercise4.c"
 	@echo "... Programming_Exercises3.c"
 	@echo "... Programming_Exercises2.c"
 	@echo "... programming_Exercises1.1.c"
-	@echo "... edit_cache"
+	@echo "... Programming_Exercise6.c"
 	@echo "... programming_Exercises"
 	@echo "... exercise1.o"
 	@echo "... exercise1.i"
@@ -291,6 +414,15 @@ help:
 	@echo "... exercise3.o"
 	@echo "... exercise3.i"
 	@echo "... exercise3.s"
+	@echo "... exercise4.o"
+	@echo "... exercise4.i"
+	@echo "... exercise4.s"
+	@echo "... exercise5.o"
+	@echo "... exercise5.i"
+	@echo "... exercise5.s"
+	@echo "... exercise6.o"
+	@echo "... exercise6.i"
+	@echo "... exercise6.s"
 	@echo "... exercises1.1.o"
 	@echo "... exercises1.1.i"
 	@echo "... exercises1.1.s"

@@ -47,8 +47,11 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/Programming_Exercise5.c.dir/DependInfo.cmake"
+  "CMakeFiles/programming_Exercise4.c.dir/DependInfo.cmake"
   "CMakeFiles/Programming_Exercises3.c.dir/DependInfo.cmake"
   "CMakeFiles/Programming_Exercises2.c.dir/DependInfo.cmake"
   "CMakeFiles/programming_Exercises1.1.c.dir/DependInfo.cmake"
+  "CMakeFiles/Programming_Exercise6.c.dir/DependInfo.cmake"
   "CMakeFiles/programming_Exercises.dir/DependInfo.cmake"
   )
