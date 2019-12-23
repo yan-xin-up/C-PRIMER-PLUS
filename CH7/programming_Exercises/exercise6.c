@@ -9,11 +9,12 @@ int main(void)
 
     while((ch=getchar()) != '#')
     {
-        if (ch == 'e' && ch_2 == 'i')
+        if (ch == 'i' && ch_2 == 'e')
         {
                 j++;
 
         }
+        ch_2 = ch;
     }
     printf("e.i %d times",j);
 
