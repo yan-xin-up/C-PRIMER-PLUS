@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Programming_Exercise7.c
+
+# Build rule for target.
+Programming_Exercise7.c: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Programming_Exercise7.c
+.PHONY : Programming_Exercise7.c
+
+# fast build rule for target.
+Programming_Exercise7.c/fast:
+	$(MAKE) -f CMakeFiles/Programming_Exercise7.c.dir/build.make CMakeFiles/Programming_Exercise7.c.dir/build
+.PHONY : Programming_Exercise7.c/fast
+
+#=============================================================================
 # Target rules for targets named Programming_Exercise5.c
 
 # Build rule for target.
@@ -363,6 +376,33 @@ exercise6.c.s:
 	$(MAKE) -f CMakeFiles/Programming_Exercise6.c.dir/build.make CMakeFiles/Programming_Exercise6.c.dir/exercise6.c.s
 .PHONY : exercise6.c.s
 
+exercise7.o: exercise7.c.o
+
+.PHONY : exercise7.o
+
+# target to build an object file
+exercise7.c.o:
+	$(MAKE) -f CMakeFiles/Programming_Exercise7.c.dir/build.make CMakeFiles/Programming_Exercise7.c.dir/exercise7.c.o
+.PHONY : exercise7.c.o
+
+exercise7.i: exercise7.c.i
+
+.PHONY : exercise7.i
+
+# target to preprocess a source file
+exercise7.c.i:
+	$(MAKE) -f CMakeFiles/Programming_Exercise7.c.dir/build.make CMakeFiles/Programming_Exercise7.c.dir/exercise7.c.i
+.PHONY : exercise7.c.i
+
+exercise7.s: exercise7.c.s
+
+.PHONY : exercise7.s
+
+# target to generate assembly for a file
+exercise7.c.s:
+	$(MAKE) -f CMakeFiles/Programming_Exercise7.c.dir/build.make CMakeFiles/Programming_Exercise7.c.dir/exercise7.c.s
+.PHONY : exercise7.c.s
+
 exercises1.1.o: exercises1.1.c.o
 
 .PHONY : exercises1.1.o
@@ -397,6 +437,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... Programming_Exercise7.c"
 	@echo "... edit_cache"
 	@echo "... Programming_Exercise5.c"
 	@echo "... programming_Exercise4.c"
@@ -423,6 +464,9 @@ help:
 	@echo "... exercise6.o"
 	@echo "... exercise6.i"
 	@echo "... exercise6.s"
+	@echo "... exercise7.o"
+	@echo "... exercise7.i"
+	@echo "... exercise7.s"
 	@echo "... exercises1.1.o"
 	@echo "... exercises1.1.i"
 	@echo "... exercises1.1.s"
