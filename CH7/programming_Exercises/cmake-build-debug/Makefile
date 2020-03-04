@@ -137,6 +137,19 @@ Programming_Exercise5.c/fast:
 .PHONY : Programming_Exercise5.c/fast
 
 #=============================================================================
+# Target rules for targets named Programming_Exercise8.c
+
+# Build rule for target.
+Programming_Exercise8.c: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Programming_Exercise8.c
+.PHONY : Programming_Exercise8.c
+
+# fast build rule for target.
+Programming_Exercise8.c/fast:
+	$(MAKE) -f CMakeFiles/Programming_Exercise8.c.dir/build.make CMakeFiles/Programming_Exercise8.c.dir/build
+.PHONY : Programming_Exercise8.c/fast
+
+#=============================================================================
 # Target rules for targets named programming_Exercise4.c
 
 # Build rule for target.
@@ -403,6 +416,33 @@ exercise7.c.s:
 	$(MAKE) -f CMakeFiles/Programming_Exercise7.c.dir/build.make CMakeFiles/Programming_Exercise7.c.dir/exercise7.c.s
 .PHONY : exercise7.c.s
 
+exercise8.o: exercise8.c.o
+
+.PHONY : exercise8.o
+
+# target to build an object file
+exercise8.c.o:
+	$(MAKE) -f CMakeFiles/Programming_Exercise8.c.dir/build.make CMakeFiles/Programming_Exercise8.c.dir/exercise8.c.o
+.PHONY : exercise8.c.o
+
+exercise8.i: exercise8.c.i
+
+.PHONY : exercise8.i
+
+# target to preprocess a source file
+exercise8.c.i:
+	$(MAKE) -f CMakeFiles/Programming_Exercise8.c.dir/build.make CMakeFiles/Programming_Exercise8.c.dir/exercise8.c.i
+.PHONY : exercise8.c.i
+
+exercise8.s: exercise8.c.s
+
+.PHONY : exercise8.s
+
+# target to generate assembly for a file
+exercise8.c.s:
+	$(MAKE) -f CMakeFiles/Programming_Exercise8.c.dir/build.make CMakeFiles/Programming_Exercise8.c.dir/exercise8.c.s
+.PHONY : exercise8.c.s
+
 exercises1.1.o: exercises1.1.c.o
 
 .PHONY : exercises1.1.o
@@ -440,6 +480,7 @@ help:
 	@echo "... Programming_Exercise7.c"
 	@echo "... edit_cache"
 	@echo "... Programming_Exercise5.c"
+	@echo "... Programming_Exercise8.c"
 	@echo "... programming_Exercise4.c"
 	@echo "... Programming_Exercises3.c"
 	@echo "... Programming_Exercises2.c"
@@ -467,6 +508,9 @@ help:
 	@echo "... exercise7.o"
 	@echo "... exercise7.i"
 	@echo "... exercise7.s"
+	@echo "... exercise8.o"
+	@echo "... exercise8.i"
+	@echo "... exercise8.s"
 	@echo "... exercises1.1.o"
 	@echo "... exercises1.1.i"
 	@echo "... exercises1.1.s"
